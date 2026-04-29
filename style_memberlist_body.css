@@ -4,18 +4,20 @@
   color: #d8d0dc;
 }
 
-/* HEADER */
 .mc-memberhead {
   min-height: 220px;
   padding: 35px 45px;
   border: 1px solid #9b6d2e;
   background:
-    linear-gradient(rgba(8, 13, 29, .1), rgba(8, 13, 29, .45)),
-    url("https://urls.fr/bCZ5Di") center center / cover no-repeat;
+    linear-gradient(rgba(8, 13, 29, .05), rgba(8, 13, 29, .35)),
+    url("https://urls.fr/bCZ5Di") center 58% / cover no-repeat;
   box-shadow: inset 0 0 70px rgba(0,0,0,.7);
   margin-bottom: 25px;
+
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .mc-headtext {
@@ -23,7 +25,6 @@
 }
 
 .mc-title {
-  display: block;
   margin: 0;
   color: #d5a75b;
   font-family: Georgia, serif;
@@ -35,7 +36,6 @@
 }
 
 .mc-memberhead p {
-  display: block;
   margin: 12px 0 0;
   font-style: italic;
   color: #f1e6d6;
