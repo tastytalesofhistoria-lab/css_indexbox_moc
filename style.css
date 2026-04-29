@@ -1078,7 +1078,28 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
   font-size: 11px !important;
   line-height: 1.25 !important;
 }
+body.fa-index-page .cat-1 .manual-subforum {
+  background: #130803 !important;
+  border: 1px solid var(--line-soft) !important;
+  color: var(--link) !important;
+  text-decoration: none !important;
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
 
+body.fa-index-page .cat-1 .manual-subforum:hover {
+  background: var(--bg-hover) !important;
+  border-color: var(--line-strong) !important;
+  color: var(--title-soft) !important;
+  box-shadow:
+    0 0 10px rgba(47, 73, 69, 0.35),
+    inset 0 0 0 1px rgba(194, 163, 104, 0.15);
+  transform: translateY(-1px);
+}
 /* ========================================================================== */
 /*  09. CATEGORIE 2                                                           */
 /* ========================================================================== */
