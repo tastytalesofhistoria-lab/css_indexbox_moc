@@ -898,7 +898,7 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .forum-card 
   align-items: start !important;
   min-height: 0 !important;
   height: auto !important;
-  padding: 14px !important;
+  padding: 14px 14px 0px 14px !important;
   box-sizing: border-box !important;
   background: var(--bg-panel) !important;
   border: 1px solid var(--line-main) !important;
