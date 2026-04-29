@@ -751,10 +751,10 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .forum-lastp
 /* Catégorie 1 — forum 2 */
 body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-2 .forum-card {
   display: grid !important;
-  grid-template-columns: 96px minmax(0, 1fr) 180px !important;
+  grid-template-columns: 120px minmax(0, 1fr) 180px !important;
   grid-template-areas: "icon main last" !important;
   gap: 16px !important;
-  align-items: start !important;
+  align-items: stretch !important;
   padding: 16px !important;
   box-sizing: border-box !important;
   background: var(--bg-panel) !important;
@@ -764,11 +764,11 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-2 .forum-card {
 body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-2 .forum-cover {
   grid-area: icon !important;
   display: block !important;
-  align-self: start !important;
-  width: 96px !important;
-  min-width: 96px !important;
-  height: 136px !important;
-  min-height: 136px !important;
+  align-self: stretch !important;
+  width: 120px !important;
+  min-width: 120px !important;
+  height: auto !important;
+  min-height: 100% !important;
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -1602,7 +1602,17 @@ body.fa-index-page .cat-6 .lastpost-meta {
   body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-3 .forum-card,
   body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .forum-card,
   body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-2 .forum-card {
-    grid-template-columns: 90px minmax(0, 1fr) !important;
+    grid-template-columns: 110px minmax(0, 1fr) !important;
+  }
+
+  body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-2 .forum-cover,
+  body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-3 .forum-cover,
+  body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .forum-cover,
+  body.fa-index-page li.row.forum-standard-layout .forum-cover,
+  body.fa-index-page .cat-murder-party .forum-cover,
+  body.fa-index-page .cat-6 .forum-cover {
+    width: 110px !important;
+    min-width: 110px !important;
   }
 
   body.fa-index-page li.row.forum-standard-layout .forum-lastpost,
