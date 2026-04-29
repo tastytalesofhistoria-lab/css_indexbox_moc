@@ -1991,3 +1991,28 @@ body.fa-index-page .cat4-biglinks {
     grid-template-columns: 1fr !important;
   }
 }
+/* TEXTE BIG LINKS UNIQUEMENT AU HOVER */
+
+body.fa-index-page .cat4-big-link span {
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity .28s ease,
+    transform .28s ease;
+}
+
+body.fa-index-page .cat4-big-link:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+body.fa-index-page .cat4-big-link {
+  transition:
+    transform .35s ease,
+    filter .35s ease,
+    border-color .35s ease;
+}
+
+body.fa-index-page .cat4-big-link:hover {
+  transform: scale(1.015);
+}
