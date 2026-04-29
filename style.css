@@ -1721,3 +1721,36 @@ body.fa-index-page .cat-6 .lastpost-meta {
     margin-top: 128px !important;
   }
 }
+
+
+/* FIX — Catégorie 1 / Forum 1 : suppression de l'écart autour de l'avatar lastpost */
+body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .forum-lastpost {
+  grid-template-columns: 32px minmax(0, 1fr) !important;
+  gap: 0 !important;
+}
+
+body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .lastpost-avatar-source,
+body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .lastpost-avatar-source a,
+body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .lastpost-avatar-source span,
+body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .lastpost-avatar-source .lastpost-avatar {
+  display: block !important;
+  width: 32px !important;
+  height: 120px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .lastpost-avatar-source img {
+  display: block !important;
+  width: 32px !important;
+  height: 120px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: cover !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  vertical-align: top !important;
+}
