@@ -91,12 +91,12 @@
   position: relative;
   box-sizing: border-box;
   min-height: 128px;
-  padding: 18px 22px 18px 70px;
+  padding: 18px 18px 18px 66px;
 
   display: grid;
   align-items: center;
-  grid-template-columns: 86px minmax(160px, 1fr) 95px 95px 150px 170px 92px;
-  gap: 16px;
+  grid-template-columns: 84px minmax(120px, 1fr) 78px 110px 135px 108px;
+  gap: 14px;
 
   border: 1px solid rgba(191, 135, 55, .55);
   border-radius: 14px;
@@ -140,7 +140,8 @@
   background: rgba(6, 10, 24, .75);
   color: #e1b96c;
   font-family: Georgia, serif;
-  font-size: 0;
+  font-size: 16px;
+  line-height: 1;
 }
 
 .mc-rank::before {
@@ -148,24 +149,12 @@
   position: absolute;
   inset: 4px;
   border: 1px solid rgba(213,167,91,.35);
-}
-
-.mc-rank::after {
-  content: attr(data-rank);
-}
-
-/* fallback si tu gardes {memberrow.ROW_NUMBER} dans le HTML */
-.mc-rank {
-  font-size: 16px;
-}
-
-.mc-rank span,
-.mc-rank {
-  line-height: 1;
+  pointer-events: none;
 }
 
 .mc-rank span {
   transform: rotate(-45deg);
+  display: block;
 }
 
 /* AVATAR */
@@ -199,6 +188,9 @@
   font-size: 20px;
   line-height: 1.1;
   text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mc-group,
@@ -209,17 +201,15 @@
   text-decoration: none;
 }
 
-/* STATS EN LIGNE */
+/* MESSAGES */
 .mc-stats {
-  display: contents;
-}
-
-.mc-stats > div {
-  position: relative;
+  display: block;
   text-align: center;
+  position: relative;
 }
 
-.mc-stats > div::before {
+.mc-stats::before,
+.mc-dates span::before {
   content: "";
   position: absolute;
   left: -9px;
@@ -228,6 +218,14 @@
   height: 46px;
   transform: translateY(-50%);
   background: rgba(213,167,91,.25);
+}
+
+.mc-stats > div {
+  display: none;
+}
+
+.mc-stats > div:last-child {
+  display: block;
 }
 
 .mc-stats strong {
@@ -247,7 +245,7 @@
   font-size: 9px;
 }
 
-/* DATES EN LIGNE */
+/* DATES */
 .mc-dates {
   display: contents;
 }
@@ -261,17 +259,6 @@
   text-transform: uppercase;
   font-size: 10px;
   line-height: 1.2;
-}
-
-.mc-dates span::before {
-  content: "";
-  position: absolute;
-  left: -11px;
-  top: 50%;
-  width: 1px;
-  height: 46px;
-  transform: translateY(-50%);
-  background: rgba(213,167,91,.25);
 }
 
 .mc-dates b {
@@ -289,13 +276,13 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .mc-action,
 .mc-profile {
-  min-width: 38px;
-  height: 38px;
+  min-width: 34px;
+  height: 34px;
   display: grid;
   place-items: center;
   border-radius: 50px;
@@ -303,18 +290,18 @@
   background: rgba(5, 7, 15, .55);
   color: #f0d299 !important;
   text-decoration: none;
-  font-size: 9px;
+  font-size: 8px;
   text-transform: uppercase;
 }
 
 .mc-profile {
   min-width: auto;
-  padding: 0 12px;
+  padding: 0 10px;
 }
 
 .mc-action img {
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 19px;
+  max-height: 19px;
 }
 
 /* PAGINATION */
@@ -350,23 +337,30 @@
       "avatar dates dates actions";
   }
 
-  .mc-stats,
-  .mc-dates {
-    display: grid;
+  .mc-avatar {
+    grid-area: avatar;
+  }
+
+  .mc-card-main {
+    grid-area: main;
   }
 
   .mc-stats {
     grid-area: stats;
-    grid-template-columns: 1fr;
   }
 
   .mc-dates {
     grid-area: dates;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
   }
 
-  .mc-stats > div::before,
+  .mc-actions {
+    grid-area: actions;
+  }
+
+  .mc-stats::before,
   .mc-dates span::before {
     display: none;
   }
@@ -410,9 +404,7 @@
   }
 
   .mc-stats {
-    grid-template-columns: repeat(2, auto);
-    justify-content: flex-start;
-    gap: 24px;
+    justify-self: start;
   }
 
   .mc-dates {
