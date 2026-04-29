@@ -2016,3 +2016,38 @@ body.fa-index-page .cat4-big-link {
 body.fa-index-page .cat4-big-link:hover {
   transform: scale(1.015);
 }
+body.fa-index-page .cat4-seal-wrap {
+  grid-area: seal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+body.fa-index-page .cat4-seal-lastpost {
+  width: 100%;
+  padding: 12px;
+  background: rgba(74,64,102,.72);
+  border: 1px solid var(--line-main);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body.fa-index-page .cat4-seal-lastpost .lastpost-avatar-source {
+  display: none !important;
+}
+
+body.fa-index-page .cat4-seal-lastpost .lastpost_link {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--link) !important;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+body.fa-index-page .cat4-seal-lastpost .lastpost-meta {
+  color: var(--text-main);
+  font-size: 11px;
+  line-height: 1.3;
+}
