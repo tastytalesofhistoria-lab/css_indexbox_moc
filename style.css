@@ -1095,10 +1095,9 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
   display: grid !important;
   grid-template-columns: 92px minmax(0, 1fr) 92px;
   grid-template-areas:
-    "icon  desc subf"
-    "title desc subf"
-    "stats desc last";
-  grid-template-rows: auto auto 1fr;
+    "left desc subf"
+    "left desc last";
+  grid-template-rows: auto 1fr;
   gap: 4px 10px;
   align-items: stretch;
   padding: 12px;
@@ -1111,7 +1110,8 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
 }
 
 .cat-2 .forum-cover {
-  grid-area: icon;
+  grid-area: left !important;
+  align-self: start !important;
   display: block !important;
   width: 92px;
   height: 92px;
@@ -1122,8 +1122,9 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
 }
 
 .cat-2 .hierarchy {
-  grid-area: title !important;
-  margin-top: 6px !important;
+  grid-area: left !important;
+  align-self: start !important;
+  margin-top: 98px !important;
 }
 
 .cat-2 .forumtitle,
@@ -1141,14 +1142,15 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
 }
 
 .cat-2 .forum-stats {
-  grid-area: stats !important;
-  margin-top: 4px !important;
+  grid-area: left !important;
+  align-self: start !important;
+  margin-top: 128px !important;
   font-size: 12px !important;
   line-height: 1.25 !important;
 }
 
 .cat-2 .forum-desc {
-  grid-area: desc;
+  grid-area: desc !important;
   height: 170px;
   min-height: 170px;
   max-height: 170px;
@@ -1187,8 +1189,8 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
 }
 
 .cat-2 .forum-lastpost {
-  grid-area: last;
-  align-self: end;
+  grid-area: last !important;
+  align-self: end !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
@@ -1698,18 +1700,32 @@ body.fa-index-page .cat-6 .lastpost-meta {
   }
 
   body.fa-index-page .cat-1 .topiclist.forums,
-  .cat-2 .topiclist.forums,
   .cat-3 .topiclist.forums {
     grid-template-columns: 1fr !important;
   }
- 
+
+  .cat-2 .topiclist.forums {
+    grid-template-columns: 1fr !important;
+  }
 
   .cat-2 .forum-card {
     grid-template-columns: 92px minmax(0, 1fr) 92px !important;
+    grid-template-areas:
+      "left desc subf"
+      "left desc last" !important;
   }
 
   .cat-2 .forum-desc {
     height: 140px;
     min-height: 140px;
     max-height: 140px;
-  }}
+  }
+
+  .cat-2 .hierarchy {
+    margin-top: 98px !important;
+  }
+
+  .cat-2 .forum-stats {
+    margin-top: 128px !important;
+  }
+}
