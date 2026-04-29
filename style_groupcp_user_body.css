@@ -260,3 +260,7 @@
     width: 100%;
   }
 }
+.mc-joined-card.custom {
+  background: linear-gradient(135deg, #11172f, #1b1630);
+  border-color: #9b6d2e;
+}
