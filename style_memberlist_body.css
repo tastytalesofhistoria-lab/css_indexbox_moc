@@ -335,3 +335,93 @@
     justify-content: flex-start;
   }
 }
+.mc-card {
+  grid-template-columns: 120px minmax(150px, 1fr) 120px;
+  grid-template-areas:
+    "avatar main stats"
+    "avatar dates actions";
+  column-gap: 26px;
+  padding: 28px 24px 24px 90px;
+  min-width: 0;
+}
+
+.mc-card-main {
+  align-self: end;
+}
+
+.mc-name,
+.mc-name a,
+.mc-card-main a {
+  display: block;
+  margin-bottom: 8px;
+  line-height: 1.1;
+}
+
+.mc-dates {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 26px;
+  min-width: 0;
+}
+
+.mc-dates span {
+  min-width: 0;
+  line-height: 1.25;
+}
+
+.mc-dates b {
+  display: block;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.mc-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 18px;
+  min-width: 110px;
+}
+
+.mc-stats strong {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.mc-actions {
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.mc-profile {
+  min-width: auto;
+  padding: 0 14px;
+}
+
+@media (max-width: 1050px) {
+  .mc-card {
+    grid-template-columns: 115px minmax(0, 1fr) 120px;
+  }
+}
+
+@media (max-width: 620px) {
+  .mc-card {
+    grid-template-columns: 90px minmax(0, 1fr);
+    grid-template-areas:
+      "avatar main"
+      "dates dates"
+      "stats stats"
+      "actions actions";
+    padding: 24px;
+  }
+
+  .mc-stats {
+    flex-direction: row;
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .mc-dates {
+    grid-template-columns: 1fr;
+  }
+}
