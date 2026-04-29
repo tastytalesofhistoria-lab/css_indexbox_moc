@@ -1792,6 +1792,7 @@ body.fa-index-page .cat4-market-layout {
 
 body.fa-index-page .cat4-seal {
   grid-area: seal;
+  display: block;
   align-self: start;
   width: 260px;
   height: 260px;
@@ -1800,6 +1801,7 @@ body.fa-index-page .cat4-seal {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
+  text-decoration: none !important;
 }
 
 body.fa-index-page .cat4-intro {
