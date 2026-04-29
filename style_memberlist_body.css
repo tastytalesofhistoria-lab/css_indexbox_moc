@@ -371,3 +371,10 @@
     height: 72px;
   }
 }
+.mc-front {
+  background:
+    linear-gradient(90deg, rgba(8,13,29,.82), rgba(8,13,29,.35)),
+    var(--face-bg, none);
+  background-size: cover;
+  background-position: center;
+}
