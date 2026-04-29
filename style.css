@@ -1694,4 +1694,27 @@ body.fa-index-page .cat-6 .lastpost-meta {
   .cat-3 .topiclist.forums {
     grid-template-columns: 1fr !important;
   }
-}
+  .cat-2 .forum-card {
+    grid-template-columns: 92px minmax(0, 1fr) !important;
+    grid-template-areas:
+      "icon desc"
+      "title desc"
+      "stats desc"
+      "subf subf"
+      "last last" !important;
+  }
+
+  .cat-2 .forum-desc {
+    min-height: 140px;
+    max-height: 140px;
+  }
+
+  .cat-2 .forum-lastpost {
+    min-height: 70px;
+  }
+
+  .cat-2 .forum-subforums {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    margin-top: 10px !important;
+  }}
