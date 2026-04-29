@@ -1954,8 +1954,40 @@ body.fa-index-page .cat4-market-layout {
     justify-self: center;
   }
 
+ 
+}
+body.fa-index-page .cat4-icons {
+  grid-area: icons !important;
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(90px, 1fr)) !important;
+  gap: 22px !important;
+  align-items: end !important;
+  justify-items: center !important;
+  min-height: 120px;
+}
+
+body.fa-index-page .cat4-icon-link {
+  width: 100%;
+  max-width: 120px;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+
+body.fa-index-page .cat4-icon-img {
+  display: block !important;
+  width: 90px !important;
+  height: 76px !important;
+}
+
+body.fa-index-page .cat4-biglinks {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 18px !important;
+}
+
+@media (max-width: 800px) {
   body.fa-index-page .cat4-icons,
   body.fa-index-page .cat4-biglinks {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 }
