@@ -332,3 +332,9 @@
     width: 100%;
   }
 }
+.mc-joined-icon {
+  display: block !important;
+  font-size: 26px;
+  line-height: 1;
+  margin-bottom: 6px;
+}
