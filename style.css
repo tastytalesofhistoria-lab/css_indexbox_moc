@@ -1145,7 +1145,7 @@ align-items: stretch;
 
 .cat-2 .forum-desc {
   grid-area: desc;
-  min-height: 190px;
+  min-height: 170px;
   margin: 0;
   padding: 10px;
   box-sizing: border-box;
