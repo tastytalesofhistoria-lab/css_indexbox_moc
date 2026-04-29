@@ -70,32 +70,33 @@
   cursor: pointer;
 }
 
+/* GRILLE */
 .mc-membergrid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(420px, 1fr));
+  grid-template-columns: repeat(2, minmax(520px, 1fr));
   gap: 18px;
 }
 
+/* CARD */
 .mc-card {
   position: relative;
-  min-height: 185px;
-  padding: 24px;
-  padding-left: 86px;
+  min-height: 145px;
+  padding: 18px 18px 18px 82px;
 
   display: grid;
-  grid-template-columns: 115px minmax(0, 1fr) 135px;
+  grid-template-columns: 110px minmax(150px, 1fr) 160px 120px;
   grid-template-areas:
-    "avatar main stats"
-    "avatar dates actions";
-  gap: 14px 22px;
+    "avatar main stats actions"
+    "avatar dates dates actions";
+
+  gap: 12px 20px;
 
   border: 1px solid rgba(191, 135, 55, .65);
-  border-radius: 22px;
+  border-radius: 14px;
   overflow: hidden;
 
   background:
-    radial-gradient(circle at 15% 50%, rgba(42, 93, 140, .35), transparent 35%),
-    radial-gradient(circle at 95% 20%, rgba(120, 60, 140, .25), transparent 35%),
+    radial-gradient(circle at 25% 50%, rgba(42, 93, 140, .35), transparent 38%),
     linear-gradient(135deg, rgba(14, 25, 52, .95), rgba(19, 14, 35, .95));
 
   box-shadow:
@@ -105,33 +106,34 @@
 
 .mc-card:nth-child(3n) {
   background:
-    radial-gradient(circle at 20% 50%, rgba(151, 45, 84, .42), transparent 38%),
+    radial-gradient(circle at 25% 50%, rgba(151, 45, 84, .38), transparent 38%),
     linear-gradient(135deg, #171429, #361328);
 }
 
 .mc-card:nth-child(3n+2) {
   background:
-    radial-gradient(circle at 20% 50%, rgba(96, 73, 139, .42), transparent 38%),
+    radial-gradient(circle at 25% 50%, rgba(96, 73, 139, .38), transparent 38%),
     linear-gradient(135deg, #12182f, #241738);
 }
 
+/* NUMÉRO */
 .mc-rank {
   position: absolute;
   top: 18px;
   left: 18px;
-  width: 38px;
-  height: 38px;
+  width: 34px;
+  height: 34px;
+
   display: grid;
   place-items: center;
 
   border: 1px solid #8e642e;
-  background: rgba(6, 10, 24, .6);
+  background: rgba(6, 10, 24, .75);
   color: #e1b96c;
 
   font-family: Georgia, serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1;
-  text-align: center;
 }
 
 .mc-rank::before {
@@ -139,17 +141,17 @@
   position: absolute;
   inset: 4px;
   border: 1px solid rgba(213,167,91,.35);
-  pointer-events: none;
 }
 
+/* AVATAR */
 .mc-avatar {
   grid-area: avatar;
   align-self: center;
 }
 
 .mc-avatar img {
-  width: 105px;
-  height: 105px;
+  width: 96px;
+  height: 96px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #d3a24f;
@@ -157,6 +159,7 @@
   background: #070a16;
 }
 
+/* IDENTITÉ */
 .mc-card-main {
   grid-area: main;
   align-self: center;
@@ -166,36 +169,72 @@
 .mc-name,
 .mc-name a,
 .mc-card-main a {
+  display: block;
   color: #ff4c58 !important;
-  font-size: 24px;
+  font-size: 22px;
   font-family: Georgia, serif;
   text-decoration: none;
+  line-height: 1.1;
 }
 
 .mc-group,
 .mc-group a {
-  margin-top: 8px;
+  margin-top: 7px;
   color: #5ca4ff !important;
   font-size: 13px;
 }
 
-.mc-dates {
-  grid-area: dates;
+/* STATS */
+.mc-stats {
+  grid-area: stats;
+  align-self: center;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 18px;
+  gap: 12px;
+
+  text-align: center;
+  border-left: 1px solid rgba(213,167,91,.3);
+  padding-left: 20px;
+}
+
+.mc-stats strong {
+  display: block;
+  color: #e1b96c;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.mc-stats span {
+  display: block;
+  margin-top: 4px;
+  color: #d5a75b;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/* DATES */
+.mc-dates {
+  grid-area: dates;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+
   border-top: 1px solid rgba(213,167,91,.25);
-  padding-top: 13px;
+  padding-top: 12px;
 }
 
 .mc-dates span {
   display: flex;
   flex-direction: column;
   gap: 3px;
+
   color: #d5a75b;
   font-family: Georgia, serif;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .mc-dates b {
@@ -203,36 +242,15 @@
   font-family: Arial, sans-serif;
   font-weight: normal;
   text-transform: none;
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 1.25;
 }
 
-.mc-stats {
-  grid-area: stats;
-  align-self: center;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 12px;
-  text-align: center;
-  border-left: 1px solid rgba(213,167,91,.3);
-  padding-left: 18px;
-}
-
-.mc-stats strong {
-  display: block;
-  color: #e1b96c;
-  font-family: Georgia, serif;
-  font-size: 24px;
-}
-
-.mc-stats span {
-  color: #d5a75b;
-  text-transform: uppercase;
-  font-size: 10px;
-}
-
+/* ACTIONS */
 .mc-actions {
   grid-area: actions;
   align-self: end;
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -243,19 +261,22 @@
 .mc-profile {
   min-width: 42px;
   height: 42px;
+
   display: grid;
   place-items: center;
+
   border-radius: 50px;
   border: 1px solid #a97937;
   background: rgba(5, 7, 15, .55);
+
   color: #f0d299 !important;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
 }
 
 .mc-profile {
-  padding: 0 16px;
+  padding: 0 14px;
 }
 
 .mc-action img {
@@ -263,6 +284,7 @@
   max-height: 22px;
 }
 
+/* PAGINATION */
 .mc-pagination {
   margin-top: 25px;
   text-align: center;
@@ -288,25 +310,26 @@
   color: #d5a75b;
 }
 
-@media (max-width: 1050px) {
+/* RESPONSIVE */
+@media (max-width: 1250px) {
   .mc-membergrid {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 750px) {
   .mc-filterbox {
     grid-template-columns: 1fr;
   }
 
   .mc-card {
-    grid-template-columns: 90px minmax(0, 1fr);
+    grid-template-columns: 86px minmax(0, 1fr);
     grid-template-areas:
       "avatar main"
-      "avatar stats"
       "dates dates"
+      "stats stats"
       "actions actions";
-    padding-left: 24px;
+    padding: 22px;
   }
 
   .mc-rank {
@@ -314,114 +337,22 @@
   }
 
   .mc-avatar img {
-    width: 82px;
-    height: 82px;
+    width: 78px;
+    height: 78px;
   }
 
   .mc-stats {
     border-left: 0;
     padding-left: 0;
-    display: flex;
-    justify-content: flex-start;
-    gap: 30px;
+    justify-content: start;
+    max-width: 240px;
   }
 
   .mc-dates {
     grid-template-columns: 1fr;
-    gap: 8px;
   }
 
   .mc-actions {
     justify-content: flex-start;
-  }
-}
-.mc-card {
-  grid-template-columns: 120px minmax(150px, 1fr) 120px;
-  grid-template-areas:
-    "avatar main stats"
-    "avatar dates actions";
-  column-gap: 26px;
-  padding: 28px 24px 24px 90px;
-  min-width: 0;
-}
-
-.mc-card-main {
-  align-self: end;
-}
-
-.mc-name,
-.mc-name a,
-.mc-card-main a {
-  display: block;
-  margin-bottom: 8px;
-  line-height: 1.1;
-}
-
-.mc-dates {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 26px;
-  min-width: 0;
-}
-
-.mc-dates span {
-  min-width: 0;
-  line-height: 1.25;
-}
-
-.mc-dates b {
-  display: block;
-  white-space: normal;
-  overflow-wrap: anywhere;
-}
-
-.mc-stats {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-left: 18px;
-  min-width: 110px;
-}
-
-.mc-stats strong {
-  font-size: 24px;
-  line-height: 1;
-}
-
-.mc-actions {
-  justify-content: flex-start;
-  gap: 8px;
-}
-
-.mc-profile {
-  min-width: auto;
-  padding: 0 14px;
-}
-
-@media (max-width: 1050px) {
-  .mc-card {
-    grid-template-columns: 115px minmax(0, 1fr) 120px;
-  }
-}
-
-@media (max-width: 620px) {
-  .mc-card {
-    grid-template-columns: 90px minmax(0, 1fr);
-    grid-template-areas:
-      "avatar main"
-      "dates dates"
-      "stats stats"
-      "actions actions";
-    padding: 24px;
-  }
-
-  .mc-stats {
-    flex-direction: row;
-    border-left: 0;
-    padding-left: 0;
-  }
-
-  .mc-dates {
-    grid-template-columns: 1fr;
   }
 }
