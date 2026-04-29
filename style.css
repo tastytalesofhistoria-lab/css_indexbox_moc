@@ -1182,15 +1182,15 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
 
 .cat-2 .forum-lastpost {
   grid-area: last;
-  align-self: stretch;
-  min-height: 170px;
+  align-self: end;
+  min-height: 68px;
   height: auto;
   margin: 0;
   padding: 8px;
   box-sizing: border-box;
   display: flex !important;
   flex-direction: column !important;
-  justify-content: flex-end !important;
+  justify-content: center !important;
   font-size: 10px;
   line-height: 1.15;
 }
@@ -1694,20 +1694,9 @@ body.fa-index-page .cat-6 .lastpost-meta {
   .cat-3 .topiclist.forums {
     grid-template-columns: 1fr !important;
   }
-  .cat-2 .forum-card {
-    grid-template-columns: 92px minmax(0, 1fr) !important;
-    grid-template-areas:
-      "icon desc"
-      "title desc"
-      "stats desc"
-      "subf subf"
-      "last last" !important;
-  }
+ 
 
-  .cat-2 .forum-desc {
-    min-height: 140px;
-    max-height: 140px;
-  }
+ 
 
   .cat-2 .forum-lastpost {
     min-height: 70px;
