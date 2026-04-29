@@ -415,3 +415,10 @@
     justify-content: flex-start;
   }
 }
+.mc-avatar {
+  pointer-events: none;
+}
+
+.mc-avatar img {
+  pointer-events: none;
+}
