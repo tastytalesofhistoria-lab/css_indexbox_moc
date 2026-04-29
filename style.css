@@ -576,17 +576,7 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-3 {
   grid-row: 2;
 }
 
-body.fa-index-page .cat-1 .forum-card {
-  grid-template-columns: 1fr 120px;
-  grid-template-areas:
-    "header header"
-    "desc subforums"
-    "desc lastpost";
-  grid-template-rows: auto 1fr auto;
-  gap: 10px;
-  align-items: stretch;
-  background: var(--bg-soft) !important;
-}
+ 
 
 body.fa-index-page .cat-1 .forum-cover {
   display: none;
@@ -607,18 +597,35 @@ body.fa-index-page .cat-1 .forum-desc {
 }
 
 /* Sous-forums manuels */
+body.fa-index-page .cat-1 .forum-card {
+  grid-template-columns: 1fr 120px;
+  grid-template-areas:
+    "header header"
+    "desc subforums"
+    "desc lastpost";
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+  align-items: stretch;
+  background: var(--bg-soft) !important;
+}
+
 body.fa-index-page .cat-1 .manual-subforums {
   grid-area: subforums;
-  align-self: start;
+  align-self: stretch;
   display: flex !important;
   flex-direction: column;
   gap: 8px;
+  height: 100%;
   margin: 0 !important;
   padding: 0 !important;
 }
 
 body.fa-index-page .cat-1 .manual-subforum {
-  display: block !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  min-height: 0;
   padding: 6px 8px !important;
   text-align: center;
   font-size: 12px !important;
