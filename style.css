@@ -1096,7 +1096,7 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
   grid-template-columns: 92px minmax(0, 1fr) 92px;
   grid-template-areas: "icon desc subf" "title desc subf" "stats desc last";
   gap: 4px 10px;
-align-items: stretch;
+  align-items: stretch;
   padding: 12px;
   box-sizing: border-box;
 }
@@ -1145,10 +1145,12 @@ align-items: stretch;
 
 .cat-2 .forum-desc {
   grid-area: desc;
-  min-height: 170px;
+  min-height: 120px;
+  max-height: 120px;
   margin: 0;
   padding: 10px;
   box-sizing: border-box;
+  overflow: auto;
   font-size: 11px;
   line-height: 1.3;
 }
@@ -1176,8 +1178,8 @@ align-items: stretch;
 
 .cat-2 .forum-lastpost {
   grid-area: last;
-  align-self: stretch;
-  min-height: 0;
+  align-self: end;
+  min-height: 72px;
   height: auto;
   margin: 0;
   padding: 8px;
