@@ -1145,8 +1145,8 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
 
 .cat-2 .forum-desc {
   grid-area: desc;
-  min-height: 120px;
-  max-height: 120px;
+  min-height: 170px;
+  max-height: 170px;
   margin: 0;
   padding: 10px;
   box-sizing: border-box;
@@ -1176,10 +1176,7 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
   line-height: 1.2 !important;
 }
 
-.cat-2 .forum-lastpost {
-  grid-area: last;
-  align-self: end;
-  min-height: 72px;
+ht: 72px;
   height: auto;
   margin: 0;
   padding: 8px;
