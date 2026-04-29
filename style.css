@@ -1870,7 +1870,7 @@ body.fa-index-page .cat4-icon-link:hover .cat4-icon-img {
 }
 
 body.fa-index-page .cat4-icon-1 .cat4-icon-img {
-  background-image: url("URL_IMAGE_COFFRE");
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyamin-a88c08ef-6b9a-4bbb-b589-3147ef7fa059.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi82Y2JhYzJiZi01YjU1LTRiOTQtYjk5OS01MGZmM2IxMDE5ZDcvZGx5YW1pbi1hODhjMDhlZi02YjlhLTRiYmItYjU4OS0zMTQ3ZWY3ZmEwNTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kCWUyK8h-sZHRo0LJkJPuIxxzbMEeQha9bak3uI5Zb8");
 }
 
 body.fa-index-page .cat4-icon-2 .cat4-icon-img {
@@ -1884,7 +1884,17 @@ body.fa-index-page .cat4-icon-3 .cat4-icon-img {
 body.fa-index-page .cat4-icon-4 .cat4-icon-img {
   background-image: url("URL_IMAGE_OBJETS_RARES");
 }
+body.fa-index-page .cat4-big-1 {
+  background-image:
+    linear-gradient(rgba(5,8,12,.35), rgba(5,8,12,.75)),
+    url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyadbx-98b3b082-34f4-4599-b0e8-c73193bba14d.png/v1/fill/w_1095,h_730,q_70,strp/5dbc4e1d_90dc_4a6a_8b8c_e6c6d893a865_by_lemegeton_rpg_dlyadbx-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6Ii9mLzZjYmFjMmJmLTViNTUtNGI5NC1iOTk5LTUwZmYzYjEwMTlkNy9kbHlhZGJ4LTk4YjNiMDgyLTM0ZjQtNDU5OS1iMGU4LWM3MzE5M2JiYTE0ZC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.b87p1MRkQYBD7uYgWOK5TG18d6L9cu0HZ6gBuwJ6uzg") !important;
+}
 
+body.fa-index-page .cat4-big-2 {
+  background-image:
+    linear-gradient(rgba(5,8,12,.35), rgba(5,8,12,.75)),
+    url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyadbe-07abf83b-731c-4b5d-85a6-01295224d51f.png/v1/fill/w_1095,h_730,q_70,strp/36c4bb5d_e2cf_4a73_893b_af0c5d1a013e_by_lemegeton_rpg_dlyadbe-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6Ii9mLzZjYmFjMmJmLTViNTUtNGI5NC1iOTk5LTUwZmYzYjEwMTlkNy9kbHlhZGJlLTA3YWJmODNiLTczMWMtNGI1ZC04NWE2LTAxMjk1MjI0ZDUxZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.R_EmVOt-01GrBYfn7oe0Lucu8-gVi_b5ZGtjejMeP2A") !important;
+}
 body.fa-index-page .cat4-biglinks {
   grid-area: big;
   display: grid;
