@@ -38,7 +38,7 @@
   text-shadow: 0 2px 6px #000;
 }
 
-/* TIME */
+/* DATES */
 .mc-groups-time {
   display: flex;
   justify-content: space-between;
@@ -72,41 +72,49 @@
   background: linear-gradient(90deg, #9b6d2e, transparent);
 }
 
-/* APPARTENANCE */
+/* GROUPES APPARTENANCE */
 .mc-joined-source {
   display: none;
 }
 
 .mc-joined-cards {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 14px;
 }
 
 .mc-joined-card {
-  min-height: 150px;
-  border: 1px solid rgba(213,167,91,.55);
-  background: #11172f;
+  min-height: 95px;
+  padding: 14px;
+  box-sizing: border-box;
+  overflow: hidden;
+
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 16px;
-  box-shadow: inset 0 0 35px rgba(255,255,255,.04);
-}
 
-.mc-joined-icon {
-  font-size: 46px;
-  line-height: 1;
+  border: 1px solid rgba(213,167,91,.55);
+  background: linear-gradient(135deg, #11172f, #1b1630);
+  box-shadow: inset 0 0 35px rgba(255,255,255,.04);
+  text-align: center;
 }
 
 .mc-joined-card strong {
+  display: block;
+  max-width: 100%;
   color: #fff5dd;
   font-family: Georgia, serif;
-  font-size: 20px;
+  font-size: 15px;
+  line-height: 1.15;
   text-transform: uppercase;
+  overflow-wrap: anywhere;
 }
 
+.mc-joined-icon {
+  display: none;
+}
+
+/* COULEURS GROUPES */
 .mc-joined-card.legion {
   background: linear-gradient(135deg, #56121c, #120913);
   border-color: #aa263a;
@@ -135,6 +143,11 @@
 .mc-joined-card.pnj {
   background: linear-gradient(135deg, #8b2d67, #1f0b1a);
   border-color: #bf5b9d;
+}
+
+.mc-joined-card.custom {
+  background: linear-gradient(135deg, #11172f, #1b1630);
+  border-color: #9b6d2e;
 }
 
 /* REJOINDRE */
@@ -181,6 +194,7 @@
   background:
     radial-gradient(circle at 80% 20%, rgba(87,48,119,.18), transparent 35%),
     rgba(10,15,33,.92);
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0 32px;
@@ -259,8 +273,4 @@
     min-width: 0;
     width: 100%;
   }
-}
-.mc-joined-card.custom {
-  background: linear-gradient(135deg, #11172f, #1b1630);
-  border-color: #9b6d2e;
 }
