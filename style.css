@@ -53,7 +53,11 @@ body,
 #page-body {
   background-image: none !important;
 }
-
+.forumtitle,
+.forum-card .forumtitle,
+.cat-marche .cat4-title-link {
+  font-family: "Cinzel Decorative", "Cinzel", Georgia, serif !important;
+}
 /* ========================================================================== */
 /*  02. STRUCTURE GENERALE                                                    */
 /* ========================================================================== */
