@@ -2051,3 +2051,44 @@ body.fa-index-page .cat4-seal-lastpost .lastpost-meta {
   font-size: 11px;
   line-height: 1.3;
 }
+
+/* FIX — Murder Party : avatar dernier posteur plein cadre */
+
+body.fa-index-page .cat-murder-party .forum-lastpost .lastpost-avatar-source {
+  display: block !important;
+  width: 100% !important;
+  height: 92px !important;
+  min-height: 92px !important;
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  line-height: 0 !important;
+  background: var(--bg-soft) !important;
+  border: 1px solid var(--line-main) !important;
+  box-sizing: border-box !important;
+}
+
+body.fa-index-page .cat-murder-party .forum-lastpost .lastpost-avatar-source a,
+body.fa-index-page .cat-murder-party .forum-lastpost .lastpost-avatar-source span,
+body.fa-index-page .cat-murder-party .forum-lastpost .lastpost-avatar-source .lastpost-avatar {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+}
+
+body.fa-index-page .cat-murder-party .forum-lastpost .lastpost-avatar-source img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
