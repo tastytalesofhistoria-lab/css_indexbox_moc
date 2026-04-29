@@ -79,10 +79,11 @@
 
 .mc-joined-cards {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+ 
+  width: 100%;
 }
-
 .mc-joined-card {
   min-height: 95px;
   padding: 14px;
