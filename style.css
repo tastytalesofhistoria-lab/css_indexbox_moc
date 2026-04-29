@@ -1824,17 +1824,12 @@ body.fa-index-page .cat4-market-title {
 }
 
 body.fa-index-page .cat4-market-text {
-  margin-left: 0;
-  margin-right: 0;
-  text-align: left;
-}
-body.fa-index-page .cat4-market-text {
   max-width: 720px;
-  margin: 18px auto 0;
+  margin: 18px 0 0;
   color: var(--text-main);
   font-size: 17px;
   line-height: 1.45;
-  text-align: center;
+  text-align: left;
 }
 
 body.fa-index-page .cat4-icons {
@@ -1934,6 +1929,20 @@ body.fa-index-page .cat4-market-layout {
   gap: 18px 26px;
   padding: 28px;
 }
+
+@media (max-width: 800px) {
+  body.fa-index-page .cat4-market-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "seal"
+      "intro"
+      "icons"
+      "big";
+  }
+
+  body.fa-index-page .cat4-seal {
+    justify-self: center;
+  }
 
   body.fa-index-page .cat4-icons,
   body.fa-index-page .cat4-biglinks {
