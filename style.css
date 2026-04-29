@@ -578,7 +578,10 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-3 {
 
 body.fa-index-page .cat-1 .forum-card {
   grid-template-columns: 1fr 120px;
-  grid-template-areas: "header header" "desc subforums" "desc lastpost";
+  grid-template-areas:
+    "header header"
+    "desc subforums"
+    "desc lastpost";
   grid-template-rows: auto 1fr auto;
   gap: 10px;
   align-items: stretch;
@@ -603,21 +606,36 @@ body.fa-index-page .cat-1 .forum-desc {
   height: 100%;
 }
 
+/* Sous-forums manuels */
 body.fa-index-page .cat-1 .manual-subforums {
+  grid-area: subforums;
+  align-self: start;
   display: flex !important;
   flex-direction: column;
   gap: 8px;
-  grid-area: subforums;
   margin: 0 !important;
-  align-self: start;
+  padding: 0 !important;
 }
 
 body.fa-index-page .cat-1 .manual-subforum {
   display: block !important;
   padding: 6px 8px;
+  background: #130803 !important;
+  border: 1px solid var(--line-soft) !important;
+  color: var(--link) !important;
   text-align: center;
+  text-decoration: none !important;
   font-size: 12px;
   line-height: 1.2;
+  transition: background 0.25s ease, border-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+body.fa-index-page .cat-1 .manual-subforum:hover {
+  background: var(--bg-hover) !important;
+  border-color: var(--line-strong) !important;
+  color: var(--title-soft) !important;
+  box-shadow: 0 0 10px rgba(47, 73, 69, 0.35), inset 0 0 0 1px rgba(194, 163, 104, 0.15);
+  transform: translateY(-1px);
 }
 
 body.fa-index-page .cat-1 .forum-lastpost {
@@ -635,7 +653,6 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .forum-main 
   background: transparent !important;
 }
 
-body.fa-index-page .cat-1 .row:nth-of-type(2) .forum-head,
 body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .forum-head {
   grid-area: header;
   display: block !important;
@@ -648,7 +665,6 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .forum-head 
   background: transparent !important;
 }
 
-body.fa-index-page .cat-1 .row:nth-of-type(2) .hierarchy,
 body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .hierarchy {
   display: block !important;
   width: 100% !important;
@@ -657,7 +673,6 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .hierarchy {
   white-space: normal !important;
 }
 
-body.fa-index-page .cat-1 .row:nth-of-type(2) .forumtitle,
 body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(2) .forumtitle {
   overflow: visible !important;
   text-overflow: unset !important;
@@ -777,7 +792,11 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-2 .forum-cover {
 body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-2 .forum-main {
   grid-area: main !important;
   display: grid !important;
-  grid-template-areas: "title" "stats" "desc" "subf" !important;
+  grid-template-areas:
+    "title"
+    "stats"
+    "desc"
+    "subf" !important;
   grid-template-columns: 1fr !important;
   gap: 8px !important;
   min-width: 0 !important;
@@ -1077,28 +1096,6 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
   margin: 0 !important;
   font-size: 11px !important;
   line-height: 1.25 !important;
-}
-body.fa-index-page .cat-1 .manual-subforum {
-  background: #130803 !important;
-  border: 1px solid var(--line-soft) !important;
-  color: var(--link) !important;
-  text-decoration: none !important;
-  transition:
-    background 0.25s ease,
-    border-color 0.25s ease,
-    color 0.25s ease,
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
-}
-
-body.fa-index-page .cat-1 .manual-subforum:hover {
-  background: var(--bg-hover) !important;
-  border-color: var(--line-strong) !important;
-  color: var(--title-soft) !important;
-  box-shadow:
-    0 0 10px rgba(47, 73, 69, 0.35),
-    inset 0 0 0 1px rgba(194, 163, 104, 0.15);
-  transform: translateY(-1px);
 }
 /* ========================================================================== */
 /*  09. CATEGORIE 2                                                           */
