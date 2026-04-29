@@ -1094,7 +1094,11 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
 .cat-2 .forum-card {
   display: grid !important;
   grid-template-columns: 92px minmax(0, 1fr) 92px;
-  grid-template-areas: "icon desc subf" "title desc subf" "stats desc last";
+  grid-template-areas:
+    "icon desc subf"
+    "title desc subf"
+    "stats desc last";
+  grid-template-rows: auto auto 1fr;
   gap: 4px 10px;
   align-items: stretch;
   padding: 12px;
@@ -1176,14 +1180,17 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-me
   line-height: 1.2 !important;
 }
 
-ht: 72px;
+.cat-2 .forum-lastpost {
+  grid-area: last;
+  align-self: stretch;
+  min-height: 170px;
   height: auto;
   margin: 0;
   padding: 8px;
   box-sizing: border-box;
   display: flex !important;
   flex-direction: column !important;
-  justify-content: center !important;
+  justify-content: flex-end !important;
   font-size: 10px;
   line-height: 1.15;
 }
@@ -1191,7 +1198,6 @@ ht: 72px;
 .cat-2 .forum-lastpost .lastpost-avatar-source {
   display: none !important;
 }
-
 /* ========================================================================== */
 /*  10. CATEGORIE 3                                                           */
 /* ========================================================================== */
