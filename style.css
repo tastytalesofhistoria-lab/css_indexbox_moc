@@ -885,6 +885,11 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-2 .lastpost-info
 }
 
 /* Catégorie 1 — forum 3 / It's Prophetic */
+body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-3,
+body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) {
+  min-height: 0 !important;
+}
+
 body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-3 .forum-card,
 body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .forum-card {
   display: grid !important;
@@ -920,7 +925,6 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .forum-main 
     "stats"
     "desc"
     "subf" !important;
-  grid-template-columns: 1fr !important;
   gap: 8px !important;
   align-self: start !important;
   min-height: 0 !important;
@@ -957,35 +961,38 @@ body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .forum-subfo
   margin: 6px 0 0 !important;
 }
 
+/* Lastpost compact en un seul bloc */
 body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-3 .forum-lastpost,
 body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .forum-lastpost {
   grid-area: last !important;
+  display: block !important;
   align-self: start !important;
   width: 200px !important;
   min-width: 200px !important;
   max-width: 200px !important;
   min-height: 0 !important;
   margin: 0 !important;
+  padding: 10px !important;
+  background: var(--bg-soft) !important;
+  border: 1px solid var(--line-main) !important;
+  box-sizing: border-box !important;
 }
 
-body.fa-index-page .cat-1 .lastpost_link,
-body.fa-index-page .cat-1 .lastpost-meta {
+body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-3 .lastpost-avatar-source,
+body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-avatar-source {
+  display: none !important;
+}
+
+body.fa-index-page .cat-1 .topiclist.forums > li.row.cat1-forum-3 .lastpost-infos,
+body.fa-index-page .cat-1 .topiclist.forums > li.row:nth-of-type(3) .lastpost-infos {
   display: block !important;
   width: 100% !important;
-  text-align: center !important;
-}
-
-body.fa-index-page .cat-1 .lastpost_link {
-  margin: 0 0 6px !important;
-  color: var(--link) !important;
-  font-size: 12px !important;
-  line-height: 1.2 !important;
-}
-
-body.fa-index-page .cat-1 .lastpost-meta {
+  min-height: 0 !important;
   margin: 0 !important;
-  font-size: 11px !important;
-  line-height: 1.25 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  text-align: center !important;
 }
 /* ========================================================================== */
 /*  09. CATEGORIE 2                                                           */
