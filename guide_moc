@@ -2490,251 +2490,145 @@
 		              
 		<!-- - DEBUT BESTIAIRE- -->          
 <div id="bestiaire" class="moc-tab">
-                 
-    <div class="moc-subtitle">
-         Murder of Crow - Crossover Harry Potter x Famille Addams         
-    </div>
-                 
-    <h2>
-         Bestiaire         
-    </h2>
+  <div class="moc-subtitle">
+    Murder of Crow - Crossover Harry Potter x Famille Addams
+  </div>
 
-    <div class="moc-box">
+  <h2>Bestiaire</h2>
 
-        <h3>
-            Bestiaire Magique
-        </h3>
+  <div class="moc-box">
+    <h3>Bestiaire Magique</h3>
 
-        <span>
-            Créatures, monstres et animaux fantastiques du monde occulte.
-        </span>
+    <span>Créatures, monstres et animaux fantastiques du monde occulte.</span>
 
-        <p>
-            Depuis des siècles, les Wiccas recensent les créatures magiques selon leur dangerosité, leur intelligence et leur proximité avec les sociétés humaines. Certaines sont étudiées dans les écoles de magie, d'autres sont traquées par les Hunters… et plusieurs espèces restent interdites d’approche même pour les sorciers expérimentés. :contentReference[oaicite:0]{index=0}
-        </p>
+    <p>
+      Depuis des siècles, les Wiccas recensent les créatures magiques selon leur dangerosité, leur intelligence et leur proximité avec les sociétés humaines. Certaines sont étudiées dans les écoles de magie, d'autres sont traquées par les Hunters… et plusieurs espèces restent interdites d’approche même pour les sorciers expérimentés.
+    </p>
 
-        <div class="moc-creature-grid">
+    <div class="moc-creature-grid">
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Acromantule" alt="Acromantule">
-                <div class="moc-creature-info">
-                    <h3>Acromantule</h3>
-                    <span>XXXXX</span>
-                    <p>Araignée géante intelligente vivant en colonies dans les forêts obscures.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Abraxan" alt="Abraxan"><div class="moc-creature-info"><h3>Abraxan</h3><span>XX / XXXX</span><p>Cheval ailé palomino gigantesque, puissant et noble.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Augurey" alt="Augurey">
-                <div class="moc-creature-info">
-                    <h3>Augurey</h3>
-                    <span>XX</span>
-                    <p>Oiseau noir dont les cris annoncent traditionnellement la pluie et la mort.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Acromantule" alt="Acromantule"><div class="moc-creature-info"><h3>Acromantule</h3><span>XXXXX</span><p>Araignée géante intelligente, venimeuse et capable de parler.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Basilic" alt="Basilic">
-                <div class="moc-creature-info">
-                    <h3>Basilic</h3>
-                    <span>XXXXX</span>
-                    <p>Serpent géant capable de tuer d’un simple regard.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Augurey" alt="Augurey"><div class="moc-creature-info"><h3>Augurey</h3><span>XX</span><p>Oiseau sombre associé aux présages de mort et aux pluies à venir.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Billywig" alt="Billywig">
-                <div class="moc-creature-info">
-                    <h3>Billywig</h3>
-                    <span>XXX</span>
-                    <p>Insecte australien dont les piqûres provoquent la lévitation.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Basilic" alt="Basilic"><div class="moc-creature-info"><h3>Basilic</h3><span>XXXXX</span><p>Serpent géant capable de tuer d’un simple regard.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Botruc" alt="Botruc">
-                <div class="moc-creature-info">
-                    <h3>Botruc</h3>
-                    <span>XX</span>
-                    <p>Petit gardien végétal protégeant les arbres magiques.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Bicorne" alt="Bicorne"><div class="moc-creature-info"><h3>Bicorne</h3><span>Inconnue</span><p>Créature cornue dont les cornes réduites en poudre sont utilisées en potion.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Boursouf" alt="Boursouf">
-                <div class="moc-creature-info">
-                    <h3>Boursouf</h3>
-                    <span>XX</span>
-                    <p>Petite boule de fourrure docile souvent gardée comme animal de compagnie.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Billywig" alt="Billywig"><div class="moc-creature-info"><h3>Billywig</h3><span>XXX</span><p>Insecte bleu dont la piqûre provoque tournis et lévitation.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Centaure" alt="Centaure">
-                <div class="moc-creature-info">
-                    <h3>Centaure</h3>
-                    <span>XXXX</span>
-                    <p>Créature mi-homme mi-cheval experte en astronomie et divination.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Botruc" alt="Botruc"><div class="moc-creature-info"><h3>Botruc</h3><span>XX</span><p>Petit gardien végétal protégeant les arbres à baguettes.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Chimere" alt="Chimère">
-                <div class="moc-creature-info">
-                    <h3>Chimère</h3>
-                    <span>XXXXX</span>
-                    <p>Monstre grec extrêmement rare doté de plusieurs parties animales.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Boursouf" alt="Boursouf"><div class="moc-creature-info"><h3>Boursouf</h3><span>XX</span><p>Petite boule de fourrure douce et docile, souvent gardée comme compagnon.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Demiguise" alt="Demiguise">
-                <div class="moc-creature-info">
-                    <h3>Demiguise</h3>
-                    <span>XXXX</span>
-                    <p>Créature capable de devenir invisible et de prévoir certains futurs proches.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Calmar" alt="Calmar géant"><div class="moc-creature-info"><h3>Calmar Géant</h3><span>Inconnue</span><p>Créature aquatique massive, parfois étonnamment amicale.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Dragon" alt="Dragon">
-                <div class="moc-creature-info">
-                    <h3>Dragon</h3>
-                    <span>XXXXX</span>
-                    <p>Créature ailée cracheuse de feu considérée parmi les plus dangereuses.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Centaure" alt="Centaure"><div class="moc-creature-info"><h3>Centaure</h3><span>XXXX</span><p>Être fier, intelligent, lié aux astres, à la divination et aux forêts anciennes.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Epouvantard" alt="Épouvantard">
-                <div class="moc-creature-info">
-                    <h3>Épouvantard</h3>
-                    <span>XXX</span>
-                    <p>Entité changeant d’apparence selon les peurs de sa victime.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Chaporouge" alt="Chaporouge"><div class="moc-creature-info"><h3>Chaporouge</h3><span>XXX</span><p>Créature violente hantant les lieux où le sang a déjà coulé.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Erkling" alt="Erkling">
-                <div class="moc-creature-info">
-                    <h3>Erkling</h3>
-                    <span>XXXX</span>
-                    <p>Créature allemande attirant les enfants avec son chant.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Chartier" alt="Chartier"><div class="moc-creature-info"><h3>Chartier</h3><span>XXX</span><p>Grand furet parlant, grossier et amateur de gnomes.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Grapcorne" alt="Grapcorne">
-                <div class="moc-creature-info">
-                    <h3>Grapcorne</h3>
-                    <span>XXXX</span>
-                    <p>Créature massive extrêmement agressive à la peau résistante.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Cerbere" alt="Chien à trois têtes"><div class="moc-creature-info"><h3>Chien à Trois Têtes</h3><span>Inconnue</span><p>Gardien gigantesque, féroce, pouvant être apaisé par la musique.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Hippogriffe" alt="Hippogriffe">
-                <div class="moc-creature-info">
-                    <h3>Hippogriffe</h3>
-                    <span>XXX</span>
-                    <p>Créature fière mi-cheval mi-aigle exigeant respect et courtoisie.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Crabe+de+Feu" alt="Crabe de feu"><div class="moc-creature-info"><h3>Crabe de Feu</h3><span>XXX</span><p>Créature à carapace précieuse capable de projeter des flammes.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Kelpy" alt="Kelpy">
-                <div class="moc-creature-info">
-                    <h3>Kelpy</h3>
-                    <span>XXXX</span>
-                    <p>Esprit aquatique prenant diverses formes pour attirer ses proies.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Crapaud" alt="Crapaud"><div class="moc-creature-info"><h3>Crapaud & Grenouille</h3><span>Inconnue</span><p>Animaux familiers traditionnels, aujourd’hui considérés comme démodés.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Licorne" alt="Licorne">
-                <div class="moc-creature-info">
-                    <h3>Licorne</h3>
-                    <span>XXXX</span>
-                    <p>Créature pure dont le sang possède de puissantes propriétés magiques.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Croup" alt="Croup"><div class="moc-creature-info"><h3>Croup</h3><span>XXX</span><p>Chien magique à queue fourchue, fidèle aux sorciers mais agressif envers les moldus.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Loup-Garou" alt="Loup-Garou">
-                <div class="moc-creature-info">
-                    <h3>Loup-Garou</h3>
-                    <span>XXXXX</span>
-                    <p>Humain transformé lors des pleines lunes après contamination.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Demiguise" alt="Demiguise"><div class="moc-creature-info"><h3>Demiguise</h3><span>XXXX</span><p>Créature invisible capable d’entrevoir certains futurs proches.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Malagrif" alt="Malagrif">
-                <div class="moc-creature-info">
-                    <h3>Malagrif Tacheté</h3>
-                    <span>XXX</span>
-                    <p>Créature marine associée à la malchance et aux tempêtes.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Demonz" alt="Démonzémerveille"><div class="moc-creature-info"><h3>Démonzémerveille</h3><span>Inconnue</span><p>Créature ailée dangereuse dont le venin possède des propriétés d’amnésie.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Niffleur" alt="Niffleur">
-                <div class="moc-creature-info">
-                    <h3>Niffleur</h3>
-                    <span>XXX</span>
-                    <p>Petit fouisseur obsédé par les objets brillants.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Detraqueur" alt="Détraqueur"><div class="moc-creature-info"><h3>Détraqueur</h3><span>Inconnue</span><p>Entité sans âme se nourrissant des souvenirs heureux et du désespoir.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Occamy" alt="Occamy">
-                <div class="moc-creature-info">
-                    <h3>Occamy</h3>
-                    <span>XXXX</span>
-                    <p>Créature serpentine capable de modifier sa taille selon l’espace.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Dirico" alt="Dirico"><div class="moc-creature-info"><h3>Dirico</h3><span>XX</span><p>Oiseau incapable de voler, capable de disparaître pour éviter le danger.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Phenix" alt="Phénix">
-                <div class="moc-creature-info">
-                    <h3>Phénix</h3>
-                    <span>XXXX</span>
-                    <p>Oiseau immortel renaissant de ses cendres.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Doxy" alt="Doxy"><div class="moc-creature-info"><h3>Doxy</h3><span>XXX</span><p>Petite créature venimeuse ressemblant à une fée noire.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Sombral" alt="Sombral">
-                <div class="moc-creature-info">
-                    <h3>Sombral</h3>
-                    <span>XXXX</span>
-                    <p>Cheval ailé visible uniquement par ceux ayant vu la mort.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Dragon" alt="Dragon"><div class="moc-creature-info"><h3>Dragon</h3><span>XXXXX</span><p>Reptile ailé cracheur de feu, presque impossible à cacher ou à maîtriser.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Strangulot" alt="Strangulot">
-                <div class="moc-creature-info">
-                    <h3>Strangulot</h3>
-                    <span>XXX</span>
-                    <p>Créature aquatique agressive vivant dans les lacs et marais.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Elfe" alt="Elfe de maison"><div class="moc-creature-info"><h3>Elfe de Maison</h3><span>Inconnue</span><p>Être magique domestique doté de puissants pouvoirs sans baguette.</p></div></div>
 
-            <div class="moc-creature-card">
-                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Troll" alt="Troll">
-                <div class="moc-creature-info">
-                    <h3>Troll</h3>
-                    <span>XXXX</span>
-                    <p>Créature gigantesque à la force brute impressionnante.</p>
-                </div>
-            </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Epouvantard" alt="Épouvantard"><div class="moc-creature-info"><h3>Épouvantard</h3><span>Inconnue</span><p>Créature changeant de forme pour incarner la plus grande peur de sa cible.</p></div></div>
 
-        </div>
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Eruptif" alt="Éruptif"><div class="moc-creature-info"><h3>Éruptif</h3><span>XXXX</span><p>Créature massive dont la corne contient un fluide explosif.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Focifere" alt="Focifère"><div class="moc-creature-info"><h3>Focifère</h3><span>XXX</span><p>Oiseau coloré dont le chant peut rendre fou s’il est écouté trop longtemps.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Geant" alt="Géant"><div class="moc-creature-info"><h3>Géant</h3><span>Inconnue</span><p>Être gigantesque, brutal et dangereux, vivant souvent loin des sociétés humaines.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Gnome" alt="Gnome"><div class="moc-creature-info"><h3>Gnome</h3><span>XX</span><p>Petit nuisible de jardin à la tête disproportionnée.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Gobelin" alt="Gobelin"><div class="moc-creature-info"><h3>Gobelin</h3><span>Inconnue</span><p>Être fier, intelligent, lié à l’or, aux contrats et à l’artisanat magique.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Goule" alt="Goule"><div class="moc-creature-info"><h3>Goule</h3><span>XX</span><p>Créature bruyante et repoussante vivant souvent dans les greniers.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Grapcorne" alt="Grapcorne"><div class="moc-creature-info"><h3>Grapcorne</h3><span>XXXX</span><p>Créature montagneuse massive, agressive et dotée de cornes précieuses.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Hibou" alt="Hibou"><div class="moc-creature-info"><h3>Hibou & Chouette</h3><span>Inconnue</span><p>Oiseaux messagers capables de retrouver instinctivement leur destinataire.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Hippogriffe" alt="Hippogriffe"><div class="moc-creature-info"><h3>Hippogriffe</h3><span>XXX</span><p>Créature fière mi-aigle mi-cheval, exigeant respect et courtoisie.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Inferi" alt="Inferi"><div class="moc-creature-info"><h3>Inferi</h3><span>Inconnue</span><p>Cadavres animés par la magie noire, obéissant à leur créateur.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Joncheruine" alt="Joncheruine"><div class="moc-creature-info"><h3>Joncheruine</h3><span>Inconnue</span><p>Minuscule créature invisible accusée d’embrouiller l’esprit.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Kappa" alt="Kappa"><div class="moc-creature-info"><h3>Kappa</h3><span>XXXX</span><p>Démon aquatique japonais se nourrissant de sang humain.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Kelpy" alt="Kelpy"><div class="moc-creature-info"><h3>Kelpy</h3><span>XXXX</span><p>Démon des eaux métamorphe attirant ses victimes vers les profondeurs.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Licorne" alt="Licorne"><div class="moc-creature-info"><h3>Licorne</h3><span>XXXX</span><p>Créature pure dont le sang, les crins et les cornes possèdent de puissantes propriétés.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Lutin" alt="Lutin de Cornouailles"><div class="moc-creature-info"><h3>Lutin de Cornouailles</h3><span>XXX</span><p>Petit diablotin bleu électrique, farceur et difficile à contrôler.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Manticore" alt="Manticore"><div class="moc-creature-info"><h3>Manticore</h3><span>XXXXX</span><p>Créature à tête humaine, corps de lion et queue de scorpion mortelle.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Niffleur" alt="Niffleur"><div class="moc-creature-info"><h3>Niffleur</h3><span>XXX</span><p>Créature fouisseuse attirée par tout ce qui brille.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Noueux" alt="Noueux"><div class="moc-creature-info"><h3>Noueux</h3><span>XXX</span><p>Animal proche du hérisson, extrêmement méfiant face aux offrandes.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Nundu" alt="Nundu"><div class="moc-creature-info"><h3>Nundu</h3><span>XXXXX</span><p>Félin silencieux dont le souffle propage des maladies mortelles.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Occamy" alt="Occamy"><div class="moc-creature-info"><h3>Occamy</h3><span>XXXX</span><p>Créature serpentine et ailée dont la taille varie selon l’espace disponible.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Oiseau-Tonnerre" alt="Oiseau-tonnerre"><div class="moc-creature-info"><h3>Oiseau-Tonnerre</h3><span>Inconnue</span><p>Grand oiseau américain capable de sentir le danger et de créer des tempêtes.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Phenix" alt="Phénix"><div class="moc-creature-info"><h3>Phénix</h3><span>XXXX</span><p>Oiseau immortel renaissant de ses cendres, lié au feu et à la guérison.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Pitiponk" alt="Pitiponk"><div class="moc-creature-info"><h3>Pitiponk</h3><span>Inconnue</span><p>Créature des marais attirant les voyageurs avec une lanterne trompeuse.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Qilin" alt="Qilin"><div class="moc-creature-info"><h3>Qilin</h3><span>Inconnue</span><p>Créature sacrée capable de reconnaître la pureté du cœur.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Quintaped" alt="Quintaped"><div class="moc-creature-info"><h3>Quintaped</h3><span>XXXXX</span><p>Créature carnivore à cinq pattes, féroce et impossible à raisonner.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Scroutt" alt="Scroutt à pétard"><div class="moc-creature-info"><h3>Scroutt à Pétard</h3><span>Inconnue</span><p>Créature explosive issue d’un croisement dangereux.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Serpencendre" alt="Serpencendre"><div class="moc-creature-info"><h3>Serpencendre</h3><span>XXX</span><p>Serpent de cendres né d’un feu magique laissé trop longtemps sans surveillance.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Sinistros" alt="Sinistros"><div class="moc-creature-info"><h3>Sinistros</h3><span>Inconnue</span><p>Grand chien noir considéré comme un présage de mort.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Sirene" alt="Sirène et triton"><div class="moc-creature-info"><h3>Sirène & Triton</h3><span>XXXX</span><p>Êtres de l’eau possédant leur propre langue, culture et société.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Sombral" alt="Sombral"><div class="moc-creature-info"><h3>Sombral</h3><span>XX / XXXX</span><p>Cheval ailé noir visible uniquement par ceux qui ont vu la mort.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Sphinx" alt="Sphinx"><div class="moc-creature-info"><h3>Sphinx</h3><span>XXXX</span><p>Gardien intelligent amateur d’énigmes et de devinettes.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Strangulot" alt="Strangulot"><div class="moc-creature-info"><h3>Strangulot</h3><span>XX</span><p>Créature aquatique agressive vivant dans les lacs et marais.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Troll" alt="Troll"><div class="moc-creature-info"><h3>Troll</h3><span>XXXX</span><p>Créature gigantesque, violente, stupide et d’une force brute redoutable.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Veaudelune" alt="Veaudelune"><div class="moc-creature-info"><h3>Veaudelune</h3><span>XX</span><p>Créature timide sortant uniquement à la pleine lune pour danser.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Veracrasse" alt="Veracrasse"><div class="moc-creature-info"><h3>Veracrasse</h3><span>X</span><p>Ver épais, lent et végétarien, souvent jugé profondément ennuyeux.</p></div></div>
+
+      <div class="moc-creature-card"><img src="https://placehold.co/500x650/11182f/d0b27a?text=Zouwu" alt="Zouwu"><div class="moc-creature-info"><h3>Zouwu</h3><span>Inconnue</span><p>Immense félin chinois capable de parcourir des milliers de kilomètres en une journée.</p></div></div>
 
     </div>
-                 
+  </div>
 </div>
 		       
 		<!-- - FIN BESTIAIRE- -->                
