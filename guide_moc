@@ -1,0 +1,3196 @@
+<meta charset="UTF-8" />
+<div class="moc-guide">
+	                      
+	<div class="moc-menu">
+		                        
+		<button onclick="mocTab('accueil')" type="button">
+			          Accueil          
+		</button>
+		                         
+		<div class="moc-menu-group">
+			                          
+			<button onclick="mocToggleMenu(this); mocTab('groupes')" class="moc-parent" type="button">
+				          Groupes          
+			</button>
+			                          
+			<div class="moc-submenu">
+				                            
+				<button onclick="mocTab('wicca')" type="button">
+					          Wicca          
+				</button>
+				                            
+				<button onclick="mocTab('outcast')" type="button">
+					          Outcast          
+				</button>
+				                            
+				<button onclick="mocTab('normie')" type="button">
+					          Normie          
+				</button>
+				                          
+			</div>
+			                        
+		</div>
+		                         
+		<div class="moc-menu-group">
+			                          
+			<button onclick="mocToggleMenu(this); mocTab('ecoles')" class="moc-parent" type="button">
+				          Écoles Magiques          
+			</button>
+			                          
+			<div class="moc-submenu">
+				                            
+				<button onclick="mocTab('poudlard')" type="button">
+					          Poudlard          
+				</button>
+				                            
+				<button onclick="mocTab('ilvermorny')" type="button">
+					          Ilvermorny          
+				</button>
+				                            
+				<button onclick="mocTab('nevermore')" type="button">
+					          Nevermore          
+				</button>
+				                            
+				<button onclick="mocTab('beauxbatons')" type="button">
+					          Beauxbâtons          
+				</button>
+				                            
+				<button onclick="mocTab('durmstrang')" type="button">
+					          Durmstrang          
+				</button>
+				                            
+				<button onclick="mocTab('castelobruxo')" type="button">
+					          Castelobruxo          
+				</button>
+				                            
+				<button onclick="mocTab('koldovstoretz')" type="button">
+					          Koldovstoretz          
+				</button>
+				                            
+				<button onclick="mocTab('mahoutokoro')" type="button">
+					          Mahoutokoro          
+				</button>
+				                          
+			</div>
+			                        
+		</div>
+		                         
+		<div class="moc-menu-group">
+			                          
+			<button onclick="mocToggleMenu(this); mocTab('hunter')" class="moc-parent" type="button">
+				          Hunter          
+			</button>
+			                          
+			<div class="moc-submenu">
+				                            
+				<button onclick="mocTab('vanhelsing')" type="button">
+					          Van Helsing          
+				</button>
+				                            
+				<button onclick="mocTab('mi9')" type="button">
+					          MI9          
+				</button>
+				                            
+				<button onclick="mocTab('nimrod')" type="button">
+					          Nimrod          
+				</button>
+				                          
+			</div>
+			                        
+		</div>
+		                         
+		<div class="moc-menu-group">
+			                          
+			<button onclick="mocToggleMenu(this); mocTab('artefacts')" class="moc-parent" type="button">
+				          Artefacts          
+			</button>
+			                          
+			<div class="moc-submenu">
+				                            
+				<button onclick="mocTab('baguette')" type="button">
+					          Baguette          
+				</button>
+				                            
+				<button onclick="mocTab('rune')" type="button">
+					          Pierre de Rune          
+				</button>
+				                            
+				<button onclick="mocTab('couteau')" type="button">
+					          Couteau de Rituel          
+				</button>
+				                            
+				<button onclick="mocTab('autre')" type="button">
+					          Autre          
+				</button>
+				                          
+			</div>
+			                        
+		</div>
+		                         
+		<div class="moc-menu-group">
+			                          
+			<button onclick="mocToggleMenu(this); mocTab('gringotts')" class="moc-parent" type="button">
+				          Gringotts          
+			</button>
+			                          
+			<div class="moc-submenu">
+				                            
+				<button onclick="mocTab('coffres')" type="button">
+					          Coffres          
+				</button>
+				                            
+				<button onclick="mocTab('contrat')" type="button">
+					          Contrat          
+				</button>
+				                            
+				<button onclick="mocTab('dettes')" type="button">
+					          Dettes          
+				</button>
+				                            
+				<button onclick="mocTab('artefacts-gringotts')" type="button">
+					          Artefacts          
+				</button>
+				                          
+			</div>
+			                        
+		</div>
+		                         
+		<button onclick="mocTab('crow')" type="button">
+			          Crow Emporium          
+		</button>
+		                        
+		<button onclick="mocTab('knockturn')" type="button">
+			          Knockturn Alley          
+		</button>
+		                        
+		<button onclick="mocTab('bestiaire')" type="button">
+			          Bestiaire          
+		</button>
+		                      
+	</div>
+	                       
+	<div class="moc-content">
+		                        
+		<div class="moc-tab active" id="accueil">
+			                          
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                          
+			<h2>
+				          Accueil          
+			</h2>
+			                           
+			<p class="moc-intro">
+				                  Bienvenue dans un univers où les lignées de sorciers côtoient les monstres oubliés,         les héritiers d'anciennes familles occultes et les créatures tapis dans l'ombre.         Entre les couloirs des écoles magiques et les anciennes lignées occultes, la magie n'est jamais sans conséquences.                 
+			</p>
+			                           
+			<div class="moc-warning">
+				          ✦ Ceci est un forum RPG réservé à un public <strong>18+</strong>. ✦          
+			</div>
+			                           
+			<div class="moc-grid">
+				                            
+				<div class="moc-card full">
+					                              
+					<div class="moc-card-title">
+						          Univers          
+					</div>
+					                              
+					<p>
+						          Inspiré de <strong>Harry Potter</strong>, de l'univers de <strong>Wednesday Addams</strong> et des récits gothiques modernes.          
+					</p>
+					                            
+				</div>
+				                             
+				<div class="moc-card">
+					                              
+					<div class="moc-card-title">
+						          Navigation          
+					</div>
+					                              
+					<div class="moc-links">
+						                      <a href="https://murder-of-crows.forumsrpg.com/t1-reglement-general">Règlement</a>            <a href="https://murder-of-crows.forumsrpg.com/t2-1-apres-cette-fin-un-commencement-nouveau">Contexte</a>            <a href="https://murder-of-crows.forumsrpg.com/t4-chronologie">Chronologie</a>                    
+					</div>
+					                            
+				</div>
+				                             
+				<div class="moc-card">
+					                              
+					<div class="moc-card-title">
+						          Personnages          
+					</div>
+					                              
+					<div class="moc-links">
+						                      <a href="https://murder-of-crows.forumsrpg.com/f10-scenarios-membres">Scénarios</a>            <a href="https://murder-of-crows.forumsrpg.com/f29-pre-liens">Pré-liens</a>            <a href="https://murder-of-crows.forumsrpg.com/f12-predefinis">Prédéfinis</a>                    
+					</div>
+					                            
+				</div>
+				                          
+			</div>
+			                        
+		</div>
+		                         
+		<div class="moc-tab" id="groupes">
+			                          
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                          
+			<h2>
+				          Groupes          
+			</h2>
+			                           
+			<div class="moc-card full">
+				                            
+				<p>
+					          En marchant avec nous, chaque âme finit par trouver sa place. Certains portent la magie dans leur sang, d'autres cachent une nature monstrueuse, tandis que quelques-uns demeurent simplement humains au milieu d'un monde qui leur échappe.          
+				</p>
+				                            
+				<p>
+					          Les groupes du forum se divisent en deux catégories distinctes :<br /><strong>Les Groupes Principaux</strong> — véritables familles idéologiques et surnaturelles qui définiront votre couleur sur le forum.<br /><strong>Les Sous Groupes</strong> — spécialisations, lignées ou classes propres à chaque groupe principal.          
+				</p>
+				                            
+				<p>
+					          Certains traits, pouvoirs ou origines orienteront naturellement votre personnage vers un groupe particulier. Quant aux personnages issus des univers fondateurs et ayant un impact fort sur <strong>Murder of Crow</strong>, leur Groupe Principal leur sera déjà attribué. Il vous restera cependant la liberté de choisir la voie qu'ils emprunteront à travers leur sous-groupe.          
+				</p>
+				                          
+			</div>
+			                           
+			<div class="moc-box">
+				                   
+				<h3>
+					          Wicca          
+				</h3><span>Les pratiquants de la magie.</span>          
+				<p>
+					          Sont considérés Wicca tous ceux et toutes celles qui pratiquent la magie — qu'elle soit blanche, noire et de couleur distincte. Les Arcanes, Runes et autres pratiques écrites de la magie tombent également sous ce drapeau et dépendent d'une infusion magique pour être pratiqués.          
+				</p>
+				                   
+			</div>
+			                          
+			<div class="moc-box">
+				                   
+				<h3>
+					          Outcast          
+				</h3><span>Les créatures magiques peuplant le monde.</span>          
+				<p>
+					          Les créatures magiques — lycans, sirènes, gorgones, vampires et bien d'autres — sont classifiées sous le terme d'Outcast [Marginaux] car elles peinent à s'intégrer durablement à la société humaine comme le font les Wiccas. Ils possèdent tous quelque chose — physiquement ou mentalement — qui les met à l'écart des autres.          
+				</p>
+				                   
+			</div>
+			                          
+			<div class="moc-box">
+				                   
+				<h3>
+					          Normie          
+				</h3><span>Les humains lambda.</span>          
+				<p>
+					          Les normies sont des humains sans pouvoir particulier. Ils peuvent bien sûr avoir leurs propres compétences ou singularités, mais rien de magique ne coule dans leurs veines. La grande majorité ignore totalement l'existence des Wiccas et des Outcasts, le secret magique étant soigneusement protégé depuis des siècles.          
+				</p>
+				                   
+			</div>
+			                          
+			<div class="moc-box legion">
+				                   
+				<h3>
+					          We are Legion          
+				</h3>
+				                   
+				<p>
+					          Ce groupe ne contient qu'un seul compte : Crow. En effet, il s'agit du compte fondateur et il sera utilisé par tout le staff admin pour les démarches administratives.          
+				</p>
+				                   
+			</div>
+			                        
+		</div>
+		                         
+		<div class="moc-tab" id="wicca">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Wicca          
+			</h2>
+			                   
+			<div class="moc-box">
+				                   
+				<p>
+					          Zone Wicca vide pour l'instant.          
+				</p>
+				                   
+			</div>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="outcast">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Outcast          
+			</h2>
+			                   
+			<div class="moc-box">
+				                   
+				<p>
+					          Zone Outcast vide pour l'instant.          
+				</p>
+				                   
+			</div>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="normie">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Normie          
+			</h2>
+			                   
+			<div class="moc-box">
+				                   
+				<p>
+					          Zone Normie vide pour l'instant.          
+				</p>
+				                   
+			</div>
+			                   
+		</div>
+		                         
+		<div class="moc-tab" id="ecoles">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Écoles Magiques          
+			</h2>
+			                   
+			<div class="moc-box">
+				                   
+				<p>
+					          Depuis des siècles, les Wiccas du monde entier ont bâti leurs propres institutions afin d'enseigner la magie, préserver leurs traditions et former les futures générations de sorciers. Chaque pays — ou presque — possède ainsi sa propre école de magie, souvent cachée aux yeux des normies et protégée par d'antiques enchantements.          
+				</p>
+				                   
+				<p>
+					          Ces établissements ne suivent pas tous les mêmes règles. Certains privilégient les arcanes anciennes, d'autres l'alchimie, les créatures magiques ou encore les arts martiaux mystiques. Les rivalités entre écoles sont nombreuses et certaines nations considèrent leurs académies comme de véritables trésors d'État.          
+				</p>
+				                   
+				<p>
+					          À l'écart de ce système se trouve cependant <strong>Nevermore</strong>, établissement atypique et discret. Là où la majorité des écoles refusent les Outcasts ou tentent de les cacher, Nevermore accepte discrètement les créatures capables de vivre parmi les autres élèves. Lycans, vampires, gorgones, sirènes et autres Outcasts peuvent ainsi y étudier aux côtés des Wiccas, tant que le secret est préservé. Cette réputation officieuse lui vaut autant d'admirateurs que d'ennemis au sein des communautés magiques.          
+				</p>
+				                   
+			</div>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="poudlard">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Poudlard          
+			</h2>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="ilvermorny">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Ilvermorny          
+			</h2>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="nevermore">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Nevermore          
+			</h2>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="beauxbatons">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Beauxbâtons          
+			</h2>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="durmstrang">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Durmstrang          
+			</h2>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="castelobruxo">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Castelobruxo          
+			</h2>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="koldovstoretz">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Koldovstoretz          
+			</h2>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="mahoutokoro">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Mahoutokoro          
+			</h2>
+			                   
+		</div>
+		                         
+		<div class="moc-tab" id="hunter">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Hunter          
+			</h2>
+			                   
+			<div class="moc-box">
+				                   
+				<h3>
+					          Le Secret Magique          
+				</h3>
+				                   
+				<p>
+					          L'existence des Wiccas et des Outcasts demeure un secret soigneusement protégé. La majorité des normies ignorent totalement que la magie existe réellement. Les écoles sont dissimulées, les créatures vivent dans l'ombre et les différentes communautés magiques consacrent une énergie considérable à préserver cet équilibre fragile.          
+				</p>
+				                   
+				<h3>
+					          Les Chasseurs          
+				</h3>
+				                   
+				<p>
+					          Les Hunters — ou Chasseurs — font partie des rares humains ayant découvert cette vérité. Certains sont des survivants d'attaques surnaturelles, d'autres appartiennent à d'anciennes lignées ayant transmis leurs connaissances de génération en génération. Beaucoup sont également des <strong>Cracmols</strong> : nés dans des familles sorcières mais incapables de pratiquer la magie, ils ont grandi à proximité du monde occulte sans jamais pouvoir réellement y appartenir.          
+				</p>
+				                   
+				<h3>
+					          La Haine du Surnaturel          
+				</h3>
+				                   
+				<p>
+					          Cette frustration, mêlée à la peur ou à la haine du surnaturel, pousse certains d'entre eux à devenir Hunters. Là où les Wiccas voient un don, eux voient une menace incontrôlable. Les Outcasts, quant à eux, incarnent souvent tout ce que les Hunters craignent : l'instinct, la monstruosité et l'imprévisible.          
+				</p>
+				                   
+				<h3>
+					          Les Vieilles Lignées          
+				</h3>
+				                   
+				<p>
+					          Inspirés des anciennes lignées de chasseurs ayant traversé les siècles, les Hunters transmettent leur savoir : armes occultes, rituels de protection, grimoires interdits, connaissances sur les créatures et méthodes d'exorcisme. Beaucoup vivent sur les routes, loin des grandes villes, dissimulant leurs activités au reste du monde. D'autres agissent au sein de groupes organisés ou de sociétés secrètes infiltrées parmi les normies.          
+				</p>
+				                   
+				<h3>
+					          Après la Guerre          
+				</h3>
+				                   
+				<p>
+					          La guerre contre Voldemort a profondément aggravé la situation. Les massacres, les expériences interdites et les affrontements entre sorciers ont laissé des traces jusque dans le monde non-magique. Témoins d'événements impossibles à expliquer, certains normies ont commencé à enquêter. Les Hunters se sont multipliés dans les décennies ayant suivi la guerre, persuadés que la magie finirait tôt ou tard par détruire le monde.          
+				</p>
+				                   
+				<h3>
+					          Nevermore          
+				</h3>
+				                   
+				<p>
+					          Depuis lors, de nombreux Hunters se sont radicalisés. Certains traquent uniquement les créatures jugées dangereuses ; d'autres ne font plus aucune distinction entre Wiccas, Outcasts et monstres. Nevermore est également devenue un sujet de fascination et de paranoïa chez certains Hunters. Bien que l'école reste protégée et cachée aux yeux du grand public, des rumeurs circulent parmi les réseaux de chasseurs au sujet d'un établissement accueillant ouvertement des Outcasts. Beaucoup considèrent cette simple idée comme une hérésie dangereuse.          
+				</p>
+				                   
+				<h3>
+					          L'Arsenal des Hunters          
+				</h3>
+				                   
+				<p>
+					          Les Hunters ne possèdent généralement aucune magie naturelle. Leur force réside dans leur préparation, leurs connaissances et leur arsenal : argent, runes anti-magiques, armes bénites, pièges occultes et reliques volées aux Wiccas. Beaucoup meurent jeunes. Ceux qui survivent deviennent des légendes… ou des fanatiques.          
+				</p>
+				                   
+			</div>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="vanhelsing">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Van Helsing          
+			</h2>
+			                   
+			<div class="moc-box">
+				                   
+				<h3>
+					          La Famille Van Helsing          
+				</h3>
+				                   
+				<p>
+					          Les <strong>Van Helsing</strong> sont une ancienne famille de sorciers européens spécialisée dans la chasse aux créatures surnaturelles. Connus pour leur fanatisme et leur rigueur, ils considèrent depuis des siècles les Outcasts comme une menace pour l'équilibre du monde magique.          
+				</p>
+				                   
+				<p>
+					          Contrairement aux Hunters normies ou Cracmols, les Van Helsing pratiquent eux-mêmes la magie. Leurs lignées maîtrisent principalement les arts défensifs, les sceaux anti-créatures, les enchantements de traque et les armes occultes destinées à neutraliser vampires, lycans et autres Outcasts.          
+				</p>
+				                   
+				<h3>
+					          Le Sang Van Helsing          
+				</h3>
+				                   
+				<p>
+					          <em>"Sanguis sumitur, non datur."</em><br /><strong>Le sang se prend, il ne se donne pas.</strong>          
+				</p>
+				                   
+				<p>
+					          Famille de <strong>sang-pur</strong>, les Van Helsing refusent cependant la consanguinité pratiquée par certaines anciennes lignées sorcières. Afin de préserver la puissance de leur magie sans affaiblir leur patrimoine génétique, ils vont régulièrement chercher des unions parmi d'autres familles de sang-pur à travers le monde.          
+				</p>
+				                   
+				<p>
+					          Chez les Van Helsing, le sang ne se donne pas : il se prend. Toute personne rejoignant la famille par mariage abandonne son ancien nom afin de devenir un Van Helsing à part entière, qu'il s'agisse d'un homme ou d'une femme. Entrer dans la famille revient à être absorbé par celle-ci.          
+				</p>
+				                   
+				<h3>
+					          La Guerre Magique          
+				</h3>
+				                   
+				<p>
+					          Les Van Helsing furent opposés à Voldemort durant la guerre magique. Bien qu'ils partagent certaines idées élitistes sur le sang et la magie, ils considéraient son rapprochement avec certaines créatures et Outcasts comme une hérésie dangereuse menaçant directement la suprématie des Wiccas.          
+				</p>
+				                   
+				<h3>
+					          Nevermore          
+				</h3>
+				                   
+				<p>
+					          Pour les Van Helsing, les Outcasts ne sont pas des êtres avec lesquels coexister, mais des anomalies dangereuses devant être contrôlées, enfermées ou éliminées avant qu'elles ne deviennent incontrôlables. Cette vision radicale les place régulièrement en conflit avec les gouvernements magiques les plus modérés.          
+				</p>
+				                   
+				<p>
+					          Les rumeurs entourant Nevermore ont donc rapidement attiré l'attention de la famille. L'idée même d'une école accueillant volontairement vampires, lycans, gorgones et autres créatures parmi de jeunes Wiccas est perçue par beaucoup de Van Helsing comme une aberration irresponsable. Certains membres considèrent même l'établissement comme une future catastrophe en attente d'exploser.          
+				</p>
+				                   
+				<h3>
+					          Les Cracmols          
+				</h3>
+				                   
+				<p>
+					          Très élitistes, les Van Helsing considèrent la magie comme un privilège devant rester entre les mains des Wiccas « dignes ». Cependant, contrairement à beaucoup de familles de sang-pur, ils ne rejettent pas leurs Cracmols.          
+				</p>
+				                   
+				<p>
+					          Ces derniers ne restent cependant jamais au sein de la branche principale de la famille. Considérés comme appartenant à une « seconde branche », ils perdent le droit de porter pleinement le nom des Van Helsing et doivent se faire appeler simplement <strong>Helsing</strong>.          
+				</p>
+				                   
+				<p>
+					          Les Helsing sont ensuite envoyés à travers le monde afin de servir les intérêts de la famille : infiltration des gouvernements normies, intégration dans certaines organisations Hunters, renseignement, surveillance ou gestion des réseaux occultes. Là où les Van Helsing dirigent depuis l'ombre, les Helsing observent le monde extérieur pour eux.          
+				</p>
+				                   
+				<p>
+					          Contrairement aux Van Helsing de la branche principale, les Helsing sont autorisés — et parfois encouragés — à adopter d'autres identités et noms de famille afin de mieux se fondre parmi les normies. Beaucoup passent leur vie entière sous de faux noms, devenant politiciens, militaires, agents gouvernementaux ou membres d'organisations Hunters sans jamais révéler leurs véritables origines.          
+				</p>
+				                   
+			</div>
+			                   
+		</div>
+		                         
+		<div class="moc-tab" id="mi9">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          MI9          
+			</h2>
+			                   
+			<div class="moc-box">
+				                   
+				<h3>
+					          Origines          
+				</h3>
+				                   
+				<p>
+					          Officiellement, le MI9 fut dissous après la Seconde Guerre mondiale. Officieusement, une branche oubliée du renseignement britannique continua d'étudier les phénomènes surnaturels apparus durant le conflit.          
+				</p>
+				                   
+				<p>
+					          À l'origine du projet se trouvait un Cracmol issu de la prestigieuse famille <strong>Black</strong>, rejeté par les siens pour son absence de magie mais parfaitement conscient des dangers du monde occulte. Grâce à ses connaissances du monde sorcier et à ses liens avec les services britanniques, il posa les premières bases de ce qui deviendrait plus tard le MI9 moderne.          
+				</p>
+				                   
+				<h3>
+					          The Black Section          
+				</h3>
+				                   
+				<p>
+					          Surnommée <strong>The Black Section</strong> par ses propres agents, cette division secrète fut initialement créée pour gérer les disparitions inexpliquées, les artefacts dangereux et les incidents impliquant des créatures surnaturelles sur le territoire britannique.          
+				</p>
+				                   
+				<p>
+					          Avec le temps, la section développa ses propres archives occultes, réseaux d'informateurs, cellules d'intervention et protocoles de confinement inspirés autant des Hunters que des gouvernements magiques.          
+				</p>
+				                   
+				<h3>
+					          Expansion Internationale          
+				</h3>
+				                   
+				<p>
+					          D'abord limité à l'Angleterre, le MI9 s'étendit progressivement à travers le monde grâce aux ambassades magiques, aux réseaux diplomatiques occultes et à plusieurs accords secrets passés avec certains gouvernements sorciers.          
+				</p>
+				                   
+				<p>
+					          Aujourd'hui, le MI9 agit comme une organisation internationale de surveillance du surnaturel. Ses cellules échangent informations, rapports et artefacts afin de limiter les catastrophes impliquant magie, créatures ou violations du secret magique.          
+				</p>
+				                   
+				<h3>
+					          Confédération Internationale des Sorciers          
+				</h3>
+				                   
+				<p>
+					          Cette expansion fut largement facilitée par la <strong>Confédération Internationale des Sorciers</strong>, immense organisation diplomatique chargée de maintenir le Code International du Secret Magique entre les différentes nations sorcières.          
+				</p>
+				                   
+				<p>
+					          Une partie de la Confédération considère le MI9 comme un mal nécessaire permettant de limiter les débordements impliquant les normies. D'autres, au contraire, voient d'un très mauvais œil l'existence d'une organisation non-magique capable d'accumuler autant d'informations sur le monde occulte.          
+				</p>
+				                   
+				<h3>
+					          Leur Mission          
+				</h3>
+				                   
+				<p>
+					          Contrairement aux Hunters traditionnels, le MI9 ne cherche pas systématiquement à exterminer les Wiccas ou les Outcasts. Leur priorité reste le maintien du secret magique et de l'équilibre entre les mondes.          
+				</p>
+				                   
+				<p>
+					          Lorsque cela est possible, les incidents surnaturels sont étouffés, maquillés ou réécrits afin d'éviter toute panique chez les normies. Cependant, certaines cellules plus radicales considèrent les créatures et certains Wiccas comme des menaces impossibles à contrôler.          
+				</p>
+				                   
+				<h3>
+					          Les Agents          
+				</h3>
+				                   
+				<p>
+					          Le MI9 recrute parmi les militaires, les services de renseignement, certains Hunters indépendants et plusieurs Cracmols. Ces derniers sont particulièrement précieux : capables de comprendre le monde magique sans pouvoir eux-mêmes pratiquer la magie, ils servent souvent d'intermédiaires entre les deux réalités.          
+				</p>
+				                   
+				<p>
+					          Certains agents ignorent même l'étendue réelle du surnaturel. D'autres, au contraire, collaborent discrètement avec des Wiccas afin de préserver un équilibre fragile entre secret magique et stabilité mondiale.          
+				</p>
+				                   
+				<h3>
+					          Nevermore          
+				</h3>
+				                   
+				<p>
+					          Nevermore fait l'objet d'une surveillance constante au sein du MI9. Officiellement, l'école n'existe pas. Pourtant, des rapports circulent depuis des décennies au sujet d'un établissement accueillant discrètement des Outcasts capables de vivre parmi les Wiccas.          
+				</p>
+				                   
+				<p>
+					          Pour certains agents, Nevermore représente une expérience nécessaire afin d'éviter une guerre ouverte entre créatures et sorciers. Pour d'autres, l'école pourrait devenir l'épicentre d'une future catastrophe surnaturelle.          
+				</p>
+				                   
+				<h3>
+					          Méthodes et Équipements          
+				</h3>
+				                   
+				<p>
+					          Le MI9 utilise des technologies avancées, des archives occultes, des artefacts confisqués et des armes adaptées aux menaces surnaturelles. Certaines unités disposent même d'équipements enchantés récupérés lors d'opérations clandestines.          
+				</p>
+				                   
+				<p>
+					          Malgré leurs ressources, les agents du MI9 restent profondément divisés sur la manière de gérer le monde magique : coopération, contrôle… ou destruction.          
+				</p>
+				                   
+			</div>
+			                   
+		</div>
+		                         
+		<div class="moc-tab" id="nimrod">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Nimrod          
+			</h2>
+			                   
+			<div class="moc-box">
+				                   
+				<h3>
+					          Projet Nimrod          
+				</h3>
+				                   
+				<p>
+					          Le <strong>Nimrod</strong> n'est ni une organisation structurée comme le MI9, ni une vieille lignée comme les Van Helsing. Il s'agit d'un site internet clandestin circulant discrètement entre Hunters indépendants, survivalistes, passionnés d'occultisme, anciens militaires et normies persuadés d'avoir découvert une partie de la vérité sur le surnaturel.          
+				</p>
+				                   
+				<h3>
+					          Origines          
+				</h3>
+				                   
+				<p>
+					          Les premières traces de Nimrod remontent à la montée de Grindelwald et aux événements étranges de la Seconde Guerre mondiale. Plusieurs normies furent alors témoins de phénomènes impossibles à expliquer : créatures aperçues sur les champs de bataille, disparitions inexpliquées ou interventions discrètes de sorciers durant certains conflits humains.          
+				</p>
+				                   
+				<p>
+					          À l'époque, ces récits circulaient sous la forme d'un journal clandestin transmis entre petits groupes Hunters et passionnés d'occulte. Sorte de fanzine ésotérique, Nimrod regroupait témoignages, coupures de journaux, récits de créatures et théories paranoïaques autour du surnaturel.          
+				</p>
+				                   
+				<h3>
+					          L'Ère d'Internet          
+				</h3>
+				                   
+				<p>
+					          Longtemps limité à quelques réseaux Hunters locaux et communautés paranoïaques américaines, Nimrod changea radicalement avec l'arrivée d'internet. Après la guerre contre Voldemort et les nombreuses anomalies ayant indirectement touché le monde normie, le site connut un important regain de popularité.          
+				</p>
+				                   
+				<p>
+					          Là où les anciens groupes restaient autrefois isolés à une échelle régionale, internet permit à des individus du monde entier d'échanger discrètement leurs expériences, théories et découvertes. Nimrod se mondialisa lentement, attirant autant des passionnés d'occultisme européens que des Hunters indépendants d'Asie, d'Amérique du Sud ou d'Europe de l'Est.          
+				</p>
+				                   
+				<p>
+					          Le site fonctionne désormais comme une immense archive clandestine où chacun peut déposer témoignages, photos floues, rapports, rumeurs ou récits de rencontres surnaturelles. Une grande partie des informations présentes sur Nimrod sont fausses, exagérées ou complètement fantasmées… mais certaines s'approchent parfois dangereusement de la vérité.          
+				</p>
+				                   
+				<p>
+					          Plusieurs gouvernements magiques et organisations occultes tentent régulièrement de faire disparaître Nimrod du réseau. Pourtant, malgré les fermetures, les piratages, les saisies de serveurs ou les disparitions mystérieuses de certaines cellules Hunters liées au site, Nimrod finit toujours par réapparaître ailleurs quelques semaines plus tard. Comme par magie.          
+				</p>
+				                   
+				<h3>
+					          Les Utilisateurs          
+				</h3>
+				                   
+				<p>
+					          Les utilisateurs de Nimrod sont aussi variés qu'instables : paranoïaques persuadés que le monde est manipulé par des créatures, Hunters auto-proclamés, simples lecteurs fascinés par l'occulte ou véritables fanatiques prêts à débarrasser le monde des « monstres » afin de protéger l'humanité lambda.          
+				</p>
+				                   
+				<p>
+					          La majorité d'entre eux n'ont pourtant jamais réellement rencontré de Wicca ou d'Outcast. Beaucoup confondent magie, légendes urbaines et théories du complot, persuadés d'avoir compris un monde dont ils n'ont aperçu qu'une infime partie.          
+				</p>
+				                   
+				<p>
+					          Le plus inquiétant reste cependant que certaines informations présentes sur Nimrod sont bel et bien réelles. Plusieurs témoignages recensés sur le site concernent de véritables attaques d'Outcasts devenus incontrôlables, des Wiccas agressifs ou des créatures magiques ayant quitté leur territoire habituel.          
+				</p>
+				                   
+				<p>
+					          Ces fragments de vérité suffisent à conforter les utilisateurs dans leurs peurs et leurs théories. À force d'accumuler preuves incomplètes, récits sanglants et disparitions inexpliquées, certains normies ont fini par se convaincre qu'une guerre silencieuse se déroule dans l'ombre.          
+				</p>
+				                   
+				<p>
+					          Et pour quelques-uns, une seule solution existe désormais : partir à la chasse… la chasse au surnaturel.          
+				</p>
+				                   
+			</div>
+			                   
+		</div>
+		                         
+		<div id="artefacts-gringotts" class="moc-tab">
+			                   
+			<div class="moc-subtitle">
+				            Murder of Crow - Crossover Harry Potter x Famille Addams           
+			</div>
+			                   
+			<h2>
+				            Artefacts           
+			</h2>
+			                 
+			<div class="moc-box">
+				            <img class="moc-banner" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyaqpr-d1e2c933-05a1-4a90-b350-f4bbcec4a748.png/v1/fill/w_1280,h_854/8a4671d4_708e_4b35_901c_132d7240bd40_by_lemegeton_rpg_dlyaqpr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6Ii9mLzZjYmFjMmJmLTViNTUtNGI5NC1iOTk5LTUwZmYzYjEwMTlkNy9kbHlhcXByLWQxZTJjOTMzLTA1YTEtNGE5MC1iMzUwLWY0YmJjZWM0YTc0OC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.myEIgIIHSbn1tAcaAbg6hXdX2GrS4Fq2DGi0tzNXzDw" alt="Artefacts de Gringotts" />            
+				<h3>
+					             Les Artefacts de Gringotts            
+				</h3>
+				            <span>      Certains objets ne devraient jamais quitter les coffres.     </span>            
+				<p>
+					             Derrière les salles publiques de Gringotts reposent des collections bien plus dangereuses que de simples montagnes d’or. Reliques oubliées, objets maudits, créations anciennes ou artefacts enchantés : la banque conserve depuis des siècles des objets magiques dont beaucoup refusent même d’évoquer l’existence.            
+				</p>
+				                   
+				<p>
+					             Certains de ces artefacts peuvent être loués — ou exceptionnellement achetés — le temps d’un RP. Chaque objet possède cependant ses propres conditions d’utilisation, ses dangers et parfois… sa volonté propre.            
+				</p>
+				                   
+				<p>
+					             La majorité des artefacts proposés par Gringotts sont à usage unique. Une fois leur pouvoir activé, l’objet perd son enchantement ou retourne automatiquement entre les mains de la banque. Les gobelins prêtent rarement leurs trésors sans avoir prévu un moyen de les récupérer.            
+				</p>
+				                   
+				<p>
+					             Il est fortement déconseillé de chercher à tromper Gringotts. Beaucoup ont essayé. Très peu ont pu raconter la suite.            
+				</p>
+				                   
+				<div class="moc-links">
+					             <a href="https://murder-of-crows.forumsrpg.com/f48-artefacts">        Consulter les Artefacts       </a>           
+				</div>
+				                 
+			</div>
+			                 
+		</div>
+		             
+		<div class="moc-tab" id="artefacts">
+			                  
+			<div class="moc-subtitle">
+				           Murder of Crow - Crossover Harry Potter x Famille Addams            
+			</div>
+			                  
+			<h2>
+				           Artefacts            
+			</h2>
+			       
+			<div class="moc-box">
+				          <img class="moc-banner" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyaqpr-d1e2c933-05a1-4a90-b350-f4bbcec4a748.png/v1/fill/w_1280,h_854/8a4671d4_708e_4b35_901c_132d7240bd40_by_lemegeton_rpg_dlyaqpr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6Ii9mLzZjYmFjMmJmLTViNTUtNGI5NC1iOTk5LTUwZmYzYjEwMTlkNy9kbHlhcXByLWQxZTJjOTMzLTA1YTEtNGE5MC1iMzUwLWY0YmJjZWM0YTc0OC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.myEIgIIHSbn1tAcaAbg6hXdX2GrS4Fq2DGi0tzNXzDw" alt="Artefacts magiques" />          
+				<h3>
+					               Les Artefacts Magiques          
+				</h3>
+				          <span>              Certains objets portent davantage de pouvoir qu’un sorcier lui-même.         </span>          
+				<p>
+					               Depuis les premiers âges de la magie, les Wiccas façonnent des objets capables de conserver, amplifier ou manipuler les forces occultes. Reliques anciennes, armes enchantées, bijoux maudits, grimoires vivants ou instruments rituels : ces créations sont regroupées sous le nom d’<strong>Artefacts</strong>.         
+				</p>
+				           
+				<p>
+					               Certains artefacts sont transmis au sein des grandes familles depuis plusieurs générations. D’autres dorment dans les coffres de Gringotts, protégés par des sceaux gobelins et des enchantements oubliés.          
+				</p>
+				           
+				<p>
+					               Beaucoup possèdent une volonté propre ou développent une influence progressive sur leur propriétaire. Plus un objet accumule de magie, plus il devient difficile à contrôler.          
+				</p>
+				           
+				<h3>
+					               Les Grandes Catégories          
+				</h3>
+				           
+				<table class="moc-table">
+					              <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                  
+						<th>
+							                     Artefact                  
+						</th>
+						                   
+						<th>
+							                     Fonction                  
+						</th>
+						              
+					</tr><tbody></tbody><tbody>             </tbody> <tbody></tbody>
+					<tr style="">
+						                  
+						<td>
+							                     Baguettes                  
+						</td>
+						                   
+						<td>
+							                     Canalisation et amplification de la magie.                  
+						</td>
+						              
+					</tr><tbody></tbody><tbody>             </tbody> <tbody></tbody>
+					<tr style="">
+						                  
+						<td>
+							                     Pierres de Rune                  
+						</td>
+						                   
+						<td>
+							                     Stockage, protection et sceaux magiques.                  
+						</td>
+						              
+					</tr><tbody></tbody><tbody>             </tbody> <tbody></tbody>
+					<tr style="">
+						                  
+						<td>
+							                     Couteaux Rituels                  
+						</td>
+						                   
+						<td>
+							                     Rituels, invocations et magie cérémonielle.                  
+						</td>
+						              
+					</tr><tbody></tbody><tbody>             </tbody> <tbody></tbody>
+					<tr style="">
+						                  
+						<td>
+							                     Reliques Anciennes                  
+						</td>
+						                   
+						<td>
+							                     Objets uniques liés à d’anciennes magies.                  
+						</td>
+						              
+					</tr><tbody></tbody><tbody>             </tbody> <tbody></tbody>
+					<tr style="">
+						                  
+						<td>
+							                     Artefacts Maudits                  
+						</td>
+						                   
+						<td>
+							                     Objets corrompus influençant leur porteur.                  
+						</td>
+						              
+					</tr><tbody></tbody><tbody>         </tbody> 
+				</table>
+				           
+				<h3>
+					               Les Artefacts Interdits          
+				</h3>
+				           
+				<p>
+					               Certains objets sont jugés trop dangereux pour circuler librement. La Confédération Internationale des Sorciers maintient depuis des siècles plusieurs listes d’artefacts interdits : reliques nécromantiques, miroirs d’invocation, objets liés aux démons, grimoires conscients ou créations issues de magie noire expérimentale.          
+				</p>
+				           
+				<p>
+					               Malgré cela, le marché noir magique continue d’alimenter discrètement collectionneurs, Hunters, familles occultes et organisations clandestines.          
+				</p>
+				           
+				<h3>
+					               Les Hunters          
+				</h3>
+				           
+				<p>
+					               Ne pouvant utiliser la magie naturellement, les Hunters convoitent souvent les artefacts capables de compenser cette faiblesse. Certains utilisent des reliques bénites, des armes runiques ou des objets enchantés volés aux Wiccas afin d’affronter les créatures surnaturelles.          
+				</p>
+				           
+				<p>
+					               Cette pratique reste extrêmement dangereuse. Beaucoup d’artefacts refusent les utilisateurs non-magiques… et certains réagissent violemment lorsqu’ils tombent entre de mauvaises mains.          
+				</p>
+				       
+			</div>
+			   
+		</div>
+		            
+		<div class="moc-tab" id="baguette">
+			                     
+			<div class="moc-subtitle">
+				        Murder of Crow - Crossover Harry Potter x Famille Addams            
+			</div>
+			                     
+			<h2>
+				        Baguette            
+			</h2>
+			           
+			<div class="moc-box">
+				             
+				<h3>
+					          L’Art des Baguettes         
+				</h3>
+				         <span>      La baguette choisit son porteur.     </span>         
+				<p>
+					          Chaque baguette magique est unique. Sa personnalité dépend autant du bois utilisé que de la particule magique logée en son cœur. Certaines baguettes sont dociles, d’autres capricieuses. Certaines excellent dans les enchantements tandis que d’autres semblent naturellement attirées par la magie offensive, les malédictions ou les arts anciens.         
+				</p>
+				             
+				<p>
+					          Les fabricants de baguettes parlent souvent de <em>Wandlore</em> : l’étude du lien entre la baguette et son propriétaire. Une baguette apprend de son porteur autant qu’elle le façonne en retour.        
+				</p>
+				             
+				<h3>
+					          Les Bois Magiques         
+				</h3>
+				             
+				<table class="moc-table">
+					          <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<th>
+							    Bois    
+						</th>
+						                
+						<th>
+							    Affinité    
+						</th>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Houx    
+						</td>
+						                
+						<td>
+							    Protection, héroïsme, volonté forte.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    If    
+						</td>
+						                
+						<td>
+							    Magie puissante, duel, magie noire.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Chêne    
+						</td>
+						                
+						<td>
+							    Force, stabilité, magie ancienne.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Ébène    
+						</td>
+						                
+						<td>
+							    Individualisme, puissance brute.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Vigne    
+						</td>
+						                
+						<td>
+							    Grande intuition magique.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Pommier    
+						</td>
+						                
+						<td>
+							    Charme, séduction, magie lumineuse.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Aubépine    
+						</td>
+						                
+						<td>
+							    Magie complexe et contradictoire.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Saule    
+						</td>
+						                
+						<td>
+							    Guérison, intuition, adaptabilité.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Acajou    
+						</td>
+						                
+						<td>
+							    Leadership, ambition, magie stable.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Sureau    
+						</td>
+						                
+						<td>
+							    Extrêmement rare, lié à la mort et au destin.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>    </tbody>    
+				</table>
+				             
+				<h3>
+					          Les Particules de Créatures Magiques         
+				</h3>
+				             
+				<table class="moc-table">
+					          <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<th>
+							    Particule    
+						</th>
+						                
+						<th>
+							    Particularités    
+						</th>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Crin de Licorne    
+						</td>
+						                
+						<td>
+							    Magie stable, fidèle et difficile à corrompre.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Ventricule de Dragon    
+						</td>
+						                
+						<td>
+							    Très puissant mais instable et explosif.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Plume de Phénix    
+						</td>
+						                
+						<td>
+							    Rare, indépendante, capable d’une magie immense.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Poil de Sombral    
+						</td>
+						                
+						<td>
+							    Magie liée à la mort et aux secrets.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Corne de Basilic    
+						</td>
+						                
+						<td>
+							    Très rare, magie agressive et corruptrice.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Toile d’Acromentule    
+						</td>
+						                
+						<td>
+							    Magie subtile, pièges et enchantements mentaux.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>    </tbody>    
+				</table>
+				             
+				<h3>
+					          Les Particules d’Outcasts         
+				</h3>
+				             
+				<table class="moc-table">
+					          <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<th>
+							    Particule    
+						</th>
+						                
+						<th>
+							    Donnée    
+						</th>
+						                
+						<th>
+							    Prise    
+						</th>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Cheveu de Vélane    
+						</td>
+						                
+						<td>
+							    Charme naturel, magie émotionnelle fluide et élégante.    
+						</td>
+						                
+						<td>
+							    Séduction compulsive, obsession et influence émotionnelle instable.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Écaille de Sirène    
+						</td>
+						                
+						<td>
+							    Enchantement émotionnel fluide et hypnotique.    
+						</td>
+						                
+						<td>
+							    Manipulation mentale agressive et addictive.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Griffe de Gorgone    
+						</td>
+						                
+						<td>
+							    Magie défensive et restrictive.    
+						</td>
+						                
+						<td>
+							    Pétrification instable et magie paralysante.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Sang de Lycan    
+						</td>
+						                
+						<td>
+							    Renforce les instincts et la loyauté.    
+						</td>
+						                
+						<td>
+							    Magie sauvage, impulsive et incontrôlable.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Croc de Vampire    
+						</td>
+						                
+						<td>
+							    Charme, vitesse et discrétion.    
+						</td>
+						                
+						<td>
+							    Magie prédatrice liée à la faim et à l’obsession.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Plume de Corbeau Blanc    
+						</td>
+						                
+						<td>
+							    Chance, pactes et intuition du destin.    
+						</td>
+						                
+						<td>
+							    Hasard chaotique et conséquences imprévisibles.    
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>    </tbody>    
+				</table>
+				             
+				<h3>
+					          Baguettes Célèbres         
+				</h3>
+				             
+				<table class="moc-table">
+					          <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<th>
+							    Propriétaire    
+						</th>
+						                
+						<th>
+							    Baguette    
+						</th>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Harry Potter    
+						</td>
+						                
+						<td>
+							              Houx — Plume de Phénix — 27,5 cm             
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Tom Jedusor / Voldemort    
+						</td>
+						                
+						<td>
+							              If — Plume de Phénix — 34 cm             
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Albus Dumbledore    
+						</td>
+						                
+						<td>
+							              Ébène noirci — Plume de Phénix — 41 cm             
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Gellert Grindelwald    
+						</td>
+						                
+						<td>
+							              If sombre — Ventricule de Dragon — 37 cm             
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Draco Malefoy    
+						</td>
+						                
+						<td>
+							              Aubépine — Crin de Licorne — 25 cm             
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Bellatrix Lestrange    
+						</td>
+						                
+						<td>
+							              Noyer — Ventricule de Dragon — 31 cm             
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Hermione Granger    
+						</td>
+						                
+						<td>
+							              Vigne — Ventricule de Dragon — 27 cm             
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                
+						<td>
+							    Severus Rogue    
+						</td>
+						                
+						<td>
+							              Ébène — Crin de Licorne — 33 cm             
+						</td>
+						              
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody></tbody><tbody>    </tbody>    
+				</table>
+				             
+				<h3>
+					          Les Particules Vivantes         
+				</h3>
+				             
+				<p>
+					          Les fabricants de baguettes les plus expérimentés affirment que certaines baguettes « se souviennent » de la souffrance liée à leur création. Une particule donnée tendra à produire une magie plus stable et coopérative, tandis qu’une particule prise contre la volonté de son propriétaire développera souvent des comportements plus agressifs, imprévisibles… voire corrupteurs.         
+				</p>
+				             
+				<p>
+					          Certaines combinaisons entre bois et particules sont réputées incompatibles… tandis que d’autres créent des baguettes exceptionnellement puissantes. Les fabricants les plus expérimentés évitent parfois certaines unions, craignant ce qu’elles pourraient produire.         
+				</p>
+				           
+			</div>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="rune">
+			                     
+			<div class="moc-subtitle">
+				       Murder of Crow - Crossover Harry Potter x Famille Addams            
+			</div>
+			                     
+			<h2>
+				       Pierre de Rune            
+			</h2>
+			         
+			<div class="moc-box">
+				           
+				<h3>
+					         Les Écritures Anciennes        
+				</h3>
+				        <span>      Lorsque les mots deviennent magie.     </span>        
+				<p>
+					         Bien avant la démocratisation des baguettes modernes, les premiers wiccas gravaient déjà leur magie dans la pierre, le bois, les métaux ou les ossements à travers un langage ancien : les <strong>Runes</strong>. Chaque symbole possède une signification propre, mais également une intention magique capable de canaliser, stocker ou modifier un sort.       
+				</p>
+				           
+				<p>
+					         L’étude des runes est encore enseignée dans plusieurs écoles magiques sous le nom d’<em>Étude des Runes Anciennes</em>. Certains considèrent cependant qu’il ne s’agit pas simplement d’un ancien alphabet, mais d’une forme de magie écrite capable de survivre au temps lui-même.       
+				</p>
+				           
+				<h3>
+					         La Magie Runique        
+				</h3>
+				           
+				<p>
+					         Contrairement aux sorts classiques lancés à la baguette, les runes permettent de créer des effets durables. Une porte protégée par des runes pourra rester scellée pendant plusieurs décennies. Une lame gravée correctement pourra conserver une malédiction active sans qu’aucun wicca n’ait besoin de l’alimenter.        
+				</p>
+				           
+				<table class="moc-table">
+					         <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<th>
+							   Usage   
+						</th>
+						              
+						<th>
+							   Effet   
+						</th>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   Protection   
+						</td>
+						              
+						<td>
+							   Barrières magiques, sceaux, wards et protections de lieux.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   Enchantement   
+						</td>
+						              
+						<td>
+							   Renforcement d’objets, d’armes ou d’artefacts.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   Pactes   
+						</td>
+						              
+						<td>
+							   Contrats magiques impossibles à briser sans conséquence.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   Conservation   
+						</td>
+						              
+						<td>
+							   Maintien d’un sort actif sur une longue période.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   Invocation   
+						</td>
+						              
+						<td>
+							   Création de cercles, d’autels ou de points d’ancrage magiques.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   Malédictions   
+						</td>
+						              
+						<td>
+							   Altération lente d’un objet, d’un lieu ou d’une personne.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>    </tbody>   
+				</table>
+				           
+				<h3>
+					         Runes Connues        
+				</h3>
+				           
+				<table class="moc-table">
+					         <tbody></tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<th>
+							   Rune   
+						</th>
+						              
+						<th>
+							   Nom   
+						</th>
+						              
+						<th>
+							   Signification   
+						</th>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᚠ   
+						</td>
+						              
+						<td>
+							   Fehu   
+						</td>
+						              
+						<td>
+							   Richesse, échange, prospérité, énergie circulante.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᚢ   
+						</td>
+						              
+						<td>
+							   Uruz   
+						</td>
+						              
+						<td>
+							   Force physique, endurance, instinct primaire.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᚦ   
+						</td>
+						              
+						<td>
+							   Thurisaz   
+						</td>
+						              
+						<td>
+							   Protection, défense, danger imminent.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᚨ   
+						</td>
+						              
+						<td>
+							   Ansuz   
+						</td>
+						              
+						<td>
+							   Connaissance, parole, transmission magique.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᚱ   
+						</td>
+						              
+						<td>
+							   Raidho   
+						</td>
+						              
+						<td>
+							   Voyage, destinée, mouvement.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᚲ   
+						</td>
+						              
+						<td>
+							   Kenaz   
+						</td>
+						              
+						<td>
+							   Création, savoir, révélation.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᚷ   
+						</td>
+						              
+						<td>
+							   Gebo   
+						</td>
+						              
+						<td>
+							   Pacte, échange, lien entre deux êtres.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᚹ   
+						</td>
+						              
+						<td>
+							   Wunjo   
+						</td>
+						              
+						<td>
+							   Joie, harmonie, stabilité émotionnelle.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᚺ   
+						</td>
+						              
+						<td>
+							   Hagalaz   
+						</td>
+						              
+						<td>
+							   Chaos, destruction, rupture.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᚾ   
+						</td>
+						              
+						<td>
+							   Nauthiz   
+						</td>
+						              
+						<td>
+							   Besoin, survie, sacrifice.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᛁ   
+						</td>
+						              
+						<td>
+							   Isa   
+						</td>
+						              
+						<td>
+							   Immobilisation, gel, arrêt du mouvement.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᛃ   
+						</td>
+						              
+						<td>
+							   Jera   
+						</td>
+						              
+						<td>
+							   Cycle, récolte, retour des conséquences.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᛇ   
+						</td>
+						              
+						<td>
+							   Eihwaz   
+						</td>
+						              
+						<td>
+							   Mort, passage, transformation.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᛈ   
+						</td>
+						              
+						<td>
+							   Perthro   
+						</td>
+						              
+						<td>
+							   Secret, destin, hasard.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᛉ   
+						</td>
+						              
+						<td>
+							   Algiz   
+						</td>
+						              
+						<td>
+							   Protection spirituelle, ward magique.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>       </tbody> <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						              
+						<td>
+							   ᛋ   
+						</td>
+						              
+						<td>
+							   Sowilo   
+						</td>
+						              
+						<td>
+							   Soleil, puissance, victoire.   
+						</td>
+						            
+					</tr><tbody></tbody><tbody></tbody><tbody></tbody><tbody>    </tbody>   
+				</table>
+				           
+				<h3>
+					         Les Pierres de Rune        
+				</h3>
+				           
+				<p>
+					         Les <strong>Pierres de Rune</strong> sont des fragments minéraux spécialement préparés afin d’accueillir des inscriptions magiques. Chaque pierre agit comme une réserve ou un catalyseur de magie selon la qualité du matériau utilisé et la précision de la gravure.       
+				</p>
+				           
+				<p>
+					         Les runistes expérimentés utilisent rarement l’encre. La plupart gravent directement les symboles dans la matière avant d’y insuffler leur magie. Certaines pierres sont même capables d’absorber lentement l’énergie ambiante d’un lieu hanté, d’un ancien champ de bataille ou d’un sanctuaire magique.        
+				</p>
+				           
+				<h3>
+					         Une Discipline Dangereuse        
+				</h3>
+				           
+				<p>
+					         Une rune mal tracée peut altérer totalement le sort recherché. Une erreur dans l’ordre des symboles, une ligne brisée ou une mauvaise intention lors de la gravure suffisent parfois à transformer un enchantement en catastrophe magique.        
+				</p>
+				           
+				<p>
+					         Les wiccas spécialisés dans les runes sont donc souvent considérés comme des artisans autant que des mages. Leur travail demande patience, précision et une excellente compréhension de la magie théorique.        
+				</p>
+				           
+				<h3>
+					         Les Vieilles Runes        
+				</h3>
+				           
+				<p>
+					         Certains symboles anciens demeurent encore impossibles à traduire aujourd’hui. Plusieurs artefacts retrouvés dans des ruines magiques portent des suites de runes inconnues qui résistent aux tentatives de déchiffrage modernes.        
+				</p>
+				           
+				<p>
+					         Les gobelins de Gringotts, plusieurs familles anciennes et certains départements du Ministère utilisent encore des systèmes runiques pour protéger leurs coffres, leurs archives ou certains contrats particulièrement sensibles.        
+				</p>
+				         
+			</div>
+			                   
+		</div>
+		                       
+		<div id="couteau" class="moc-tab">
+			                    
+			<div class="moc-subtitle">
+				            Murder of Crow - Crossover Harry Potter x Famille Addams             
+			</div>
+			                    
+			<h2>
+				            Couteau de Rituel             
+			</h2>
+			         
+			<div class="moc-box">
+				             
+				<h3>
+					                Les Lames Rituelles           
+				</h3>
+				           <span>              Les couteaux magiques ne servent pas à tuer. Ils servent à diriger la volonté.         </span>           
+				<p>
+					                Dans les traditions occultes et la magie cérémonielle, les couteaux rituels occupent une place centrale depuis des siècles. Gravés de runes, consacrés lors de cérémonies ou forgés à partir de matériaux rares, ils servent avant tout à canaliser l’énergie magique, tracer des sceaux, ouvrir des cercles et protéger leur porteur des influences surnaturelles.           
+				</p>
+				             
+				<p>
+					                Contrairement aux armes ordinaires, ces lames sont rarement utilisées pour blesser physiquement. Leur véritable pouvoir réside dans leur symbolisme et dans le lien qu’elles entretiennent avec leur propriétaire.           
+				</p>
+				             
+				<h3>
+					                L’Athamé           
+				</h3>
+				           <img alt="Athamé noir" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyqi45-42cb17da-c864-468c-8ee4-b69491021958.png/v1/fill/w_1095,h_730,q_70,strp/9ee25da3_78c5_4400_a99b_642a681dd436_by_lemegeton_rpg_dlyqi45-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6Ii9mLzZjYmFjMmJmLTViNTUtNGI5NC1iOTk5LTUwZmYzYjEwMTlkNy9kbHlxaTQ1LTQyY2IxN2RhLWM4NjQtNDY4Yy04ZWU0LWI2OTQ5MTAyMTk1OC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.4-I2qoc4sbDsMCzIrenax5GhSK-1rhDGjXAXCitEIkk" class="moc-banner" />           
+				<p>
+					                L’outil rituel le plus connu demeure l’<strong>Athamé</strong>, une dague magique généralement associée aux Wiccas et aux traditions païennes modernes. Son manche est souvent noir et sa lame à double tranchant, bien que certaines écoles utilisent des formes différentes.          
+				</p>
+				             
+				<p>
+					                L’Athamé est utilisé pour :           
+				</p>
+				             
+				<ul class="moc-list">
+					                
+					<li>
+						  Tracer des cercles de protection.  
+					</li>
+					                
+					<li>
+						  Canaliser l’énergie magique.  
+					</li>
+					                
+					<li>
+						  Créer des sceaux et pentacles.  
+					</li>
+					                
+					<li>
+						  Bannir certaines entités.  
+					</li>
+					                
+					<li>
+						  Diriger la volonté du sorcier durant un rituel.  
+					</li>
+					            
+				</ul>
+				             
+				<h3>
+					                Les Matériaux           
+				</h3>
+				             
+				<table class="moc-table">
+					               <tbody></tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                    
+						<th>
+							                      Matériau                   
+						</th>
+						                     
+						<th>
+							                      Affinité magique                   
+						</th>
+						                
+					</tr><tbody></tbody><tbody></tbody><tbody>             </tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                    
+						<td>
+							                      Argent                   
+						</td>
+						                     
+						<td>
+							                      Protection contre les créatures et magie lunaire.                   
+						</td>
+						                
+					</tr><tbody></tbody><tbody></tbody><tbody>             </tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                    
+						<td>
+							                      Obsidienne                   
+						</td>
+						                     
+						<td>
+							                      Bannissement, occultisme ancien et malédictions.                   
+						</td>
+						                
+					</tr><tbody></tbody><tbody></tbody><tbody>             </tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                    
+						<td>
+							                      Fer runique                   
+						</td>
+						                     
+						<td>
+							                      Protection contre les esprits et sceaux anti-magie.                   
+						</td>
+						                
+					</tr><tbody></tbody><tbody></tbody><tbody>             </tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                    
+						<td>
+							                      Os consacré                   
+						</td>
+						                     
+						<td>
+							                      Nécromancie et rites spirituels.                   
+						</td>
+						                
+					</tr><tbody></tbody><tbody></tbody><tbody>             </tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                    
+						<td>
+							                      Bronze ancien                   
+						</td>
+						                     
+						<td>
+							                      Invocation et magie cérémonielle.                   
+						</td>
+						                
+					</tr><tbody></tbody><tbody></tbody><tbody>             </tbody> <tbody></tbody> <tbody></tbody>
+					<tr style="">
+						                    
+						<td>
+							                      Cristal noir                   
+						</td>
+						                     
+						<td>
+							                      Amplification des rituels et magie instable.                   
+						</td>
+						                
+					</tr><tbody></tbody><tbody></tbody><tbody>         </tbody>  
+				</table>
+				             
+				<h3>
+					                Le Bolline           
+				</h3>
+				           <img alt="Bolline rituel blanc" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyqjx3-66dc5d74-5085-4514-909b-bcd7d91f7cb1.png/v1/fill/w_1095,h_730,q_70,strp/7cd5d51e_da87_4fd5_a8a5_67e760db26d1_by_lemegeton_rpg_dlyqjx3-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6Ii9mLzZjYmFjMmJmLTViNTUtNGI5NC1iOTk5LTUwZmYzYjEwMTlkNy9kbHlxangzLTY2ZGM1ZDc0LTUwODUtNDUxNC05MDliLWJjZDdkOTFmN2NiMS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.enq_k4ED1dKpkEqeaeqqh_SXX0i3Ds9oGNHq3FdLMbE" class="moc-banner" />           
+				<p>
+					                Contrairement à l’Athamé, le <strong>Bolline</strong> est un couteau utilitaire utilisé pour les actions physiques : couper des herbes, graver des runes, préparer des ingrédients ou réaliser certaines étapes matérielles d’un rituel.          
+				</p>
+				             
+				<p>
+					                Son manche est traditionnellement blanc afin de le différencier des lames purement magiques.           
+				</p>
+				             
+				<h3>
+					                Les Lames Vivantes           
+				</h3>
+				           <img alt="Lame occulte enchantée" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyqkpf-02b6137b-fd6f-4fe4-ae64-bfe61d4fd8b9.png/v1/fill/w_1095,h_730,q_70,strp/f5aa932f_e34b_48eb_b3f1_4335c9381b3b_by_lemegeton_rpg_dlyqkpf-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6Ii9mLzZjYmFjMmJmLTViNTUtNGI5NC1iOTk5LTUwZmYzYjEwMTlkNy9kbHlxa3BmLTAyYjYxMzdiLWZkNmYtNGZlNC1hZTY0LWJmZTYxZDRmZDhiOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0z6GJqfEHBf4IY6xTPGz785_uckAxpRCTMAhWVsczrM" class="moc-banner" />           
+				<p>
+					                Certaines familles occultes affirment que les couteaux rituels développent une forme de conscience après plusieurs décennies d’utilisation. Une lame ayant servi lors de sacrifices, d’exorcismes ou de rituels particulièrement violents conserverait une « mémoire » magique capable d’influencer son futur propriétaire.           
+				</p>
+				             
+				<p>
+					                Les lames les plus anciennes sont parfois conservées dans les coffres de Gringotts, enfermées derrière des sceaux gobelins ou confiées à certaines lignées spécialisées dans la magie cérémonielle.           
+				</p>
+				             
+				<h3>
+					                Les Hunters           
+				</h3>
+				             
+				<p>
+					                Les Hunters privilégient souvent ces armes rituelles aux objets magiques des Wiccas. Incapables de pratiquer la magie eux-mêmes, ils utilisent des lames gravées de runes, bénies ou imprégnées de substances occultes afin de compenser leur absence de pouvoir.           
+				</p>
+				             
+				<p>
+					                Beaucoup de Hunters considèrent ces couteaux comme des outils plus fiables et plus accessibles que les artefacts magiques des sorciers. Une lame bénite, bien préparée et correctement utilisée peut suffire à repousser certaines créatures ou briser des protections occultes sans nécessiter la moindre capacité magique.           
+				</p>
+				         
+			</div>
+			     
+		</div>
+		                        
+		<div class="moc-tab" id="autre">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Autre          
+			</h2>
+			                   
+		</div>
+		                         
+		<div class="moc-tab" id="gringotts">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Gringotts          
+			</h2>
+			                   
+			<div class="moc-box">
+				                   
+				<h3>
+					          La Banque des Sorciers          
+				</h3><span>Fortius Quo Fidelius</span>          
+				<p>
+					          <strong>Gringotts</strong> est la banque sorcière la plus célèbre du monde magique, réputée pour être l'une des institutions financières les plus sécurisées jamais construites. Fondée et administrée presque exclusivement par les gobelins, son siège principal se trouve au cœur du Chemin de Traverse à Londres.          
+				</p>
+				                   
+				<p>
+					          Avec le temps, Gringotts étendit cependant son influence bien au-delà du Royaume-Uni. Europe, Amériques, Asie ou encore certaines enclaves occultes particulièrement isolées possèdent aujourd'hui leurs propres succursales gobelines, toutes reliées par un vaste réseau financier et magique.          
+				</p>
+				                   
+				<p>
+					          Chaque succursale de Gringotts possède ses propres galeries souterraines, coffres enchantés et systèmes de sécurité adaptés à la région où elle se trouve. Certaines banques s'étendent sous des montagnes, d'autres sous des capitales magiques ou des cités oubliées.          
+				</p>
+				                   
+				<p>
+					          Les coffres les plus importants sont généralement accessibles grâce à des réseaux de tunnels protégés, parcourus par des wagonnets enchantés filant à toute vitesse entre ponts suspendus, gouffres et passages dissimulés.          
+				</p>
+				                   
+				<h3>
+					          Les Gobelins          
+				</h3>
+				                   
+				<p>
+					          Les gobelins considèrent Gringotts comme leur territoire et leur fierté. Méticuleux, calculateurs et profondément attachés aux notions de dette, de contrat et de propriété, ils ne pardonnent ni les erreurs ni les offenses.          
+				</p>
+				                   
+				<p>
+					          Contrairement aux idées reçues, les gobelins ne sont ni des Wiccas, ni des Outcasts. Ils forment leur propre caste, indépendante du reste du monde magique. Ils possèdent leurs propres royaumes souterrains, leurs écoles, leurs traditions et une magie ancienne que peu d'étrangers comprennent réellement.          
+				</p>
+				                   
+				<p>
+					          La majorité des gobelins vivent loin de la Surface et n'entretiennent que très peu de contacts avec les autres peuples. Seuls certains métiers spécifiques — principalement les banquiers, gardes de coffres et représentants commerciaux — interagissent régulièrement avec les Wiccas et les Outcasts.          
+				</p>
+				                   
+				<p>
+					          Pour beaucoup de Wiccas, Gringotts n'est qu'une banque. Pour les gobelins, il s'agit d'un royaume de pierre, d'or et de serments, où chaque Gallion confié devient une preuve de confiance… ou une future arme de négociation.          
+				</p>
+				                   
+				<h3>
+					          Économie Magique          
+				</h3>
+				                   
+				<p>
+					          Gringotts gère une immense partie de l'économie du monde magique : Gallions d'or, Mornilles d'argent, Noises de bronze, prêts, dettes, héritages et conversions discrètes avec certaines monnaies normies lorsque la situation l'exige.          
+				</p>
+				                   
+				<p>
+					          La banque joue également un rôle essentiel dans les relations entre familles magiques, commerces occultes, écoles et institutions surnaturelles. Une dette envers Gringotts n'est jamais oubliée. Un contrat signé devant gobelin encore moins.          
+				</p>
+				                   
+				<h3>
+					          Les Banques Normies          
+				</h3>
+				                   
+				<p>
+					          Depuis quelques années, certaines grandes capitales du monde possèdent également des établissements financiers normies discrètement liés à Gringotts. Officiellement indépendantes, ces banques sont généralement dirigées par des Cracmols ou des EdgeMages formés par les gobelins et liés à eux par contrat.          
+				</p>
+				                   
+				<p>
+					          Ces structures servent principalement d'intermédiaires entre l'économie magique et le monde normie : transferts d'argent, sociétés écrans, investissements occultes ou gestion discrète des fortunes familiales impossibles à justifier publiquement.          
+				</p>
+				                   
+				<p>
+					          Contrairement à beaucoup d'institutions du monde magique, ces banques ne refusent jamais un nouveau client, même lorsque celui-ci n'a absolument aucun lien avec le surnaturel. Tant qu'un contrat est signé et qu'un bénéfice existe, les gobelins considèrent chaque fortune comme potentiellement intéressante.          
+				</p>
+				                   
+				<h3>
+					          Secrets et Réputation          
+				</h3>
+				                   
+				<p>
+					          On dit que Gringotts est inviolable. L'histoire a pourtant prouvé que même les murs les plus épais peuvent trembler lorsque la magie, la guerre ou les artefacts anciens s'en mêlent.          
+				</p>
+				                   
+				<p>
+					          Malgré les cambriolages célèbres, les disparitions mystérieuses et les rumeurs de coffres interdits, la banque demeure l'un des piliers les plus puissants du monde sorcier. Ceux qui y déposent leur or savent qu'ils y laissent souvent bien plus que leur fortune : des secrets, des dettes et parfois des morceaux entiers de leur histoire familiale.          
+				</p>
+				                   
+			</div>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="coffres">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Coffres          
+			</h2>
+			                   
+			<div class="moc-box">
+				                   
+				<h3>
+					          Les Coffres de Gringotts          
+				</h3>
+				                   
+				<p>
+					          Chaque famille du monde magique possède un coffre à Gringotts. Certains ne contiennent que quelques économies modestes, tandis que d'autres renferment des fortunes anciennes, des bijoux familiaux, des titres de propriété, des contrats ou des objets qu'il vaudrait parfois mieux ne jamais ressortir.          
+				</p>
+				                   
+				<p>
+					          Chaque coffre est lié à un puissant sort d'extension gobelin. Plus la richesse, les possessions et l'influence d'une famille grandissent, plus le coffre lui-même s'étend en profondeur. Derrière une simple porte peuvent ainsi se cacher des salles entières, des archives familiales, des galeries privées ou de véritables labyrinthes souterrains transmis de génération en génération.          
+				</p>
+				                   
+				<p>
+					          Les coffres les plus profonds sont protégés par des enchantements complexes, des portes scellées, des malédictions gobelines et parfois même par des créatures gardiennes. Tenter de voler un coffre de Gringotts est considéré comme une folie par la majorité du monde magique.          
+				</p>
+				                   
+				<h3>
+					          Obtenir un Coffre          
+				</h3>
+				                   
+				<p>
+					          Ouvrir un coffre à Gringotts est relativement simple. Il suffit de signer un contrat avec la banque afin qu'un coffre personnel vous soit attribué.          
+				</p>
+				                   
+				<p>
+					          Votre coffre pourra contenir votre pécule, vos artefacts, vos héritages familiaux ainsi que les biens les plus précieux liés à votre personnage et à son histoire.          
+				</p>
+				                   
+				<div class="moc-links">
+					          <a href="https://murder-of-crows.forumsrpg.com/f45-coffres">Accéder aux Coffres</a>          
+				</div>
+				                   
+			</div>
+			                   
+		</div>
+		                       
+		<div class="moc-tab" id="contrat">
+			                    
+			<div class="moc-subtitle">
+				             Murder of Crow - Crossover Harry Potter x Famille Addams            
+			</div>
+			                     
+			<h2>
+				             Contrat            
+			</h2>
+			                     
+			<div class="moc-box">
+				                      
+				<h3>
+					               Les Contrats              
+				</h3>
+				              <span>      Trouver une rencontre, ouvrir une intrigue, sceller un accord.     </span>              
+				<p>
+					               Chaque rencontre peut devenir le début d’une alliance, d’un secret partagé ou d’une catastrophe soigneusement dissimulée. Les Contrats permettent de trouver rapidement des partenaires de RP et de lancer de nouvelles intrigues sans attendre qu’un hasard providentiel réunisse les bonnes personnes au bon endroit.              
+				</p>
+				                       
+				<p>
+					               Discussions dans les ombres de Knockturn Alley, négociations à Gringotts, rencontres entre Wiccas et Outcasts, missions discrètes ou enquêtes dangereuses : cette section sert de panneau d’affichage pour toutes les quêtes et aventures à venir.              
+				</p>
+				                       
+				<p>
+					               Certains contrats mèneront à des échanges anodins. D’autres ouvriront la porte à des secrets, des conflits… ou des catastrophes difficiles à arrêter.              
+				</p>
+				                       
+				<div class="moc-links">
+					               <a href="https://murder-of-crows.forumsrpg.com/f46-contrats">        Accéder aux Contrats       </a>             
+				</div>
+				                    
+			</div>
+			                 
+		</div>
+		                        
+		<div class="moc-tab" id="dettes">
+			                     
+			<div class="moc-subtitle">
+				             Murder of Crow - Crossover Harry Potter x Famille Addams            
+			</div>
+			                     
+			<h2>
+				             Dettes            
+			</h2>
+			                   
+			<div class="moc-box">
+				             <img alt="Dettes de Gringotts" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyaomc-ea1e1701-efc7-4a8e-bf76-1068206d75fa.png/v1/fill/w_1280,h_854/d60ba5d0_7a65_4d7c_a703_7390d1ae51af_by_lemegeton_rpg_dlyaomc-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6Ii9mLzZjYmFjMmJmLTViNTUtNGI5NC1iOTk5LTUwZmYzYjEwMTlkNy9kbHlhb21jLWVhMWUxNzAxLWVmYzctNGE4ZS1iZjc2LTEwNjgyMDZkNzVmYS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.k3Wdr7dDJlwbZwbI8klvF9AXhsigB57YM63fwAAfI88" class="moc-banner" />             
+				<h3>
+					              Les Dettes de Gringotts             
+				</h3>
+				             <span>      L’or ne se donne jamais sans contrepartie.     </span>             
+				<p>
+					              Gringotts ne prête pas uniquement son or : la banque sait également acheter les services de ceux assez désespérés — ou assez ambitieux — pour accepter ses offres. Chaque dette représente une mission, une faveur ou une tâche particulière confiée à un personnage en échange d’une récompense précise.             
+				</p>
+				                     
+				<p>
+					              Transport d’artefacts, récupération d’objets perdus, escortes discrètes, enquêtes occultes, livraisons douteuses ou interventions plus dangereuses encore… les gobelins de Gringotts possèdent toujours du travail pour ceux prêts à salir leurs mains contre quelques pièces d’or supplémentaires.             
+				</p>
+				                     
+				<p>
+					              Certaines dettes sont simples et rapides. D’autres peuvent entraîner un personnage dans des affaires bien plus sombres que prévu. Après tout, lorsqu’une banque aussi ancienne que Gringotts réclame quelque chose… il vaut souvent mieux éviter de poser trop de questions.             
+				</p>
+				                     
+				<div class="moc-links">
+					              <a href="https://murder-of-crows.forumsrpg.com/f47-dettes">        Consulter les Dettes       </a>            
+				</div>
+				                   
+			</div>
+			                   
+		</div>
+		                        
+		<div class="moc-tab" id="artefacts-gringotts">
+			                   
+			<div class="moc-subtitle">
+				          Murder of Crow - Crossover Harry Potter x Famille Addams          
+			</div>
+			                   
+			<h2>
+				          Artefacts          
+			</h2>
+			                   
+		</div>
+		                         
+		<div id="crow" class="moc-tab">
+			                     
+			<div class="moc-subtitle">
+				         Murder of Crow - Crossover Harry Potter x Famille Addams            
+			</div>
+			                     
+			<h2>
+				         Crow Emporium            
+			</h2>
+			             
+			<div class="moc-box">
+				          <img class="moc-banner" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyadbx-98b3b082-34f4-4599-b0e8-c73193bba14d.png/v1/fill/w_1095,h_730,q_70,strp/5dbc4e1d_90dc_4a6a_8b8c_e6c6d893a865_by_lemegeton_rpg_dlyadbx-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6Ii9mLzZjYmFjMmJmLTViNTUtNGI5NC1iOTk5LTUwZmYzYjEwMTlkNy9kbHlhZGJ4LTk4YjNiMDgyLTM0ZjQtNDU5OS1iMGU4LWM3MzE5M2JiYTE0ZC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.b87p1MRkQYBD7uYgWOK5TG18d6L9cu0HZ6gBuwJ6uzg" alt="Crow Emporium" />          
+				<h3>
+					           La Boutique aux Souhaits          
+				</h3>
+				          <span>      Certains lieux ne se trouvent que lorsqu’on en a besoin.     </span>          
+				<p>
+					           Le <strong>Crow Emporium</strong> n’apparaît sur aucune carte et pourtant, beaucoup jurent l’avoir déjà aperçu. Une petite boutique coincée entre deux immeubles absents la veille. Une vitrine poussiéreuse au détour d’une rue familière. Une porte noire dans un couloir qui ne menait normalement nulle part.         
+				</p>
+				               
+				<p>
+					           Le plus étrange reste cependant que le magasin ne semble jamais réellement se déplacer. Ce sont plutôt les gens qui finissent par tomber dessus au moment où ils en ont besoin… ou au pire instant possible.          
+				</p>
+				               
+				<h3>
+					           Le Corbeau Blanc          
+				</h3>
+				               
+				<p>
+					           Une fois la porte franchie, les visiteurs découvrent toujours la même chose : un immense comptoir de bois sombre et, posé dessus, un unique <strong>corbeau blanc</strong>. Il n’y a jamais personne d’autre dans la boutique. Pas de vendeur. Pas de client. Pas même un bruit de pas à l’étage.         
+				</p>
+				               
+				<p>
+					           Pourtant, le corbeau semble parfaitement comprendre chaque demande. Certains prétendent qu’il parle. D’autres assurent qu’il ne fait qu’observer en silence avant que les lumières ne vacillent et que les étagères changent d’elles-mêmes.          
+				</p>
+				               
+				<p>
+					           Beaucoup ignorent encore si le corbeau est le propriétaire du Crow Emporium… ou simplement son gardien.          
+				</p>
+				               
+				<h3>
+					           Les Souhaits          
+				</h3>
+				               
+				<p>
+					           On raconte que le Crow Emporium est capable de répondre à presque n’importe quelle demande : retrouver un objet disparu, obtenir une information oubliée, acquérir un artefact rare, conclure un pacte ou recevoir une réponse qu’aucun autre lieu ne pourrait offrir.          
+				</p>
+				               
+				<p>
+					           Mais comme toute chose liée à la magie, chaque faveur possède un prix. Pas forcément de l’or. Un souvenir, une émotion, un objet précieux, une promesse… parfois quelque chose de bien plus abstrait.          
+				</p>
+				               
+				<p>
+					           Les habitués du monde occulte résument souvent cela d’une phrase :       <em>rien ne s’obtient sans contrepartie.</em>         
+				</p>
+				               
+				<p>
+					           Et encore faut-il formuler correctement son souhait. Le Crow Emporium exauce les demandes… mais rarement exactement comme on l’imaginait. Certains obtiennent ce qu’ils désiraient au prix de conséquences inattendues, d’autres découvrent trop tard que leurs mots pouvaient être interprétés autrement. Après tout, embrasser une grenouille pour obtenir un prince peut aussi finir par vous transformer en grenouille à votre tour.          
+				</p>
+				               
+				<h3>
+					           Les Lancers du Destin          
+				</h3>
+				               
+				<p>
+					           Le Crow Emporium fonctionne d’une manière particulièrement étrange. Ici, le hasard semble faire partie intégrante de la magie du lieu. Récompenses, faveurs et objets prennent souvent la forme de <strong>gacha</strong> ou de <strong>lancers de dés</strong>, comme si la boutique elle-même décidait de ce qu’elle souhaitait réellement offrir.         
+				</p>
+				               
+				<p>
+					           Certains repartent avec exactement ce qu’ils espéraient. D’autres obtiennent quelque chose de plus rare… ou de beaucoup plus dangereux.          
+				</p>
+				               
+				<p>
+					           Quelques artefacts particulièrement rares permettent cependant de forcer légèrement la main du destin : relancer un dé, annuler un mauvais tirage ou effacer une récompense qui s’est finalement révélée être une malédiction. Mais même ces objets possèdent souvent un prix caché.          
+				</p>
+				               
+				<h3>
+					           Un Lieu Vivant          
+				</h3>
+				               
+				<p>
+					           Les wiccas les plus sensibles affirment que le Crow Emporium possède une volonté propre. Les étagères changeraient de place d’un jour à l’autre, certaines portes mèneraient à des pièces différentes selon les visiteurs et plusieurs clients prétendent avoir entendu le magasin murmurer lorsqu’ils étaient seuls.          
+				</p>
+				               
+				<p>
+					           D’autres racontent que la boutique apparaît parfois simultanément dans plusieurs villes du monde, toujours identique jusque dans le moindre détail. Londres, Prague, Tokyo, New Orleans… puis plus rien au lendemain.          
+				</p>
+				               
+				<h3>
+					           Les Rumeurs          
+				</h3>
+				               
+				<p>
+					           Évidemment, le Ministère nie officiellement l’existence d’un tel endroit. Pourtant, de nombreux témoignages circulent sur les réseaux de <strong>Nimrod</strong>, accompagnés de photos floues, de vidéos coupées brutalement ou de récits contradictoires. Comme souvent lorsqu’il s’agit du Crow Emporium, plus quelqu’un tente de prouver son existence… plus les preuves semblent disparaître.         
+				</p>
+				               
+				<div class="moc-links">
+					           <a href="https://murder-of-crows.forumsrpg.com/f49-crow-emporium">        Entrer dans le Crow Emporium       </a>         
+				</div>
+				             
+			</div>
+			                   
+		</div>
+		                       
+		<div class="moc-tab" id="knockturn">
+			                 
+			<div class="moc-subtitle">
+				           Murder of Crow - Crossover Harry Potter x Famille Addams            
+			</div>
+			                 
+			<h2>
+				           Knockturn Alley            
+			</h2>
+			               
+			<div class="moc-box">
+				           <img alt="Knockturn Alley" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cbac2bf-5b55-4b94-b999-50ff3b1019d7/dlyadbe-07abf83b-731c-4b5d-85a6-01295224d51f.png/v1/fill/w_1095,h_730,q_70,strp/36c4bb5d_e2cf_4a73_893b_af0c5d1a013e_by_lemegeton_rpg_dlyadbe-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6Ii9mLzZjYmFjMmJmLTViNTUtNGI5NC1iOTk5LTUwZmYzYjEwMTlkNy9kbHlhZGJlLTA3YWJmODNiLTczMWMtNGI1ZC04NWE2LTAxMjk1MjI0ZDUxZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.R_EmVOt-01GrBYfn7oe0Lucu8-gVi_b5ZGtjejMeP2A" class="moc-banner" />           
+				<h3>
+					            L’Allée des Embrumes           
+				</h3>
+				           <span>      Les rues que le Ministère préfère ignorer.     </span>           
+				<h3>
+					            Les Boutiques Oubliées           
+				</h3>
+				                 
+				<p>
+					            Dissimulée derrière les lumières de <strong>Diagon Alley (Chemin de Traverse)</strong>, <strong>Knockturn Alley</strong> est une ruelle sombre et étroite où se croisent marchands douteux, collectionneurs d’artefacts interdits et wiccas pratiquant les arts les plus dangereux. Les boutiques qui s’y trouvent vendent des objets rares, maudits ou illégaux que beaucoup préfèrent garder loin des regards du Ministère.          
+				</p>
+				                 
+				<h3>
+					            Le Troc           
+				</h3>
+				                 
+				<p>
+					            Knockturn Alley est également réputée pour être le seul véritable lieu de troc du monde magique. Ici, l’or n’est pas toujours la monnaie la plus précieuse. Artefacts contre objets moldus rares, reliques contre informations, faveurs contre enchantements… tout peut s’échanger tant que les deux parties y trouvent leur compte.           
+				</p>
+				                 
+				<p>
+					            Entre les murs humides de l’Allée des Embrumes, une seule règle semble réellement exister : <em>de toi à moi, de moi à toi.</em>          
+				</p>
+				                 
+				<h3>
+					            Les Portes de l’Allée           
+				</h3>
+				                 
+				<p>
+					            Depuis quelque temps cependant, d’étranges rumeurs circulent au sujet de Knockturn Alley. Certains affirment que l’Allée n’ouvre plus uniquement sur Londres, mais sur différentes rues à travers le monde — qu’elles soient magiques ou parfaitement moldus. Une porte oubliée dans Paris, une ruelle humide à Tokyo, un passage étroit à New York… puis, quelques pas plus loin, les mêmes pavés sombres de Knockturn Alley.           
+				</p>
+				                 
+				<p>
+					            Pourtant, ceux qui y entrent en ressortent toujours du même côté. Aucun normie ne s’est jamais retrouvé accidentellement sur <strong>Diagon Alley</strong> après avoir traversé l’Allée des Embrumes. Comme si Knockturn Alley choisissait elle-même où mener… et surtout où ne pas mener.          
+				</p>
+				                 
+				<h3>
+					            Parasites Électroniques           
+				</h3>
+				                 
+				<p>
+					            Les appareils électroniques fonctionnent d’ailleurs très mal dans l’Allée. Téléphones portables, caméras et appareils photos moldus finissent presque toujours grillés après quelques minutes passées dans Knockturn Alley — sauf lorsqu’ils ont été modifiés par magie. Ce phénomène alimente les théories et les rumeurs circulant sur les forums de <strong>Nimrod</strong>, où plusieurs clichés brûlés ou déformés sont régulièrement publiés comme supposées « preuves » du surnaturel.          
+				</p>
+				                 
+				<div class="moc-links">
+					            <a href="https://murder-of-crows.forumsrpg.com/f50-knockturn-alley">        Entrer dans Knockturn Alley       </a>          
+				</div>
+				               
+			</div>
+			               
+		</div>
+		              
+		<!-- - DEBUT BESTIAIRE- -->          
+<div id="bestiaire" class="moc-tab">
+                 
+    <div class="moc-subtitle">
+         Murder of Crow - Crossover Harry Potter x Famille Addams         
+    </div>
+                 
+    <h2>
+         Bestiaire         
+    </h2>
+
+    <div class="moc-box">
+
+        <h3>
+            Bestiaire Magique
+        </h3>
+
+        <span>
+            Créatures, monstres et animaux fantastiques du monde occulte.
+        </span>
+
+        <p>
+            Depuis des siècles, les Wiccas recensent les créatures magiques selon leur dangerosité, leur intelligence et leur proximité avec les sociétés humaines. Certaines sont étudiées dans les écoles de magie, d'autres sont traquées par les Hunters… et plusieurs espèces restent interdites d’approche même pour les sorciers expérimentés. :contentReference[oaicite:0]{index=0}
+        </p>
+
+        <div class="moc-creature-grid">
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Acromantule" alt="Acromantule">
+                <div class="moc-creature-info">
+                    <h3>Acromantule</h3>
+                    <span>XXXXX</span>
+                    <p>Araignée géante intelligente vivant en colonies dans les forêts obscures.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Augurey" alt="Augurey">
+                <div class="moc-creature-info">
+                    <h3>Augurey</h3>
+                    <span>XX</span>
+                    <p>Oiseau noir dont les cris annoncent traditionnellement la pluie et la mort.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Basilic" alt="Basilic">
+                <div class="moc-creature-info">
+                    <h3>Basilic</h3>
+                    <span>XXXXX</span>
+                    <p>Serpent géant capable de tuer d’un simple regard.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Billywig" alt="Billywig">
+                <div class="moc-creature-info">
+                    <h3>Billywig</h3>
+                    <span>XXX</span>
+                    <p>Insecte australien dont les piqûres provoquent la lévitation.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Botruc" alt="Botruc">
+                <div class="moc-creature-info">
+                    <h3>Botruc</h3>
+                    <span>XX</span>
+                    <p>Petit gardien végétal protégeant les arbres magiques.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Boursouf" alt="Boursouf">
+                <div class="moc-creature-info">
+                    <h3>Boursouf</h3>
+                    <span>XX</span>
+                    <p>Petite boule de fourrure docile souvent gardée comme animal de compagnie.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Centaure" alt="Centaure">
+                <div class="moc-creature-info">
+                    <h3>Centaure</h3>
+                    <span>XXXX</span>
+                    <p>Créature mi-homme mi-cheval experte en astronomie et divination.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Chimere" alt="Chimère">
+                <div class="moc-creature-info">
+                    <h3>Chimère</h3>
+                    <span>XXXXX</span>
+                    <p>Monstre grec extrêmement rare doté de plusieurs parties animales.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Demiguise" alt="Demiguise">
+                <div class="moc-creature-info">
+                    <h3>Demiguise</h3>
+                    <span>XXXX</span>
+                    <p>Créature capable de devenir invisible et de prévoir certains futurs proches.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Dragon" alt="Dragon">
+                <div class="moc-creature-info">
+                    <h3>Dragon</h3>
+                    <span>XXXXX</span>
+                    <p>Créature ailée cracheuse de feu considérée parmi les plus dangereuses.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Epouvantard" alt="Épouvantard">
+                <div class="moc-creature-info">
+                    <h3>Épouvantard</h3>
+                    <span>XXX</span>
+                    <p>Entité changeant d’apparence selon les peurs de sa victime.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Erkling" alt="Erkling">
+                <div class="moc-creature-info">
+                    <h3>Erkling</h3>
+                    <span>XXXX</span>
+                    <p>Créature allemande attirant les enfants avec son chant.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Grapcorne" alt="Grapcorne">
+                <div class="moc-creature-info">
+                    <h3>Grapcorne</h3>
+                    <span>XXXX</span>
+                    <p>Créature massive extrêmement agressive à la peau résistante.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Hippogriffe" alt="Hippogriffe">
+                <div class="moc-creature-info">
+                    <h3>Hippogriffe</h3>
+                    <span>XXX</span>
+                    <p>Créature fière mi-cheval mi-aigle exigeant respect et courtoisie.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Kelpy" alt="Kelpy">
+                <div class="moc-creature-info">
+                    <h3>Kelpy</h3>
+                    <span>XXXX</span>
+                    <p>Esprit aquatique prenant diverses formes pour attirer ses proies.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Licorne" alt="Licorne">
+                <div class="moc-creature-info">
+                    <h3>Licorne</h3>
+                    <span>XXXX</span>
+                    <p>Créature pure dont le sang possède de puissantes propriétés magiques.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Loup-Garou" alt="Loup-Garou">
+                <div class="moc-creature-info">
+                    <h3>Loup-Garou</h3>
+                    <span>XXXXX</span>
+                    <p>Humain transformé lors des pleines lunes après contamination.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Malagrif" alt="Malagrif">
+                <div class="moc-creature-info">
+                    <h3>Malagrif Tacheté</h3>
+                    <span>XXX</span>
+                    <p>Créature marine associée à la malchance et aux tempêtes.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Niffleur" alt="Niffleur">
+                <div class="moc-creature-info">
+                    <h3>Niffleur</h3>
+                    <span>XXX</span>
+                    <p>Petit fouisseur obsédé par les objets brillants.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Occamy" alt="Occamy">
+                <div class="moc-creature-info">
+                    <h3>Occamy</h3>
+                    <span>XXXX</span>
+                    <p>Créature serpentine capable de modifier sa taille selon l’espace.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Phenix" alt="Phénix">
+                <div class="moc-creature-info">
+                    <h3>Phénix</h3>
+                    <span>XXXX</span>
+                    <p>Oiseau immortel renaissant de ses cendres.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Sombral" alt="Sombral">
+                <div class="moc-creature-info">
+                    <h3>Sombral</h3>
+                    <span>XXXX</span>
+                    <p>Cheval ailé visible uniquement par ceux ayant vu la mort.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Strangulot" alt="Strangulot">
+                <div class="moc-creature-info">
+                    <h3>Strangulot</h3>
+                    <span>XXX</span>
+                    <p>Créature aquatique agressive vivant dans les lacs et marais.</p>
+                </div>
+            </div>
+
+            <div class="moc-creature-card">
+                <img src="https://placehold.co/500x650/11182f/d0b27a?text=Troll" alt="Troll">
+                <div class="moc-creature-info">
+                    <h3>Troll</h3>
+                    <span>XXXX</span>
+                    <p>Créature gigantesque à la force brute impressionnante.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+                 
+</div>
+		       
+		<!-- - FIN BESTIAIRE- -->                
+	</div>
+</div>
+ <style>
+.moc-guide,
+.moc-guide *,
+.moc-guide *::before,
+.moc-guide *::after{box-sizing:border-box;}
+
+.moc-guide{
+  width:980px;
+  max-width:100%;
+  margin:20px auto;
+  padding:24px;
+  display:flex;
+  gap:28px;
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(180deg,rgba(10,16,40,.96) 0%,rgba(16,26,61,.98) 100%);
+  border:1px solid rgba(194,163,104,.45);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.03),0 0 30px rgba(0,0,0,.35);
+  color:#eadcc0;
+  font-family:Georgia,"Times New Roman",serif;
+}
+
+.moc-guide::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:linear-gradient(180deg,rgba(255,255,255,.03),transparent 20%),radial-gradient(circle at center,rgba(255,255,255,.03),transparent 45%);
+}
+
+.moc-guide > *{position:relative;z-index:1;}
+
+.moc-menu{
+  width:250px;
+  flex:0 0 250px;
+  padding:14px 10px;
+  background:rgba(9,15,37,.72);
+  border:1px solid rgba(194,163,104,.25);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.02);
+}
+
+.moc-menu button{
+  position:relative;
+  display:block;
+  width:100%;
+  margin:3px 0;
+  padding:3px 26px;
+  border:0;
+  background:transparent;
+  color:#e4d3b4;
+  font:700 13px/1.2 Georgia,"Times New Roman",serif;
+  letter-spacing:.03em;
+  text-align:left;
+  cursor:pointer;
+}
+
+.moc-menu button::before{
+  content:"";
+  position:absolute;
+  left:8px;
+  top:50%;
+  width:9px;
+  height:2px;
+  background:#c2a368;
+  transform:translateY(-50%);
+  box-shadow:0 0 6px rgba(194,163,104,.35);
+}
+
+.moc-menu button:hover{color:#d3b072;}
+
+.moc-parent::after{
+  content:"▾";
+  position:absolute;
+  right:8px;
+  top:50%;
+  color:#7f89b8;
+  font-size:11px;
+  transform:translateY(-50%);
+  transition:.2s ease;
+}
+
+.moc-menu-group.open .moc-parent::after{
+  color:#d3b072;
+  transform:translateY(-50%) rotate(180deg);
+}
+
+.moc-submenu{
+  display:none;
+}
+
+.moc-menu-group.open .moc-submenu{
+  display:block;
+}
+
+.moc-submenu button{
+  padding-left:38px;
+  color:#99a4b0;
+  font-size:12px;
+}
+
+.moc-submenu button::before{
+  content:"✦";
+  left:20px;
+  width:auto;
+  height:auto;
+  background:transparent;
+  color:#c2a368;
+  font-size:9px;
+  box-shadow:none;
+}
+
+.moc-content{
+  flex:1;
+  min-height:420px;
+  padding:25px;
+  background:linear-gradient(180deg,#1A2342 0%,#141b34 100%);
+  border:1px solid rgba(194,163,104,.45);
+  color:#e4d3b4;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.03);
+  overflow:hidden;
+}
+
+.moc-tab{display:none;}
+.moc-tab.active{display:block;}
+
+.moc-subtitle{
+  margin-bottom:10px;
+  color:#99a4b0;
+  font-size:10px;
+  letter-spacing:.35em;
+  text-transform:uppercase;
+}
+
+.moc-tab h2{
+  margin:0 0 14px;
+  padding-bottom:10px;
+  border-bottom:1px solid rgba(194,163,104,.22);
+  color:#d3b072;
+  font-family:"Cinzel Decorative",Georgia,serif;
+  font-size:24px;
+  font-weight:400;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+}
+
+.moc-tab h2::before{content:"✦ ";font-size:14px;}
+.moc-tab p{line-height:1.8;color:#e7d9be;text-align:justify;}
+
+.moc-intro{margin-bottom:26px;}
+
+.moc-warning{
+  margin-bottom:28px;
+  padding:14px 16px;
+  border:1px solid rgba(180,30,45,.85);
+  background:#51446f;
+  color:#ffb3b8;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.05em;
+  text-align:center;
+  text-shadow:0 0 6px rgba(255,70,90,.55),0 0 12px rgba(255,40,60,.35);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.03),0 0 12px rgba(180,30,45,.65),0 0 28px rgba(180,30,45,.45);
+  animation:mocRedPulse 1.8s ease-in-out infinite;
+}
+
+.moc-warning strong{color:#ffd2d5;}
+
+@keyframes mocRedPulse{
+  0%,100%{box-shadow:inset 0 0 0 1px rgba(255,255,255,.03),0 0 10px rgba(180,30,45,.45),0 0 22px rgba(180,30,45,.25);}
+  50%{box-shadow:inset 0 0 0 1px rgba(255,255,255,.04),0 0 18px rgba(255,60,80,.85),0 0 40px rgba(255,60,80,.55);}
+}
+
+.moc-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+
+.moc-card,
+.moc-box{
+  padding:18px;
+  border:1px solid rgba(194,163,104,.25);
+  background:rgba(9,15,37,.72);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.02);
+}
+
+.moc-card.full,
+.moc-grid .full{grid-column:1/-1;}
+
+.moc-card-title{
+  margin-bottom:14px;
+  color:#d3b072;
+  font-family:"Cinzel Decorative",Georgia,serif;
+  font-size:18px;
+  letter-spacing:.04em;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.moc-links{display:flex;flex-direction:column;gap:12px;}
+
+.moc-links a{
+  display:block;
+  width:100%;
+  padding:16px;
+  border:1px solid #d7d0a8;
+  background:#160706;
+  color:#7f89b8!important;
+  text-decoration:none!important;
+  font-size:12px;
+  text-align:center;
+  transition:.25s ease;
+}
+
+.moc-links a:hover{
+  background:#35514f;
+  color:#fff1c9!important;
+}
+
+.moc-box{margin-top:22px;}
+
+.moc-box h3{
+  margin:0 0 8px;
+  color:#d3b072;
+  font-family:"Cinzel Decorative",Georgia,serif;
+  font-size:24px;
+  font-weight:400;
+}
+
+.moc-box span{
+  display:block;
+  margin-bottom:14px;
+  color:#99a4b0;
+  font-size:11px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+}
+
+.moc-box.legion{border-color:rgba(180,30,45,.45);}
+
+
+.moc-banner{
+  display:block;
+  width:100%;
+  margin:0 0 22px;
+  border:1px solid rgba(194,163,104,.25);
+}
+
+.moc-table{
+  width:100%;
+  margin-top:18px;
+  border-collapse:collapse;
+  overflow:hidden;
+  background:rgba(7,12,32,.82);
+  border:1px solid rgba(194,163,104,.28);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.02);
+}
+
+.moc-table tr{
+  transition:.2s ease;
+}
+
+.moc-table tr:nth-child(even){
+  background:rgba(255,255,255,.02);
+}
+
+.moc-table tr:hover{
+  background:rgba(194,163,104,.06);
+}
+
+.moc-table th{
+  padding:14px 16px;
+  border-bottom:1px solid rgba(194,163,104,.28);
+  color:#d3b072;
+  font-family:"Cinzel Decorative",Georgia,serif;
+  font-size:15px;
+  font-weight:400;
+  letter-spacing:.04em;
+  text-align:left;
+  text-transform:uppercase;
+  background:rgba(255,255,255,.02);
+}
+
+.moc-table td{
+  padding:12px 16px;
+  border-bottom:1px solid rgba(255,255,255,.04);
+  color:#e7d9be;
+  font-size:14px;
+  line-height:1.7;
+  vertical-align:top;
+}
+
+.moc-table td:first-child{
+  width:220px;
+  color:#d3b072;
+  font-weight:700;
+}
+
+.moc-table tr:last-child td{
+  border-bottom:none;
+}
+
+@media(max-width:800px){
+
+  .moc-table,
+  .moc-table tbody,
+  .moc-table tr,
+  .moc-table td,
+  .moc-table th{
+    display:block;
+    width:100%;
+  }
+
+  .moc-table thead{
+    display:none;
+  }
+
+  .moc-table tr{
+    margin-bottom:14px;
+    border-bottom:1px solid rgba(194,163,104,.2);
+  }
+
+  .moc-table td{
+    padding:10px 14px;
+  }
+
+  .moc-table td:first-child{
+    width:100%;
+    padding-bottom:4px;
+    color:#d3b072;
+    font-size:15px;
+  }
+
+}
+
+
+.moc-creature-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+  margin-top:22px;
+}
+
+.moc-creature-card{
+  position:relative;
+  height:260px;
+  overflow:hidden;
+  border:1px solid rgba(194,163,104,.28);
+  background:rgba(7,12,32,.82);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.02);
+}
+
+.moc-creature-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  filter:grayscale(.25) brightness(.75);
+  transition:.35s ease;
+}
+
+.moc-creature-info{
+  position:absolute;
+  inset:0;
+  padding:22px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  background:linear-gradient(180deg,rgba(7,12,32,.05) 0%,rgba(7,12,32,.92) 100%);
+  transform:translateY(62%);
+  transition:.35s ease;
+}
+
+.moc-creature-info h3{
+  margin:0 0 10px;
+  color:#d3b072;
+  font-family:"Cinzel Decorative",Georgia,serif;
+  font-size:22px;
+  font-weight:400;
+}
+
+.moc-creature-info p{
+  margin:0;
+  color:#e7d9be;
+  font-size:13px;
+  line-height:1.6;
+  opacity:0;
+  transition:.35s ease;
+}
+
+.moc-creature-card:hover img{
+  filter:grayscale(.05) brightness(.45);
+  transform:scale(1.05);
+}
+
+.moc-creature-card:hover .moc-creature-info{
+  transform:translateY(0);
+}
+
+.moc-creature-card:hover .moc-creature-info p{
+  opacity:1;
+}
+
+@media(max-width:800px){
+  .moc-creature-grid{
+    grid-template-columns:1fr;
+  }
+}
+@media(max-width:800px){
+  .moc-guide{display:block;padding:18px;}
+  .moc-menu{width:100%;margin-bottom:18px;}
+  .moc-grid{grid-template-columns:1fr;}
+}
+</style> <script>
+function mocToggleMenu(btn){
+  var group=btn.parentNode;
+  var menu=group.parentNode;
+  var groups=menu.getElementsByClassName('moc-menu-group');
+
+  for(var i=0;i<groups.length;i++){
+    if(groups[i]!==group){
+      groups[i].className=groups[i].className.replace(' open','');
+    }
+  }
+
+  if(group.className.indexOf('open')===-1){
+    group.className += ' open';
+  }else{
+    group.className=group.className.replace(' open','');
+  }
+}
+
+function mocTab(id){
+  var guides=document.getElementsByClassName('moc-guide');
+  if(!guides || !guides.length){return;}
+
+  for(var g=0;g<guides.length;g++){
+    var root=guides[g];
+    var tabs=root.getElementsByClassName('moc-tab');
+
+    for(var i=0;i<tabs.length;i++){
+      tabs[i].className=tabs[i].className.replace(' active','');
+      tabs[i].className=tabs[i].className.replace('active','');
+    }
+
+    var selected=root.querySelector('#'+id);
+    if(selected){
+      selected.className += ' active';
+      var content=root.getElementsByClassName('moc-content')[0];
+      if(content){content.scrollTop=0;}
+    }
+  }
+}
+</script>
