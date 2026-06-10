@@ -74,3 +74,73 @@
 
 /* ================= RESPONSIVE ================= */
 @media(max-width:850px){.moc-posting-title{font-size:34px;letter-spacing:1.5px}.moc-posting-head::before,.moc-posting-head::after{display:none}.moc-fields dl,.moc-recipient-field,.moc-recipient-grid,.moc-group-field,.moc-subject-field,.moc-editor-layout{grid-template-columns:1fr!important}.moc-fields dl{gap:8px!important}.moc-smiley-box{order:2;width:100%!important;min-width:0!important;max-width:100%!important}.moc-message-box{order:1}.moc-posting-page #find_user,.moc-group-field input[type="button"]{width:100%!important;min-width:0!important}.moc-submit-panel .submit-buttons{flex-direction:column!important}.moc-submit-panel .submit-buttons input,.moc-submit-panel input{width:100%!important}.moc-rules-inner{grid-template-columns:1fr}.moc-rules-img img{margin:0 auto}}
+
+/* =========================================================
+   PATCH MOC — RESTAURER LES SMILEYS DU GRIMOIRE
+   ========================================================= */
+
+.moc-smiley-box{
+  overflow:visible!important;
+}
+
+/* on laisse Forumactif gérer la hauteur interne des smileys */
+.moc-posting-page #smileyContainer{
+  display:block!important;
+  height:auto!important;
+  min-height:230px!important;
+  max-height:none!important;
+  overflow:visible!important;
+  text-align:center!important;
+}
+
+/* les tableaux / lignes générés par Forumactif */
+.moc-posting-page #smileyContainer table,
+.moc-posting-page #smileyContainer tbody,
+.moc-posting-page #smileyContainer tr,
+.moc-posting-page #smileyContainer td{
+  display:revert!important;
+  visibility:visible!important;
+  opacity:1!important;
+  background:transparent!important;
+  border:0!important;
+}
+
+/* les liens smileys */
+.moc-posting-page #smileyContainer a{
+  display:inline-block!important;
+  visibility:visible!important;
+  opacity:1!important;
+  margin:3px!important;
+  line-height:1!important;
+}
+
+/* les images smileys */
+.moc-posting-page #smileyContainer img{
+  display:inline-block!important;
+  visibility:visible!important;
+  opacity:1!important;
+  width:auto!important;
+  height:auto!important;
+  max-width:none!important;
+  max-height:none!important;
+  margin:3px!important;
+  vertical-align:middle!important;
+}
+
+/* le select "voir plus de smileys" */
+.moc-posting-page #smileyContainer select{
+  width:100%!important;
+  margin:0 0 10px!important;
+  border:1px solid var(--line-main)!important;
+  background:#071233!important;
+  color:var(--text-main)!important;
+}
+
+/* si Forumactif ajoute une zone scroll native */
+.moc-posting-page #smileyContainer .smiley-element,
+.moc-posting-page #smileyContainer .smilies,
+.moc-posting-page #smileyContainer .smiley{
+  display:inline-block!important;
+  visibility:visible!important;
+  opacity:1!important;
+}
