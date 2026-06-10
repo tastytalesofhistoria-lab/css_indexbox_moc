@@ -1,6 +1,12 @@
 /* =========================================================
    MURDER OF CROWS — MESSAGERIE / PRIVMSGS_BODY
+   CSS corrigé, fusionné, sans doublons
    ========================================================= */
+
+.moc-pm-page,
+.moc-pm-page *{
+  box-sizing:border-box;
+}
 
 .moc-pm-page{
   width:100%;
@@ -9,12 +15,10 @@
   color:var(--text-main);
 }
 
-.moc-pm-page,
-.moc-pm-page *{
-  box-sizing:border-box;
-}
+/* =========================================================
+   HEADER
+   ========================================================= */
 
-/* header */
 .moc-pm-head{
   position:relative;
   margin:0 0 22px;
@@ -70,18 +74,53 @@
   text-transform:uppercase;
 }
 
+/* =========================================================
+   RESET ANCIENS FLOATS FORUMACTIF
+   ========================================================= */
+
+#privmsgs-menu,
+#privmsgs-menu li,
+.pm-actions,
+.left-box,
+.right-box,
+.clear{
+  float:none!important;
+}
+
+/* =========================================================
+   TOPBAR : ONGLET + ÉCRIRE + FILTRE
+   ========================================================= */
+
+.moc-pm-topbar{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  width:100%;
+  margin:0 0 16px;
+}
+
+.moc-pm-topline{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:16px;
+  align-items:stretch;
+  width:100%;
+}
+
 /* menu boîtes */
 .moc-pm-menu{
-  display:grid;
+  display:grid!important;
   grid-template-columns:repeat(4,minmax(0,1fr));
   gap:12px;
-  margin:0 0 16px!important;
+  width:100%;
+  margin:0!important;
   padding:0!important;
   list-style:none!important;
 }
 
 .moc-pm-menu li{
   position:relative;
+  min-width:0;
   min-height:54px;
   display:flex;
   align-items:center;
@@ -97,6 +136,7 @@
   text-align:center;
   text-transform:uppercase;
   overflow:hidden;
+  transition:.25s ease;
 }
 
 .moc-pm-menu li i{
@@ -128,7 +168,8 @@
 .moc-pm-compose-top{
   display:flex;
   justify-content:flex-end;
-  margin:0 0 16px;
+  align-items:stretch;
+  margin:0!important;
 }
 
 .moc-pm-compose,
@@ -150,6 +191,10 @@
   transition:.25s ease;
 }
 
+.moc-pm-compose{
+  min-width:116px;
+}
+
 .moc-pm-compose:hover,
 .moc-pm-compose-mini:hover{
   border-color:var(--line-strong);
@@ -164,34 +209,46 @@
 
 /* toolbar */
 .moc-pm-toolbar{
-  display:grid;
+  display:grid!important;
   grid-template-columns:minmax(0,1fr) auto;
   gap:16px;
   align-items:center;
-  margin-bottom:16px;
+  width:100%;
+  margin:0!important;
   padding:14px 16px;
   border:1px solid var(--line-main);
-  background:
-    linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
+  background:linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
 }
 
 .moc-pm-size{
+  min-width:0;
   color:var(--text-soft);
   font-size:13px;
+  line-height:1.45;
 }
 
 .moc-pm-filter{
-  display:flex;
+  display:flex!important;
   align-items:center;
+  justify-content:flex-end;
+  flex-wrap:wrap;
   gap:10px;
+  min-width:0;
   color:var(--title-soft);
   font-family:"Cinzel",Georgia,serif;
   font-size:12px;
   letter-spacing:1px;
+  text-align:right;
   text-transform:uppercase;
 }
 
+.moc-pm-filter span{
+  white-space:nowrap;
+}
+
 .moc-pm-filter select{
+  min-width:170px;
+  max-width:100%;
   min-height:36px;
   padding:7px 10px;
   border:1px solid var(--line-main)!important;
@@ -199,17 +256,21 @@
   color:var(--text-main)!important;
 }
 
-/* listbox */
+/* =========================================================
+   LISTE DES MESSAGES
+   ========================================================= */
+
 .moc-pm-listbox{
+  clear:both!important;
+  margin-top:0!important;
   border:1px solid var(--line-main);
-  background:
-    linear-gradient(180deg,rgba(20,27,52,.96),rgba(9,20,52,.98));
+  background:linear-gradient(180deg,rgba(20,27,52,.96),rgba(9,20,52,.98));
   box-shadow:inset 0 0 0 1px rgba(228,211,180,.03);
 }
 
 .moc-pm-list-head{
   display:grid;
-  grid-template-columns:minmax(0,1fr) 80px;
+  grid-template-columns:minmax(0,1fr) 170px;
   gap:16px;
   align-items:center;
   padding:15px 18px;
@@ -223,10 +284,13 @@
 }
 
 .moc-pm-list-head span:last-child{
+  display:block;
+  width:100%;
+  min-width:0;
   text-align:center;
+  white-space:nowrap;
 }
 
-/* lignes */
 .moc-pm-list{
   display:flex;
   flex-direction:column;
@@ -238,7 +302,7 @@
 
 .moc-pm-row{
   display:grid;
-  grid-template-columns:58px minmax(0,1fr) 60px;
+  grid-template-columns:58px minmax(0,1fr) 170px;
   gap:14px;
   align-items:center;
   min-height:76px;
@@ -326,6 +390,7 @@
   display:flex;
   align-items:center;
   justify-content:center;
+  min-width:0;
 }
 
 .moc-pm-mark input[type="checkbox"]{
@@ -346,7 +411,10 @@
   text-transform:uppercase;
 }
 
-/* liens sélectionner */
+/* =========================================================
+   SÉLECTION, PAGINATION, ACTIONS
+   ========================================================= */
+
 .moc-pm-selectline{
   display:flex;
   justify-content:flex-end;
@@ -366,7 +434,6 @@
   text-decoration:underline!important;
 }
 
-/* pagination */
 .moc-pm-pagination{
   margin:14px 0;
   color:var(--text-soft);
@@ -377,13 +444,11 @@
   color:var(--link)!important;
 }
 
-/* actions bas */
 .moc-pm-actions-bottom{
   margin:18px 0 0;
   padding:16px;
   border:1px solid var(--line-main);
-  background:
-    linear-gradient(90deg,rgba(5,14,42,.98),rgba(6,20,63,.96),rgba(5,14,42,.98));
+  background:linear-gradient(90deg,rgba(5,14,42,.98),rgba(6,20,63,.96),rgba(5,14,42,.98));
 }
 
 .moc-pm-actions-buttons{
@@ -427,7 +492,10 @@
   padding:0;
 }
 
-/* jumpbox */
+/* =========================================================
+   JUMPBOX + NETTOYAGE FORUMACTIF
+   ========================================================= */
+
 .moc-pm-jumpbox{
   margin-top:18px;
 }
@@ -439,7 +507,6 @@
   color:var(--text-main)!important;
 }
 
-/* nettoyage ancien FA si encore présent autour */
 .moc-pm-page .panel,
 .moc-pm-page .forabg,
 .moc-pm-page .inner,
@@ -453,7 +520,34 @@
   box-shadow:none!important;
 }
 
-/* responsive */
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media(max-width:900px){
+  .moc-pm-topline{
+    grid-template-columns:1fr;
+  }
+
+  .moc-pm-compose-top{
+    justify-content:stretch;
+  }
+
+  .moc-pm-compose{
+    width:100%;
+  }
+
+  .moc-pm-toolbar{
+    grid-template-columns:1fr;
+    text-align:left;
+  }
+
+  .moc-pm-filter{
+    justify-content:flex-start;
+    text-align:left;
+  }
+}
+
 @media(max-width:800px){
   .moc-pm-title{
     font-size:34px;
@@ -463,19 +557,6 @@
   .moc-pm-head::before,
   .moc-pm-head::after{
     display:none;
-  }
-
-  .moc-pm-menu{
-    grid-template-columns:1fr 1fr;
-  }
-
-  .moc-pm-toolbar{
-    grid-template-columns:1fr;
-  }
-
-  .moc-pm-filter{
-    flex-wrap:wrap;
-    justify-content:center;
   }
 
   .moc-pm-list-head{
@@ -505,149 +586,8 @@
     width:100%;
   }
 }
-/* =========================================================
-   PATCH MOC — PRIVMSGS ORGANISATION HAUT DE PAGE
-   ========================================================= */
 
-/* reset vieux floats éventuels */
-#privmsgs-menu,
-#privmsgs-menu li,
-.pm-actions,
-.left-box,
-.right-box,
-.clear{
-  float:none!important;
-}
-
-/* grand bloc haut */
-.moc-pm-topbar{
-  display:flex;
-  flex-direction:column;
-  gap:14px;
-  margin:0 0 16px;
-  width:100%;
-}
-
-/* ligne onglets + écrire */
-.moc-pm-topline{
-  display:grid;
-  grid-template-columns:minmax(0,1fr) auto;
-  gap:16px;
-  align-items:start;
-  width:100%;
-}
-
-/* menu */
-.moc-pm-menu{
-  display:grid!important;
-  grid-template-columns:repeat(4,minmax(0,1fr));
-  gap:12px;
-  width:100%;
-  margin:0!important;
-  padding:0!important;
-  list-style:none!important;
-}
-
-.moc-pm-menu li{
-  min-width:0;
-}
-
-/* bouton écrire */
-.moc-pm-compose-top{
-  display:flex;
-  justify-content:flex-end;
-  align-items:stretch;
-  margin:0!important;
-}
-
-.moc-pm-compose{
-  min-width:116px;
-}
-
-/* toolbar sous le tout, pleine largeur */
-.moc-pm-toolbar{
-  display:grid!important;
-  grid-template-columns:minmax(0,1fr) auto;
-  gap:16px;
-  align-items:center;
-  width:100%;
-  margin:0!important;
-  padding:14px 16px;
-  border:1px solid var(--line-main);
-  background:
-    linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
-}
-
-/* texte taille boîte */
-.moc-pm-size{
-  min-width:0;
-  color:var(--text-soft);
-  font-size:13px;
-  line-height:1.45;
-}
-
-/* filtre */
-.moc-pm-filter{
-  display:flex!important;
-  align-items:center;
-  justify-content:flex-end;
-  flex-wrap:wrap;
-  gap:10px;
-  min-width:0;
-  text-align:right;
-}
-
-.moc-pm-filter span{
-  color:var(--title-soft);
-  font-family:"Cinzel",Georgia,serif;
-  font-size:12px;
-  letter-spacing:1px;
-  text-transform:uppercase;
-  white-space:nowrap;
-}
-
-.moc-pm-filter select{
-  min-width:170px;
-  max-width:100%;
-}
-
-/* corrige la liste vide / bloc principal */
-.moc-pm-listbox{
-  margin-top:0!important;
-  clear:both!important;
-}
-
-/* ligne sélectionner */
-.moc-pm-selectline{
-  margin-top:12px;
-}
-
-/* responsive */
-@media (max-width:900px){
-  .moc-pm-topline{
-    grid-template-columns:1fr;
-  }
-
-  .moc-pm-compose-top{
-    justify-content:stretch;
-  }
-
-  .moc-pm-compose{
-    width:100%;
-  }
-
-  .moc-pm-toolbar{
-    grid-template-columns:1fr;
-    text-align:left;
-  }
-
-  .moc-pm-filter{
-    justify-content:flex-start;
-    text-align:left;
-  }
-}
-
-@media (max-width:700px){
+@media(max-width:700px){
   .moc-pm-menu{
     grid-template-columns:1fr 1fr;
   }
