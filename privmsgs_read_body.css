@@ -1,1 +1,331 @@
+/* =========================================================
+   MURDER OF CROWS — LECTURE MESSAGE PRIVÉ
+   ========================================================= */
 
+.moc-pm-read-page,
+.moc-pm-read-page *{
+  box-sizing:border-box;
+}
+
+.moc-pm-read-page{
+  width:100%;
+  max-width:1100px;
+  margin:0 auto 40px;
+  color:var(--text-main);
+}
+
+/* réutilisation header/menu si le CSS liste MP existe déjà */
+.moc-pm-read-page #privmsgs-menu,
+.moc-pm-read-page #privmsgs-menu li,
+.moc-pm-read-page .pm-actions,
+.moc-pm-read-page .left-box,
+.moc-pm-read-page .right-box,
+.moc-pm-read-page .clear{
+  float:none!important;
+}
+
+/* titre lecture */
+.moc-pm-read-title{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin:16px 0;
+  padding:15px 18px;
+  border:1px solid var(--line-main);
+  background:linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
+  color:var(--title);
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:24px;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+}
+
+.moc-pm-read-title span,
+.moc-pm-read-title strong{
+  font-weight:400;
+}
+
+.moc-pm-read-title span::after{
+  content:"::";
+  margin-left:12px;
+  color:var(--title-soft);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:16px;
+}
+
+/* carte principale */
+.moc-pm-read-card{
+  display:grid;
+  grid-template-columns:240px minmax(0,1fr);
+  gap:0;
+  border:1px solid var(--line-main);
+  background:linear-gradient(180deg,rgba(20,27,52,.96),rgba(9,20,52,.98));
+  box-shadow:inset 0 0 0 1px rgba(228,211,180,.03);
+}
+
+/* profil */
+.moc-pm-read-profile{
+  padding:22px 18px;
+  border-right:1px solid rgba(194,163,104,.45);
+  background:rgba(0,0,0,.12);
+  text-align:center;
+}
+
+.moc-pm-read-avatar{
+  width:150px;
+  height:150px;
+  margin:0 auto 16px;
+  border:1px solid var(--line-main);
+  background:#071233;
+  overflow:hidden;
+}
+
+.moc-pm-read-avatar img{
+  display:block;
+  width:100%!important;
+  height:100%!important;
+  object-fit:cover;
+  border:0!important;
+  border-radius:0!important;
+}
+
+.moc-pm-read-name{
+  margin:0 auto 14px;
+  color:var(--title);
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:20px;
+  line-height:1.2;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.moc-pm-read-name a,
+.moc-pm-read-name strong{
+  color:var(--title)!important;
+  text-decoration:none!important;
+}
+
+.moc-pm-read-contact{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:8px;
+  padding-top:12px;
+  border-top:1px solid rgba(194,163,104,.28);
+}
+
+.moc-pm-read-contact a,
+.moc-pm-read-contact img{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  max-width:28px;
+  max-height:28px;
+}
+
+/* corps message */
+.moc-pm-read-body{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+}
+
+.moc-pm-read-head{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:14px;
+  align-items:center;
+  padding:18px 20px;
+  border-bottom:1px solid rgba(194,163,104,.45);
+  background:linear-gradient(90deg,rgba(5,14,42,.92),rgba(74,64,102,.25),rgba(5,14,42,.92));
+}
+
+.moc-pm-read-head h2{
+  margin:0;
+  min-width:0;
+  color:var(--title);
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:26px;
+  font-weight:400;
+  line-height:1.15;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.moc-pm-read-icons{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin:0!important;
+  padding:0!important;
+  list-style:none!important;
+}
+
+.moc-pm-read-icons li{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-width:34px;
+  min-height:34px;
+  border:1px solid var(--line-main);
+  background:rgba(0,0,0,.16);
+}
+
+.moc-pm-read-icons a,
+.moc-pm-read-icons img{
+  display:block;
+}
+
+.moc-pm-read-author{
+  padding:12px 20px;
+  border-bottom:1px solid rgba(194,163,104,.22);
+  color:var(--text-soft);
+  font-size:12px;
+  line-height:1.45;
+}
+
+.moc-pm-read-author a,
+.moc-pm-read-author strong{
+  color:var(--title-soft)!important;
+  text-decoration:none!important;
+}
+
+.moc-pm-read-content{
+  min-height:260px;
+  padding:24px 24px 28px;
+  color:var(--text-main);
+  font-size:15px;
+  line-height:1.75;
+  word-break:break-word;
+}
+
+.moc-pm-read-content a{
+  color:var(--link)!important;
+}
+
+.moc-pm-read-content a:hover{
+  color:var(--title)!important;
+}
+
+.moc-pm-read-content img{
+  max-width:100%;
+  height:auto;
+}
+
+/* actions */
+.moc-pm-read-actions{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+  margin:18px 0 0;
+  padding:16px;
+  border:1px solid var(--line-main);
+  background:linear-gradient(90deg,rgba(5,14,42,.98),rgba(6,20,63,.96),rgba(5,14,42,.98));
+}
+
+.moc-pm-read-actions input,
+.moc-pm-reply{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:38px;
+  padding:0 16px;
+  border:1px solid var(--line-main)!important;
+  background:rgba(194,163,104,.05)!important;
+  color:var(--title)!important;
+  font-family:"Cinzel",Georgia,serif;
+  font-size:12px;
+  letter-spacing:1px;
+  text-decoration:none!important;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:.25s ease;
+}
+
+.moc-pm-read-actions input:hover,
+.moc-pm-reply:hover{
+  border-color:var(--line-strong)!important;
+  background:rgba(194,163,104,.12)!important;
+  color:var(--title-soft)!important;
+}
+
+.moc-pm-reply-box{
+  display:flex;
+  justify-content:center;
+  margin:14px 0 0;
+}
+
+.moc-pm-reply{
+  gap:8px;
+}
+
+/* review + jumpbox */
+.moc-pm-review{
+  margin-top:20px;
+}
+
+.moc-pm-jumpbox{
+  margin-top:18px;
+}
+
+.moc-pm-jumpbox select,
+.moc-pm-jumpbox input{
+  border:1px solid var(--line-main)!important;
+  background:#071233!important;
+  color:var(--text-main)!important;
+}
+
+/* nettoyage FA */
+.moc-pm-read-page .post,
+.moc-pm-read-page .row1,
+.moc-pm-read-page .row2,
+.moc-pm-read-page .postprofile,
+.moc-pm-read-page .postbody,
+.moc-pm-read-page .panel,
+.moc-pm-read-page .topic-actions,
+.moc-pm-read-page .buttons{
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  float:none!important;
+}
+
+/* responsive */
+@media(max-width:800px){
+  .moc-pm-read-title{
+    flex-direction:column;
+    font-size:20px;
+  }
+
+  .moc-pm-read-title span::after{
+    display:none;
+  }
+
+  .moc-pm-read-card{
+    grid-template-columns:1fr;
+  }
+
+  .moc-pm-read-profile{
+    border-right:0;
+    border-bottom:1px solid rgba(194,163,104,.45);
+  }
+
+  .moc-pm-read-head{
+    grid-template-columns:1fr;
+  }
+
+  .moc-pm-read-icons{
+    justify-content:flex-start;
+  }
+
+  .moc-pm-read-actions{
+    flex-direction:column;
+  }
+
+  .moc-pm-read-actions input,
+  .moc-pm-reply{
+    width:100%;
+  }
+}
