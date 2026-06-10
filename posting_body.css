@@ -610,3 +610,201 @@
     margin:0 auto;
   }
 }
+/* =========================================================
+   PATCH MOC — POSTING_BODY LISIBILITÉ + ORGANISATION
+   à mettre tout en bas du CSS
+   ========================================================= */
+
+/* page un peu plus large */
+.moc-posting-page{
+  max-width:1100px!important;
+}
+
+/* les lignes de formulaire respirent mieux */
+.moc-posting-page .moc-fields dl{
+  grid-template-columns:220px minmax(0,1fr)!important;
+  gap:20px!important;
+  align-items:center!important;
+}
+
+/* labels bien visibles */
+.moc-posting-page label,
+.moc-posting-page dt label,
+.moc-posting-page .moc-fields dt label{
+  color:var(--title-soft)!important;
+  font-family:"Cinzel",Georgia,serif!important;
+  font-size:12px!important;
+  line-height:1.35!important;
+  letter-spacing:1.2px!important;
+  text-transform:uppercase!important;
+}
+
+/* champs pleine largeur */
+.moc-posting-page .inputbox,
+.moc-posting-page input[type="text"],
+.moc-posting-page input[type="url"],
+.moc-posting-page select,
+.moc-posting-page textarea{
+  width:100%!important;
+  max-width:100%!important;
+  color:var(--text-main)!important;
+}
+
+/* ligne destinataires MP */
+.moc-posting-page .moc-recipient-field{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) 24px auto!important;
+  gap:10px!important;
+  align-items:center!important;
+}
+
+.moc-posting-page .moc-recipient-field input[type="text"]{
+  width:100%!important;
+  min-width:0!important;
+  margin:0!important;
+}
+
+.moc-posting-page #add_username{
+  display:block!important;
+  width:22px!important;
+  height:22px!important;
+  object-fit:contain!important;
+}
+
+.moc-posting-page #find_user{
+  min-width:260px!important;
+  white-space:nowrap!important;
+}
+
+/* champ sujet / couleur */
+.moc-posting-page .moc-subject-field{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  gap:12px!important;
+  align-items:center!important;
+}
+
+.moc-posting-page .moc-subject-field select{
+  width:auto!important;
+  min-width:150px!important;
+}
+
+/* zone éditeur mieux proportionnée */
+.moc-posting-page .moc-editor-layout{
+  display:grid!important;
+  grid-template-columns:180px minmax(0,1fr)!important;
+  gap:26px!important;
+  align-items:start!important;
+  margin-top:26px!important;
+}
+
+/* grimoire / smileys moins massif */
+.moc-posting-page .moc-smiley-box{
+  width:180px!important;
+  min-width:180px!important;
+  max-width:180px!important;
+  padding:14px!important;
+}
+
+.moc-posting-page #smileyContainer{
+  max-height:260px!important;
+  overflow:auto!important;
+}
+
+.moc-posting-page .moc-smiley-title{
+  font-size:18px!important;
+  line-height:1!important;
+}
+
+/* message box doit prendre toute la place */
+.moc-posting-page .moc-message-box{
+  width:100%!important;
+  min-width:0!important;
+}
+
+/* le conteneur natif FA ne doit pas limiter le textarea */
+.moc-posting-page #textarea_content{
+  width:100%!important;
+  max-width:100%!important;
+}
+
+/* SCEditor pleine largeur */
+.moc-posting-page .sceditor-container,
+.moc-posting-page .sceditor-container iframe,
+.moc-posting-page .sceditor-container textarea{
+  width:100%!important;
+  max-width:100%!important;
+}
+
+.moc-posting-page .sceditor-container{
+  min-height:470px!important;
+}
+
+.moc-posting-page .sceditor-container iframe,
+.moc-posting-page .sceditor-container textarea{
+  min-height:390px!important;
+}
+
+/* barre d’outils un peu plus lisible */
+.moc-posting-page .sceditor-toolbar{
+  min-height:90px!important;
+  padding:10px!important;
+  border:1px solid var(--line-main)!important;
+  background:rgba(10,18,48,.98)!important;
+}
+
+.moc-posting-page .sceditor-group{
+  margin:0 6px 6px 0!important;
+  padding:3px!important;
+  background:rgba(0,0,0,.12)!important;
+  border:1px solid rgba(194,163,104,.18)!important;
+}
+
+/* textarea / iframe fond plus contrasté */
+.moc-posting-page .sceditor-container iframe,
+.moc-posting-page .sceditor-container textarea,
+.moc-posting-page #text_editor_textarea{
+  background:#101936!important;
+  color:var(--text-main)!important;
+}
+
+/* boutons d’envoi */
+.moc-submit-panel .submit-buttons{
+  display:flex!important;
+  justify-content:center!important;
+  align-items:center!important;
+  gap:14px!important;
+}
+
+.moc-submit-panel .submit-buttons input{
+  min-width:150px!important;
+}
+
+/* responsive */
+@media(max-width:800px){
+  .moc-posting-page .moc-fields dl{
+    grid-template-columns:1fr!important;
+    gap:8px!important;
+  }
+
+  .moc-posting-page .moc-recipient-field,
+  .moc-posting-page .moc-subject-field,
+  .moc-posting-page .moc-editor-layout{
+    grid-template-columns:1fr!important;
+  }
+
+  .moc-posting-page #find_user,
+  .moc-posting-page .moc-smiley-box{
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+  }
+
+  .moc-submit-panel .submit-buttons{
+    flex-direction:column!important;
+  }
+
+  .moc-submit-panel .submit-buttons input{
+    width:100%!important;
+  }
+}
