@@ -88,7 +88,7 @@
 }
 
 /* =========================================================
-   TOPBAR : ONGLET + ÉCRIRE + FILTRE
+   TOPBAR
    ========================================================= */
 
 .moc-pm-topbar{
@@ -269,11 +269,11 @@
 }
 
 .moc-pm-list-head{
-  display:grid;
-  grid-template-columns:minmax(0,1fr) 170px;
-  gap:16px;
-  align-items:center;
-  padding:15px 18px;
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) 120px!important;
+  gap:16px!important;
+  align-items:center!important;
+  padding:15px 18px!important;
   border-bottom:1px solid rgba(194,163,104,.45);
   background:linear-gradient(90deg,rgba(5,14,42,.92),rgba(74,64,102,.25),rgba(5,14,42,.92));
   color:var(--title);
@@ -283,12 +283,20 @@
   text-transform:uppercase;
 }
 
+.moc-pm-list-head span:first-child{
+  min-width:0!important;
+}
+
 .moc-pm-list-head span:last-child{
-  display:block;
-  width:100%;
-  min-width:0;
-  text-align:center;
-  white-space:nowrap;
+  display:block!important;
+  width:120px!important;
+  max-width:120px!important;
+  min-width:120px!important;
+  justify-self:center!important;
+  text-align:center!important;
+  white-space:nowrap!important;
+  overflow:hidden!important;
+  text-overflow:clip!important;
 }
 
 .moc-pm-list{
@@ -301,10 +309,10 @@
 }
 
 .moc-pm-row{
-  display:grid;
-  grid-template-columns:58px minmax(0,1fr) 170px;
-  gap:14px;
-  align-items:center;
+  display:grid!important;
+  grid-template-columns:58px minmax(0,1fr) 120px!important;
+  gap:14px!important;
+  align-items:center!important;
   min-height:76px;
   margin:0!important;
   padding:14px;
@@ -350,18 +358,21 @@
 }
 
 .moc-pm-content{
-  min-width:0;
+  min-width:0!important;
+  overflow:hidden!important;
 }
 
 .moc-pm-subject{
   display:inline-block;
-  max-width:100%;
+  max-width:100%!important;
   color:var(--link)!important;
   font-family:"Cinzel",Georgia,serif;
   font-size:16px;
   font-weight:600;
   line-height:1.25;
   text-decoration:none!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
 }
 
 .moc-pm-subject:hover{
@@ -375,10 +386,13 @@
 }
 
 .moc-pm-meta{
+  max-width:100%!important;
   margin-top:6px;
   color:var(--text-soft);
   font-size:12px;
   line-height:1.35;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
 }
 
 .moc-pm-meta a,
@@ -387,10 +401,13 @@
 }
 
 .moc-pm-mark{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  min-width:0;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:120px!important;
+  max-width:120px!important;
+  min-width:120px!important;
+  justify-self:center!important;
 }
 
 .moc-pm-mark input[type="checkbox"]{
@@ -560,11 +577,11 @@
   }
 
   .moc-pm-list-head{
-    display:none;
+    display:none!important;
   }
 
   .moc-pm-row{
-    grid-template-columns:48px minmax(0,1fr);
+    grid-template-columns:48px minmax(0,1fr)!important;
   }
 
   .moc-pm-icon{
@@ -573,8 +590,11 @@
   }
 
   .moc-pm-mark{
-    grid-column:1 / -1;
-    justify-content:flex-end;
+    grid-column:1 / -1!important;
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    justify-content:flex-end!important;
   }
 
   .moc-pm-actions-buttons{
@@ -591,25 +611,4 @@
   .moc-pm-menu{
     grid-template-columns:1fr 1fr;
   }
-}
-/* =========================================================
-   PATCH MOC — TEXTE BLANC DANS L'ÉDITEUR
-   ========================================================= */
-
-.moc-posting-page .sceditor-container textarea,
-.moc-posting-page .sceditor-container iframe,
-.moc-posting-page #text_editor_textarea{
-  color:#ffffff!important;
-  caret-color:#ffffff!important;
-}
-
-/* zone visuelle de l'éditeur */
-.moc-posting-page .sceditor-container{
-  color:#ffffff!important;
-}
-
-/* utile pour le mode source */
-.moc-posting-page textarea{
-  color:#ffffff!important;
-  caret-color:#ffffff!important;
 }
