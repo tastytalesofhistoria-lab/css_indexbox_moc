@@ -1,1 +1,358 @@
 
+/* =========================================================
+   MURDER OF CROWS — PAGE ACTIVITÉ / DISCOVER
+   ========================================================= */
+
+.moc-discover-page{
+  width:100%;
+  max-width:980px;
+  margin:0 auto 40px;
+  color:var(--text-main);
+}
+
+.moc-discover-head{
+  position:relative;
+  margin:0 0 22px;
+  padding:34px 30px 28px;
+  border:1px solid var(--line-main);
+  background:
+    radial-gradient(circle at top,rgba(194,163,104,.12),transparent 42%),
+    linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
+  text-align:center;
+  overflow:hidden;
+}
+
+.moc-discover-head::before,
+.moc-discover-head::after{
+  content:"✦";
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  color:var(--title);
+  font-size:24px;
+  text-shadow:0 0 10px rgba(194,163,104,.45);
+}
+
+.moc-discover-head::before{left:24px;}
+.moc-discover-head::after{right:24px;}
+
+.moc-discover-kicker{
+  margin-bottom:8px;
+  color:var(--text-soft);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:11px;
+  letter-spacing:3px;
+  text-transform:uppercase;
+}
+
+.moc-discover-title{
+  margin:0;
+  padding:0;
+  color:var(--title)!important;
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:46px;
+  font-weight:400;
+  line-height:1;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  text-shadow:0 0 12px rgba(194,163,104,.18);
+}
+
+.moc-discover-sub{
+  margin-top:10px;
+  color:var(--title-soft);
+  font-size:13px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+/* état vide */
+.moc-discover-empty{
+  padding:28px;
+  border:1px solid var(--line-main);
+  background:var(--bg-panel);
+  text-align:center;
+  color:var(--text-soft);
+}
+
+.moc-discover-empty-icon{
+  margin-bottom:10px;
+  color:var(--title);
+  font-size:26px;
+  text-shadow:0 0 10px rgba(194,163,104,.4);
+}
+
+.moc-discover-empty p{
+  margin:0;
+}
+
+/* wrapper */
+.moc-discover-wrap{
+  display:flex;
+  flex-direction:column;
+  gap:26px;
+}
+
+/* groupe date */
+.moc-activity-date-group{
+  border:1px solid var(--line-main);
+  background:rgba(20,27,52,.86);
+  box-shadow:inset 0 0 0 1px rgba(228,211,180,.03);
+}
+
+.moc-activity-date-head{
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  align-items:center;
+  gap:16px;
+  padding:18px 22px;
+  border-bottom:1px solid rgba(194,163,104,.45);
+  background:linear-gradient(90deg,rgba(5,14,42,.92),rgba(74,64,102,.28),rgba(5,14,42,.92));
+}
+
+.moc-activity-date-head h2{
+  margin:0;
+  color:var(--title);
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:24px;
+  font-weight:400;
+  line-height:1;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+
+.moc-date-line{
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--line-strong),transparent);
+  opacity:.75;
+}
+
+/* timeline */
+.moc-activity-feed{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  margin:0!important;
+  padding:22px!important;
+  list-style:none!important;
+}
+
+.moc-activity-feed::before{
+  content:"";
+  position:absolute;
+  top:22px;
+  bottom:22px;
+  left:56px;
+  width:1px;
+  background:linear-gradient(180deg,transparent,var(--line-main),var(--line-main),transparent);
+  opacity:.75;
+}
+
+/* item */
+.moc-feed-item{
+  position:relative;
+  display:grid;
+  grid-template-columns:68px minmax(0,1fr);
+  gap:16px;
+  align-items:center;
+  margin:0!important;
+  padding:0!important;
+  list-style:none!important;
+}
+
+.moc-feed-avatar{
+  position:relative;
+  z-index:2;
+  width:68px;
+  height:68px;
+  padding:5px;
+  border:1px solid var(--line-main);
+  background:var(--bg-panel);
+  box-shadow:0 0 12px rgba(0,0,0,.25);
+}
+
+.moc-feed-avatar span{
+  display:block;
+  width:100%;
+  height:100%;
+  background-color:var(--image-bg);
+  background-image:var(--activity-image);
+  background-size:cover;
+  background-position:center;
+  border:1px solid rgba(194,163,104,.32);
+  filter:saturate(.85) contrast(1.04);
+}
+
+.moc-feed-card{
+  position:relative;
+  min-width:0;
+  padding:14px 16px 15px;
+  border:1px solid var(--line-main);
+  background:
+    linear-gradient(90deg,rgba(9,20,52,.98),rgba(20,27,52,.94)),
+    rgba(214,184,132,.02);
+  box-shadow:inset 0 0 0 1px rgba(228,211,180,.03);
+}
+
+.moc-feed-card::before{
+  content:"";
+  position:absolute;
+  top:50%;
+  left:-7px;
+  width:12px;
+  height:12px;
+  transform:translateY(-50%) rotate(45deg);
+  border-left:1px solid var(--line-main);
+  border-bottom:1px solid var(--line-main);
+  background:rgba(9,20,52,.98);
+}
+
+.moc-feed-time{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:8px;
+  padding:4px 9px;
+  border:1px solid rgba(194,163,104,.45);
+  background:rgba(0,0,0,.16);
+  color:var(--title-soft);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:11px;
+  line-height:1;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.moc-feed-text{
+  color:var(--text-main);
+  font-size:14px;
+  line-height:1.55;
+}
+
+.moc-feed-text a{
+  color:var(--link)!important;
+  text-decoration:none!important;
+  font-weight:600;
+}
+
+.moc-feed-text a:hover{
+  color:var(--title)!important;
+  text-decoration:underline!important;
+}
+
+.moc-feed-text strong,
+.moc-feed-text b{
+  color:var(--title-soft);
+}
+
+/* variations par type, si Forumactif ajoute les classes */
+.moc-feed-item.activity-type-topic .moc-feed-card{
+  border-color:rgba(194,163,104,.8);
+}
+
+.moc-feed-item.activity-type-post .moc-feed-card{
+  border-color:rgba(129,141,184,.75);
+}
+
+.moc-feed-item.activity-type-user .moc-feed-card{
+  border-color:rgba(172,0,240,.55);
+}
+
+/* fin activité */
+.moc-activity-end{
+  position:relative;
+  margin:24px auto 0;
+  text-align:center;
+}
+
+.moc-activity-end span{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:9px 18px;
+  border:1px solid var(--line-main);
+  background:var(--bg-panel);
+  color:var(--text-soft);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:11px;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+}
+
+.moc-activity-end span::before,
+.moc-activity-end span::after{
+  content:"✦";
+  margin:0 8px;
+  color:var(--title);
+}
+
+/* nettoyage FA */
+.moc-discover-page .forabg,
+.moc-discover-page .panel,
+.moc-discover-page .activity-feed,
+.moc-discover-page .feed-item{
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+}
+
+/* responsive */
+@media(max-width:700px){
+  .moc-discover-head{
+    padding:28px 20px 24px;
+  }
+
+  .moc-discover-head::before,
+  .moc-discover-head::after{
+    display:none;
+  }
+
+  .moc-discover-title{
+    font-size:32px;
+    letter-spacing:1.5px;
+  }
+
+  .moc-activity-date-head{
+    grid-template-columns:1fr;
+    gap:10px;
+    text-align:center;
+  }
+
+  .moc-date-line{
+    display:none;
+  }
+
+  .moc-activity-date-head h2{
+    white-space:normal;
+    font-size:20px;
+  }
+
+  .moc-activity-feed{
+    padding:18px!important;
+  }
+
+  .moc-activity-feed::before{
+    display:none;
+  }
+
+  .moc-feed-item{
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+
+  .moc-feed-avatar{
+    width:58px;
+    height:58px;
+    margin:0 auto;
+  }
+
+  .moc-feed-card::before{
+    display:none;
+  }
+
+  .moc-feed-card{
+    text-align:left;
+  }
+}
