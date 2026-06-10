@@ -1,1 +1,465 @@
 
+/* =========================================================
+   MURDER OF CROWS — PROFIL SIMPLE / VIEWPROFILE_BODY
+   ========================================================= */
+
+.moc-profile-page,
+.moc-profile-page *{
+  box-sizing:border-box;
+}
+
+.moc-profile-page{
+  width:100%;
+  max-width:1100px;
+  margin:0 auto 40px;
+  color:var(--text-main);
+}
+
+/* header */
+.moc-profile-head{
+  position:relative;
+  margin:0 0 22px;
+  padding:34px 30px 28px;
+  border:1px solid var(--line-main);
+  background:
+    radial-gradient(circle at top,rgba(194,163,104,.12),transparent 42%),
+    linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
+  text-align:center;
+  overflow:hidden;
+}
+
+.moc-profile-head::before,
+.moc-profile-head::after{
+  content:"✦";
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  color:var(--title);
+  font-size:24px;
+  text-shadow:0 0 10px rgba(194,163,104,.45);
+}
+
+.moc-profile-head::before{left:24px;}
+.moc-profile-head::after{right:24px;}
+
+.moc-profile-kicker{
+  margin-bottom:8px;
+  color:var(--text-soft);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:11px;
+  letter-spacing:3px;
+  text-transform:uppercase;
+}
+
+.moc-profile-title{
+  margin:0;
+  padding:0;
+  color:var(--title)!important;
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:46px;
+  font-weight:400;
+  line-height:1;
+  letter-spacing:3px;
+  text-transform:uppercase;
+}
+
+.moc-profile-sub{
+  margin-top:10px;
+  color:var(--title-soft);
+  font-size:13px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+/* layout principal */
+.moc-profile-main{
+  display:grid;
+  grid-template-columns:280px minmax(0,1fr);
+  border:1px solid var(--line-main);
+  background:linear-gradient(180deg,rgba(20,27,52,.96),rgba(9,20,52,.98));
+  box-shadow:inset 0 0 0 1px rgba(228,211,180,.03);
+}
+
+.moc-profile-side{
+  padding:22px 18px;
+  border-right:1px solid rgba(194,163,104,.45);
+  background:rgba(0,0,0,.12);
+}
+
+.moc-profile-content{
+  min-width:0;
+  padding:0;
+}
+
+/* titres sections */
+.moc-profile-section-title{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin:0;
+  padding:15px 18px;
+  border-bottom:1px solid rgba(194,163,104,.45);
+  background:linear-gradient(90deg,rgba(5,14,42,.92),rgba(74,64,102,.25),rgba(5,14,42,.92));
+  color:var(--title);
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:22px;
+  font-weight:400;
+  line-height:1;
+  letter-spacing:1px;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.moc-profile-side > .moc-profile-section-title{
+  margin:-22px -18px 18px;
+}
+
+/* avatar */
+.moc-profile-avatar{
+  width:190px;
+  min-height:190px;
+  margin:0 auto 18px;
+  border:1px solid var(--line-main);
+  background:#071233;
+  overflow:hidden;
+}
+
+.moc-profile-avatar img{
+  display:block;
+  width:100%!important;
+  height:auto!important;
+  min-height:190px;
+  object-fit:cover;
+  border:0!important;
+  border-radius:0!important;
+}
+
+/* follow */
+.moc-profile-follow{
+  display:flex;
+  justify-content:center;
+  margin:0 0 16px;
+}
+
+.moc-profile-follow button{
+  max-width:100%;
+}
+
+/* blocs côté gauche */
+.moc-profile-sideblock{
+  margin:0 0 14px;
+  padding:12px;
+  border:1px solid rgba(194,163,104,.32);
+  background:rgba(0,0,0,.12);
+}
+
+.moc-profile-line{
+  display:grid;
+  gap:6px;
+  text-align:center;
+}
+
+.moc-profile-line span{
+  color:var(--title-soft);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:11px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.moc-profile-line strong{
+  color:var(--text-main);
+  font-size:13px;
+  line-height:1.45;
+}
+
+.moc-profile-line a{
+  color:var(--link)!important;
+  text-decoration:none!important;
+}
+
+.moc-profile-line a:hover{
+  color:var(--title)!important;
+}
+
+/* awards */
+.moc-profile-awards{
+  margin-top:18px;
+}
+
+.moc-profile-awards .moc-profile-section-title{
+  margin:0 0 12px;
+  border:1px solid rgba(194,163,104,.32);
+}
+
+.awards_block.simple{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:8px;
+  padding:12px;
+  border:1px solid rgba(194,163,104,.32);
+  background:rgba(0,0,0,.12);
+}
+
+.awards_block.simple img{
+  max-width:42px;
+  max-height:42px;
+}
+
+/* champs */
+.moc-profile-fields{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  padding:18px;
+}
+
+.moc-profile-field{
+  display:grid;
+  grid-template-columns:190px minmax(0,1fr);
+  gap:14px;
+  align-items:start;
+  margin:0!important;
+  padding:12px 14px;
+  border:1px solid rgba(122,102,72,.75);
+  background:rgba(214,184,132,.025);
+}
+
+.moc-profile-field dt,
+.moc-profile-field dd{
+  margin:0!important;
+  padding:0!important;
+}
+
+.moc-profile-field dt{
+  color:var(--title-soft);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:12px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.moc-profile-field dd{
+  min-width:0;
+  color:var(--text-main);
+  font-size:13px;
+  line-height:1.5;
+}
+
+.moc-profile-field a{
+  color:var(--link)!important;
+  text-decoration:none!important;
+}
+
+.moc-profile-field a:hover{
+  color:var(--title)!important;
+  text-decoration:underline!important;
+}
+
+.moc-profile-field img{
+  max-width:100%;
+  height:auto;
+}
+
+.moc-profile-poststats{
+  color:var(--text-soft);
+}
+
+.moc-profile-searchlinks{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:8px;
+  font-size:12px;
+}
+
+/* bas contact / stats */
+.moc-profile-bottom{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 360px;
+  gap:16px;
+  margin-top:16px;
+}
+
+.moc-profile-contact,
+.moc-profile-stats{
+  border:1px solid var(--line-main);
+  background:linear-gradient(180deg,rgba(20,27,52,.96),rgba(9,20,52,.98));
+}
+
+.moc-profile-contact form{
+  margin:0;
+}
+
+.moc-profile-admin-comment{
+  padding:0 18px 18px;
+}
+
+.moc-profile-admin-comment textarea{
+  width:100%;
+  min-height:140px;
+  padding:10px;
+  border:1px solid var(--line-main)!important;
+  background:#071233!important;
+  color:var(--text-main)!important;
+}
+
+/* boutons */
+.moc-profile-submit{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+  margin:14px 0 0;
+  padding:0;
+  border:0;
+}
+
+.moc-profile-page .button1,
+.moc-profile-page .button2,
+.moc-profile-page input[type="submit"]{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:38px;
+  padding:0 16px;
+  border:1px solid var(--line-main)!important;
+  background:rgba(194,163,104,.05)!important;
+  color:var(--title)!important;
+  font-family:"Cinzel",Georgia,serif;
+  font-size:12px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:.25s ease;
+}
+
+.moc-profile-page .button1:hover,
+.moc-profile-page .button2:hover,
+.moc-profile-page input[type="submit"]:hover{
+  border-color:var(--line-strong)!important;
+  background:rgba(194,163,104,.12)!important;
+  color:var(--title-soft)!important;
+}
+
+/* ajax édition profil */
+.ajax-profil_parent{
+  position:relative;
+}
+
+.ajax-profil_hover{
+  outline:1px dashed rgba(194,163,104,.6);
+}
+
+.ajax-profil_edit{
+  position:absolute;
+  top:8px;
+  right:8px;
+  cursor:pointer;
+  z-index:3;
+}
+
+.ajax-profil_valid{
+  margin-left:6px;
+  cursor:pointer;
+}
+
+.form-error{
+  margin-top:6px;
+  color:#ffb3c5;
+  font-size:12px;
+}
+
+/* RPG */
+.moc-profile-rpg{
+  margin-top:24px;
+}
+
+.moc-profile-rpg-head{
+  margin-top:0;
+}
+
+.moc-rpg-card{
+  border:1px solid var(--line-main);
+  background:linear-gradient(180deg,rgba(20,27,52,.96),rgba(9,20,52,.98));
+  padding:18px;
+}
+
+.moc-rpg-image{
+  max-width:360px;
+  margin:0 auto 18px;
+  text-align:center;
+}
+
+.moc-rpg-image img{
+  max-width:100%;
+  height:auto;
+  border:1px solid var(--line-main);
+  background:#071233;
+}
+
+.moc-rpg-fields{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
+
+/* nettoyage FA */
+.moc-profile-page .panel,
+.moc-profile-page .bg1,
+.moc-profile-page .bg2,
+.moc-profile-page .column1,
+.moc-profile-page .column2,
+.moc-profile-page .left-box,
+.moc-profile-page .details,
+.moc-profile-page .h3{
+  float:none!important;
+  width:auto!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+}
+
+/* responsive */
+@media(max-width:900px){
+  .moc-profile-main,
+  .moc-profile-bottom{
+    grid-template-columns:1fr;
+  }
+
+  .moc-profile-side{
+    border-right:0;
+    border-bottom:1px solid rgba(194,163,104,.45);
+  }
+
+  .moc-profile-title{
+    font-size:34px;
+    letter-spacing:1.5px;
+  }
+
+  .moc-profile-head::before,
+  .moc-profile-head::after{
+    display:none;
+  }
+}
+
+@media(max-width:650px){
+  .moc-profile-field{
+    grid-template-columns:1fr;
+  }
+
+  .moc-rpg-fields{
+    grid-template-columns:1fr;
+  }
+
+  .moc-profile-avatar{
+    width:160px;
+    min-height:160px;
+  }
+
+  .moc-profile-avatar img{
+    min-height:160px;
+  }
+}
