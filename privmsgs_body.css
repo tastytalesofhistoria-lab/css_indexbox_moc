@@ -505,3 +505,150 @@
     width:100%;
   }
 }
+/* =========================================================
+   PATCH MOC — PRIVMSGS ORGANISATION HAUT DE PAGE
+   ========================================================= */
+
+/* reset vieux floats éventuels */
+#privmsgs-menu,
+#privmsgs-menu li,
+.pm-actions,
+.left-box,
+.right-box,
+.clear{
+  float:none!important;
+}
+
+/* grand bloc haut */
+.moc-pm-topbar{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  margin:0 0 16px;
+  width:100%;
+}
+
+/* ligne onglets + écrire */
+.moc-pm-topline{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:16px;
+  align-items:start;
+  width:100%;
+}
+
+/* menu */
+.moc-pm-menu{
+  display:grid!important;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:12px;
+  width:100%;
+  margin:0!important;
+  padding:0!important;
+  list-style:none!important;
+}
+
+.moc-pm-menu li{
+  min-width:0;
+}
+
+/* bouton écrire */
+.moc-pm-compose-top{
+  display:flex;
+  justify-content:flex-end;
+  align-items:stretch;
+  margin:0!important;
+}
+
+.moc-pm-compose{
+  min-width:116px;
+}
+
+/* toolbar sous le tout, pleine largeur */
+.moc-pm-toolbar{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:16px;
+  align-items:center;
+  width:100%;
+  margin:0!important;
+  padding:14px 16px;
+  border:1px solid var(--line-main);
+  background:
+    linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
+}
+
+/* texte taille boîte */
+.moc-pm-size{
+  min-width:0;
+  color:var(--text-soft);
+  font-size:13px;
+  line-height:1.45;
+}
+
+/* filtre */
+.moc-pm-filter{
+  display:flex!important;
+  align-items:center;
+  justify-content:flex-end;
+  flex-wrap:wrap;
+  gap:10px;
+  min-width:0;
+  text-align:right;
+}
+
+.moc-pm-filter span{
+  color:var(--title-soft);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:12px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+
+.moc-pm-filter select{
+  min-width:170px;
+  max-width:100%;
+}
+
+/* corrige la liste vide / bloc principal */
+.moc-pm-listbox{
+  margin-top:0!important;
+  clear:both!important;
+}
+
+/* ligne sélectionner */
+.moc-pm-selectline{
+  margin-top:12px;
+}
+
+/* responsive */
+@media (max-width:900px){
+  .moc-pm-topline{
+    grid-template-columns:1fr;
+  }
+
+  .moc-pm-compose-top{
+    justify-content:stretch;
+  }
+
+  .moc-pm-compose{
+    width:100%;
+  }
+
+  .moc-pm-toolbar{
+    grid-template-columns:1fr;
+    text-align:left;
+  }
+
+  .moc-pm-filter{
+    justify-content:flex-start;
+    text-align:left;
+  }
+}
+
+@media (max-width:700px){
+  .moc-pm-menu{
+    grid-template-columns:1fr 1fr;
+  }
+}
