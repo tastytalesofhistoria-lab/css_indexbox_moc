@@ -592,3 +592,24 @@
     grid-template-columns:1fr 1fr;
   }
 }
+/* =========================================================
+   PATCH MOC — TEXTE BLANC DANS L'ÉDITEUR
+   ========================================================= */
+
+.moc-posting-page .sceditor-container textarea,
+.moc-posting-page .sceditor-container iframe,
+.moc-posting-page #text_editor_textarea{
+  color:#ffffff!important;
+  caret-color:#ffffff!important;
+}
+
+/* zone visuelle de l'éditeur */
+.moc-posting-page .sceditor-container{
+  color:#ffffff!important;
+}
+
+/* utile pour le mode source */
+.moc-posting-page textarea{
+  color:#ffffff!important;
+  caret-color:#ffffff!important;
+}
