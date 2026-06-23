@@ -1,93 +1,422 @@
 /* =========================================================
    MURDER OF CROWS — PAGE D’ENVOI / POSTING_BODY
-   CSS corrigé, fusionné, sans doublons de patch
    ========================================================= */
 
-.moc-posting-form,.moc-posting-form *{box-sizing:border-box}
-
-.moc-posting-page{width:100%;max-width:1100px;margin:0 auto 40px;color:var(--text-main)}
-
-/* ================= HEADER ================= */
-.moc-posting-head{position:relative;margin:0 0 22px;padding:34px 30px 28px;border:1px solid var(--line-main);background:radial-gradient(circle at top,rgba(194,163,104,.12),transparent 42%),linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));text-align:center;overflow:hidden}
-.moc-posting-head::before,.moc-posting-head::after{content:"✦";position:absolute;top:50%;transform:translateY(-50%);color:var(--title);font-size:24px;text-shadow:0 0 10px rgba(194,163,104,.45)}
-.moc-posting-head::before{left:24px}.moc-posting-head::after{right:24px}
-.moc-posting-kicker{margin-bottom:8px;color:var(--text-soft);font-family:"Cinzel",Georgia,serif;font-size:11px;letter-spacing:3px;text-transform:uppercase}
-.moc-posting-title{margin:0;padding:0;color:var(--title)!important;font-family:"Cinzel Decorative","Cinzel",Georgia,serif;font-size:46px;font-weight:400;line-height:1;letter-spacing:3px;text-transform:uppercase;text-shadow:0 0 12px rgba(194,163,104,.18)}
-.moc-posting-sub{margin-top:10px;color:var(--title-soft);font-size:13px;letter-spacing:1px;text-transform:uppercase}
-
-/* ================= PANELS ================= */
-.moc-posting-box,.moc-extra-panel,.moc-submit-panel,.moc-posting-rules,.moc-warning-box{border:1px solid var(--line-main);background:linear-gradient(180deg,rgba(20,27,52,.96),rgba(9,20,52,.98));color:var(--text-main);box-shadow:inset 0 0 0 1px rgba(228,211,180,.03)}
-.moc-posting-box{margin-bottom:16px}.moc-extra-panel{margin:0 0 16px;padding:18px}.moc-submit-panel{margin:16px 0 20px;padding:16px;background:linear-gradient(90deg,rgba(5,14,42,.98),rgba(6,20,63,.96),rgba(5,14,42,.98))}
-
-/* ================= TITRES SECTIONS ================= */
-.moc-section-title{position:relative;display:flex;align-items:center;justify-content:center;gap:12px;margin:0;padding:15px 18px;border-bottom:1px solid rgba(194,163,104,.45);background:linear-gradient(90deg,rgba(5,14,42,.92),rgba(74,64,102,.25),rgba(5,14,42,.92));color:var(--title)!important;font-family:"Cinzel Decorative","Cinzel",Georgia,serif;font-size:24px;font-weight:400;line-height:1;letter-spacing:1.5px;text-align:center;text-transform:uppercase}
-.moc-section-title::before,.moc-section-title::after{content:"";flex:1;height:1px;max-width:160px;background:linear-gradient(90deg,transparent,var(--line-strong),transparent);opacity:.7}
-.moc-section-title.forum-hideable{margin-top:16px;cursor:pointer}
-.forum-hide{position:absolute;right:16px;top:50%;width:18px;height:18px;transform:translateY(-50%);border:1px solid rgba(194,163,104,.55)}
-.forum-hide-icon-a,.forum-hide-icon-b{position:absolute;left:4px;right:4px;top:8px;height:1px;background:var(--title)}.forum-hide-icon-b{transform:rotate(90deg)}.forum-hidden .forum-hide-icon-b{opacity:0}
-
-/* ================= RÈGLES / ALERTES ================= */
-.moc-posting-rules{margin-bottom:16px}.moc-rules-inner{display:grid;grid-template-columns:auto minmax(0,1fr);gap:18px;padding:18px}.moc-rules-img img{display:block;max-width:140px;border:1px solid var(--line-main);background:var(--image-bg)}.moc-rules-text{color:var(--text-main);font-size:14px;line-height:1.65}.moc-warning-box{margin-bottom:16px;padding:18px;text-align:center;color:#ffb3c5}.moc-warning-box p{margin:0}
-
-/* ================= FIELDSETS / CHAMPS ================= */
-.moc-fields{margin:0;padding:20px;border:0;min-width:0!important}.moc-fields dl{display:grid;grid-template-columns:210px minmax(0,1fr);gap:18px;align-items:center;margin:0 0 16px;padding:0}.moc-fields dt,.moc-fields dd{margin:0;padding:0}.moc-posting-page label,.moc-posting-page dt label,.moc-fields dt label,.moc-fields>label,.moc-options-list label{color:var(--title-soft)!important;font-family:"Cinzel",Georgia,serif!important;font-size:12px!important;line-height:1.35!important;letter-spacing:1.2px!important;text-transform:uppercase!important}.moc-fields dd{color:var(--text-main)}
-
-/* bloc optionnel recommandé autour des champs du haut */
-.moc-posting-topfields{display:flex;flex-direction:column;gap:16px;margin-bottom:28px;padding:22px;border:1px solid rgba(194,163,104,.32);background:rgba(0,0,0,.10)}
-.moc-posting-topfields dl{margin:0!important}.moc-posting-topfields input.inputbox,.moc-posting-topfields input[type="text"],.moc-posting-topfields input[type="url"],.moc-posting-topfields select{min-height:40px!important;padding:9px 12px!important;background:#071233!important}
-
-/* inputs globaux */
-.moc-posting-page input.inputbox,.moc-posting-page textarea.inputbox,.moc-posting-page select,.moc-posting-page input[type="text"],.moc-posting-page input[type="url"],.moc-posting-page input[type="file"],.moc-jumpbox-form select{width:100%;max-width:100%;border:1px solid var(--line-main)!important;background:rgba(5,14,42,.72)!important;color:var(--text-main)!important;outline:0!important}.moc-posting-page input.inputbox,.moc-posting-page input[type="text"],.moc-posting-page input[type="url"],.moc-posting-page select,.moc-jumpbox-form select{min-height:38px;padding:8px 10px}.moc-posting-page input:focus,.moc-posting-page select:focus,.moc-posting-page textarea:focus,.moc-posting-page .sceditor-container:focus-within{border-color:var(--line-strong)!important;box-shadow:0 0 0 1px rgba(194,163,104,.24),0 0 12px rgba(194,163,104,.12)!important}
-
-/* destinataire MP */
-.moc-recipient-field,.moc-recipient-grid{display:grid!important;grid-template-columns:minmax(0,1fr) 26px max-content!important;gap:10px!important;align-items:center!important}.moc-recipient-field input[type="text"],.moc-recipient-grid input[type="text"],.moc-added-user{width:100%!important;min-width:0!important;margin:0!important}.moc-posting-page #add_username{display:block!important;width:22px!important;height:22px!important;object-fit:contain!important;cursor:pointer;filter:saturate(.8)}.moc-posting-page #find_user{min-width:250px!important;white-space:nowrap!important}
-
-/* groupe MP */
-.moc-group-field{display:grid!important;grid-template-columns:minmax(0,1fr) 42px!important;gap:10px!important;align-items:center!important}.moc-group-field select{width:100%!important}.moc-group-field input[type="button"]{width:42px!important;min-width:42px!important;padding:0!important}
-
-/* sujet / description */
-.moc-subject-field{display:grid!important;grid-template-columns:minmax(0,1fr) auto!important;gap:12px!important;align-items:center!important}.moc-subject-field .medium,.moc-fields .medium{width:100%!important}.moc-subject-field select{width:auto!important;min-width:150px!important}
-
-/* icônes de sujet */
-.moc-icons-list{display:flex;align-items:center;flex-wrap:wrap;gap:8px}.moc-icons-list label{display:inline-flex;align-items:center;gap:4px;padding:5px 7px;border:1px solid rgba(194,163,104,.32);background:rgba(0,0,0,.12)}
-
-/* ================= ÉDITEUR ================= */
-.moc-editor-layout{display:grid!important;grid-template-columns:180px minmax(0,1fr)!important;gap:26px!important;align-items:start!important;margin-top:26px!important}.moc-smiley-box{width:180px!important;min-width:180px!important;max-width:180px!important;padding:14px!important;border:1px solid var(--line-main);background:rgba(7,18,51,.72)!important;color:var(--text-soft);font-size:12px;line-height:1.5}.moc-smiley-title{margin-bottom:12px;color:var(--title);text-align:center;font-family:"Cinzel Decorative","Cinzel",Georgia,serif;font-size:18px!important;line-height:1!important;letter-spacing:1px;text-transform:uppercase}#smileyContainer{
-  min-height:230px;
-  overflow:visible;
-  text-align:center;
-}#smileyContainer img{margin:3px}.moc-status-box{margin-top:12px;padding-top:10px;border-top:1px solid rgba(194,163,104,.25);text-align:center}.moc-message-box,#textarea_content{width:100%!important;max-width:100%!important;min-width:0!important}.moc-message-box .left-box{margin-bottom:8px}#helpbox.helpline{display:block;min-height:18px;color:var(--text-soft);font-size:12px}#text_editor_textarea{width:100%!important;min-height:420px!important}
-
-/* SCEditor */
-.moc-posting-page .sceditor-container{width:100%!important;max-width:100%!important;min-height:510px!important;border:1px solid var(--line-main)!important;background:#0c183f!important;color:var(--text-main)!important;box-shadow:inset 0 0 0 1px rgba(228,211,180,.04)!important}.moc-posting-page .sceditor-toolbar{min-height:92px!important;padding:10px!important;border:0!important;border-bottom:1px solid var(--line-main)!important;background:#071233!important}.moc-posting-page .sceditor-group{margin:0 6px 6px 0!important;padding:4px!important;border:1px solid rgba(194,163,104,.16)!important;background:rgba(255,255,255,.02)!important}.moc-posting-page .sceditor-container iframe,.moc-posting-page .sceditor-container textarea,.moc-posting-page #text_editor_textarea{width:100%!important;max-width:100%!important;min-height:420px!important;margin:0!important;padding:12px!important;border:0!important;background:#1b2856!important;color:#f0e3c9!important}
-
-/* ================= BOUTONS ================= */
-.moc-posting-page .button1,.moc-posting-page .button2,.moc-posting-page input[type="submit"],.moc-posting-page input[type="button"],.moc-jumpbox-form input[type="submit"]{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 16px;border:1px solid var(--line-main)!important;background:rgba(194,163,104,.05)!important;color:var(--title)!important;font-family:"Cinzel",Georgia,serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;white-space:nowrap;cursor:pointer;transition:.25s ease}.moc-posting-page .button1:hover,.moc-posting-page .button2:hover,.moc-posting-page input[type="submit"]:hover,.moc-posting-page input[type="button"]:hover,.moc-jumpbox-form input[type="submit"]:hover{border-color:var(--line-strong)!important;background:rgba(194,163,104,.12)!important;color:var(--title-soft)!important}.moc-submit-panel .submit-buttons{display:flex!important;flex-wrap:wrap;justify-content:center!important;align-items:center!important;gap:14px!important;margin:0;padding:0;border:0}.moc-submit-panel .submit-buttons input{min-width:150px!important}.moc-submit-panel .info{flex-basis:100%;margin-top:8px;color:var(--text-soft);text-align:center}
-
-/* ================= OPTIONS ================= */
-.moc-options-list{display:flex;flex-direction:column;gap:10px;margin:0;padding:0;border:0}.moc-options-list label{display:flex;align-items:center;gap:8px;padding:9px 10px;border:1px solid rgba(194,163,104,.25);background:rgba(0,0,0,.12)}.moc-options-list input[type="checkbox"],.moc-posting-page input[type="radio"]{accent-color:#c2a368}.moc-type-toggle{margin-top:8px;padding:10px;border:1px solid rgba(194,163,104,.25);background:rgba(0,0,0,.12)}
-
-/* ================= DÉS / PIÈCES JOINTES / AIDE ================= */
-.moc-dice-panel table,.moc-dice-panel td{width:100%;border:0;color:var(--text-main)}.moc-dice-panel select,.moc-dice-panel input[type="text"]{margin:0 6px}.moc-help-text,.moc-posting-page .info,.moc-posting-page .italic{color:var(--text-soft);font-size:12px;line-height:1.5}.moc-posting-page hr.dashed{margin:16px 0;border:0;border-top:1px dashed rgba(194,163,104,.35)}
-
-/* ================= JUMPBOX / POPUPS ================= */
-.moc-jumpbox-form{max-width:1100px;margin:18px auto 30px;padding:12px;border:1px solid var(--line-main);background:var(--bg-panel)}.moc-jumpbox-form p{margin:0;color:var(--text-soft)}.jqmWindow{border:1px solid var(--line-main)!important;background:var(--bg-panel)!important;color:var(--text-main)!important}
-
-/* nettoyage anciens blocs FA */
-.moc-posting-page .panel,.moc-posting-page .post,.moc-posting-page .row1,.moc-posting-page .row2,.moc-posting-page .row3,.moc-posting-page .inner,.moc-posting-page .corners-top,.moc-posting-page .corners-bottom{background:transparent!important;border:0!important;box-shadow:none!important}
-
-/* ================= RESPONSIVE ================= */
-@media(max-width:850px){.moc-posting-title{font-size:34px;letter-spacing:1.5px}.moc-posting-head::before,.moc-posting-head::after{display:none}.moc-fields dl,.moc-recipient-field,.moc-recipient-grid,.moc-group-field,.moc-subject-field,.moc-editor-layout{grid-template-columns:1fr!important}.moc-fields dl{gap:8px!important}.moc-smiley-box{order:2;width:100%!important;min-width:0!important;max-width:100%!important}.moc-message-box{order:1}.moc-posting-page #find_user,.moc-group-field input[type="button"]{width:100%!important;min-width:0!important}.moc-submit-panel .submit-buttons{flex-direction:column!important}.moc-submit-panel .submit-buttons input,.moc-submit-panel input{width:100%!important}.moc-rules-inner{grid-template-columns:1fr}.moc-rules-img img{margin:0 auto}}
-
-/* =========================================================
-   PATCH MOC — RESTAURER LES SMILEYS DU GRIMOIRE
-   ========================================================= */
-
-.moc-smiley-box{
-  overflow:visible!important;
+.moc-posting-form,
+.moc-posting-form *,
+.moc-posting-page,
+.moc-posting-page *,
+.moc-posting-page *::before,
+.moc-posting-page *::after{
+  box-sizing:border-box;
 }
 
-/* on laisse Forumactif gérer la hauteur interne des smileys */
+.moc-posting-page{
+  width:100%;
+  max-width:1100px;
+  margin:0 auto 40px;
+  color:var(--text-main);
+}
+
+/* ================= HEADER ================= */
+
+.moc-posting-head{
+  position:relative;
+  margin:0 0 22px;
+  padding:34px 30px 28px;
+  border:1px solid var(--line-main);
+  background:
+    radial-gradient(circle at top,rgba(194,163,104,.12),transparent 42%),
+    linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
+  text-align:center;
+  overflow:hidden;
+}
+
+.moc-posting-head::before,
+.moc-posting-head::after{
+  content:"✦";
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  color:var(--title);
+  font-size:24px;
+  text-shadow:0 0 10px rgba(194,163,104,.45);
+}
+
+.moc-posting-head::before{left:24px}
+.moc-posting-head::after{right:24px}
+
+.moc-posting-kicker{
+  margin:0 0 8px;
+  color:var(--text-soft);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:11px;
+  letter-spacing:3px;
+  text-transform:uppercase;
+}
+
+.moc-posting-title{
+  margin:0;
+  padding:0;
+  color:var(--title)!important;
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:46px;
+  font-weight:400;
+  line-height:1;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  text-shadow:0 0 12px rgba(194,163,104,.18);
+}
+
+.moc-posting-sub{
+  margin:10px 0 0;
+  color:var(--title-soft);
+  font-size:13px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+/* ================= PANELS ================= */
+
+.moc-posting-box,
+.moc-extra-panel,
+.moc-submit-panel,
+.moc-posting-rules,
+.moc-warning-box{
+  border:1px solid var(--line-main);
+  background:linear-gradient(180deg,rgba(20,27,52,.96),rgba(9,20,52,.98));
+  color:var(--text-main);
+  box-shadow:inset 0 0 0 1px rgba(228,211,180,.03);
+}
+
+.moc-posting-box,
+.moc-posting-rules{
+  margin:0 0 16px;
+}
+
+.moc-extra-panel{
+  margin:0 0 16px;
+  padding:18px;
+}
+
+.moc-submit-panel{
+  margin:16px 0 20px;
+  padding:16px;
+  background:linear-gradient(90deg,rgba(5,14,42,.98),rgba(6,20,63,.96),rgba(5,14,42,.98));
+}
+
+/* ================= TITRES SECTIONS ================= */
+
+.moc-section-title{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin:0;
+  padding:15px 18px;
+  border-bottom:1px solid rgba(194,163,104,.45);
+  background:linear-gradient(90deg,rgba(5,14,42,.92),rgba(74,64,102,.25),rgba(5,14,42,.92));
+  color:var(--title)!important;
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:24px;
+  font-weight:400;
+  line-height:1;
+  letter-spacing:1.5px;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.moc-section-title::before,
+.moc-section-title::after{
+  content:"";
+  flex:1;
+  max-width:160px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--line-strong),transparent);
+  opacity:.7;
+}
+
+.moc-section-title.forum-hideable{
+  margin-top:16px;
+  cursor:pointer;
+}
+
+.forum-hide{
+  position:absolute;
+  top:50%;
+  right:16px;
+  width:18px;
+  height:18px;
+  transform:translateY(-50%);
+  border:1px solid rgba(194,163,104,.55);
+}
+
+.forum-hide-icon-a,
+.forum-hide-icon-b{
+  position:absolute;
+  top:8px;
+  left:4px;
+  right:4px;
+  height:1px;
+  background:var(--title);
+}
+
+.forum-hide-icon-b{
+  transform:rotate(90deg);
+}
+
+.forum-hidden .forum-hide-icon-b{
+  opacity:0;
+}
+
+/* ================= RÈGLES / ALERTES ================= */
+
+.moc-rules-inner{
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr);
+  gap:18px;
+  padding:18px;
+}
+
+.moc-rules-img img{
+  display:block;
+  max-width:140px;
+  border:1px solid var(--line-main);
+  background:var(--image-bg);
+}
+
+.moc-rules-text{
+  color:var(--text-main);
+  font-size:14px;
+  line-height:1.65;
+}
+
+.moc-warning-box{
+  margin:0 0 16px;
+  padding:18px;
+  color:#ffb3c5;
+  text-align:center;
+}
+
+.moc-warning-box p{
+  margin:0;
+}
+
+/* ================= FIELDSETS / CHAMPS ================= */
+
+.moc-fields{
+  min-width:0!important;
+  margin:0;
+  padding:20px;
+  border:0;
+}
+
+.moc-fields dl{
+  display:grid;
+  grid-template-columns:210px minmax(0,1fr);
+  align-items:center;
+  gap:18px;
+  margin:0 0 16px;
+  padding:0;
+}
+
+.moc-fields dt,
+.moc-fields dd{
+  margin:0;
+  padding:0;
+}
+
+.moc-fields dd{
+  color:var(--text-main);
+}
+
+.moc-posting-page label,
+.moc-posting-page dt label,
+.moc-fields dt label,
+.moc-fields > label,
+.moc-options-list label{
+  color:var(--title-soft)!important;
+  font-family:"Cinzel",Georgia,serif!important;
+  font-size:12px!important;
+  line-height:1.35!important;
+  letter-spacing:1.2px!important;
+  text-transform:uppercase!important;
+}
+
+.moc-posting-topfields{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  margin:0 0 28px;
+  padding:22px;
+  border:1px solid rgba(194,163,104,.32);
+  background:rgba(0,0,0,.10);
+}
+
+.moc-posting-topfields dl{
+  margin:0!important;
+}
+
+/* ================= INPUTS ================= */
+
+.moc-posting-page input.inputbox,
+.moc-posting-page textarea.inputbox,
+.moc-posting-page select,
+.moc-posting-page input[type="text"],
+.moc-posting-page input[type="url"],
+.moc-posting-page input[type="file"],
+.moc-jumpbox-form select{
+  width:100%;
+  max-width:100%;
+  border:1px solid var(--line-main)!important;
+  background:rgba(5,14,42,.72)!important;
+  color:var(--text-main)!important;
+  outline:0!important;
+}
+
+.moc-posting-page input.inputbox,
+.moc-posting-page input[type="text"],
+.moc-posting-page input[type="url"],
+.moc-posting-page select,
+.moc-jumpbox-form select{
+  min-height:38px;
+  padding:8px 10px;
+}
+
+.moc-posting-topfields input.inputbox,
+.moc-posting-topfields input[type="text"],
+.moc-posting-topfields input[type="url"],
+.moc-posting-topfields select{
+  min-height:40px!important;
+  padding:9px 12px!important;
+  background:#071233!important;
+}
+
+.moc-posting-page input:focus,
+.moc-posting-page select:focus,
+.moc-posting-page textarea:focus,
+.moc-posting-page .sceditor-container:focus-within{
+  border-color:var(--line-strong)!important;
+  box-shadow:0 0 0 1px rgba(194,163,104,.24),0 0 12px rgba(194,163,104,.12)!important;
+}
+
+/* ================= CHAMPS SPÉCIAUX ================= */
+
+.moc-recipient-field,
+.moc-recipient-grid{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) 26px max-content!important;
+  align-items:center!important;
+  gap:10px!important;
+}
+
+.moc-recipient-field input[type="text"],
+.moc-recipient-grid input[type="text"],
+.moc-added-user{
+  width:100%!important;
+  min-width:0!important;
+  margin:0!important;
+}
+
+.moc-posting-page #add_username{
+  display:block!important;
+  width:22px!important;
+  height:22px!important;
+  object-fit:contain!important;
+  cursor:pointer;
+  filter:saturate(.8);
+}
+
+.moc-posting-page #find_user{
+  min-width:250px!important;
+  white-space:nowrap!important;
+}
+
+.moc-group-field{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) 42px!important;
+  align-items:center!important;
+  gap:10px!important;
+}
+
+.moc-group-field select{
+  width:100%!important;
+}
+
+.moc-group-field input[type="button"]{
+  width:42px!important;
+  min-width:42px!important;
+  padding:0!important;
+}
+
+.moc-subject-field{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  align-items:center!important;
+  gap:12px!important;
+}
+
+.moc-subject-field .medium,
+.moc-fields .medium{
+  width:100%!important;
+}
+
+.moc-subject-field select{
+  width:auto!important;
+  min-width:150px!important;
+}
+
+.moc-icons-list{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:8px;
+}
+
+.moc-icons-list label{
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+  padding:5px 7px;
+  border:1px solid rgba(194,163,104,.32);
+  background:rgba(0,0,0,.12);
+}
+
+/* ================= ÉDITEUR ================= */
+
+.moc-editor-layout{
+  display:grid!important;
+  grid-template-columns:180px minmax(0,1fr)!important;
+  align-items:start!important;
+  gap:26px!important;
+  margin-top:26px!important;
+}
+
+.moc-smiley-box{
+  width:180px!important;
+  min-width:180px!important;
+  max-width:180px!important;
+  padding:14px!important;
+  overflow:visible!important;
+  border:1px solid var(--line-main);
+  background:rgba(7,18,51,.72)!important;
+  color:var(--text-soft);
+  font-size:12px;
+  line-height:1.5;
+}
+
+.moc-smiley-title{
+  margin:0 0 12px;
+  color:var(--title);
+  text-align:center;
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:18px!important;
+  line-height:1!important;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
 .moc-posting-page #smileyContainer{
   display:block!important;
   height:auto!important;
@@ -97,7 +426,6 @@
   text-align:center!important;
 }
 
-/* les tableaux / lignes générés par Forumactif */
 .moc-posting-page #smileyContainer table,
 .moc-posting-page #smileyContainer tbody,
 .moc-posting-page #smileyContainer tr,
@@ -105,33 +433,36 @@
   display:revert!important;
   visibility:visible!important;
   opacity:1!important;
-  background:transparent!important;
   border:0!important;
+  background:transparent!important;
 }
 
-/* les liens smileys */
-.moc-posting-page #smileyContainer a{
+.moc-posting-page #smileyContainer a,
+.moc-posting-page #smileyContainer .smiley-element,
+.moc-posting-page #smileyContainer .smilies,
+.moc-posting-page #smileyContainer .smiley{
   display:inline-block!important;
   visibility:visible!important;
   opacity:1!important;
+}
+
+.moc-posting-page #smileyContainer a{
   margin:3px!important;
   line-height:1!important;
 }
 
-/* les images smileys */
 .moc-posting-page #smileyContainer img{
   display:inline-block!important;
   visibility:visible!important;
-  opacity:1!important;
   width:auto!important;
   height:auto!important;
   max-width:none!important;
   max-height:none!important;
   margin:3px!important;
+  opacity:1!important;
   vertical-align:middle!important;
 }
 
-/* le select "voir plus de smileys" */
 .moc-posting-page #smileyContainer select{
   width:100%!important;
   margin:0 0 10px!important;
@@ -140,11 +471,280 @@
   color:var(--text-main)!important;
 }
 
-/* si Forumactif ajoute une zone scroll native */
-.moc-posting-page #smileyContainer .smiley-element,
-.moc-posting-page #smileyContainer .smilies,
-.moc-posting-page #smileyContainer .smiley{
-  display:inline-block!important;
-  visibility:visible!important;
-  opacity:1!important;
+.moc-status-box{
+  margin-top:12px;
+  padding-top:10px;
+  border-top:1px solid rgba(194,163,104,.25);
+  text-align:center;
+}
+
+.moc-message-box,
+#textarea_content{
+  width:100%!important;
+  max-width:100%!important;
+  min-width:0!important;
+}
+
+.moc-message-box .left-box{
+  margin-bottom:8px;
+}
+
+#helpbox.helpline{
+  display:block;
+  min-height:18px;
+  color:var(--text-soft);
+  font-size:12px;
+}
+
+/* ================= SCEDITOR ================= */
+
+.moc-posting-page .sceditor-container{
+  width:100%!important;
+  max-width:100%!important;
+  min-height:510px!important;
+  border:1px solid var(--line-main)!important;
+  background:#0c183f!important;
+  color:var(--text-main)!important;
+  box-shadow:inset 0 0 0 1px rgba(228,211,180,.04)!important;
+}
+
+.moc-posting-page .sceditor-toolbar{
+  min-height:92px!important;
+  padding:10px!important;
+  border:0!important;
+  border-bottom:1px solid var(--line-main)!important;
+  background:#071233!important;
+}
+
+.moc-posting-page .sceditor-group{
+  margin:0 6px 6px 0!important;
+  padding:4px!important;
+  border:1px solid rgba(194,163,104,.16)!important;
+  background:rgba(255,255,255,.02)!important;
+}
+
+.moc-posting-page .sceditor-container iframe,
+.moc-posting-page .sceditor-container textarea,
+.moc-posting-page #text_editor_textarea{
+  width:100%!important;
+  max-width:100%!important;
+  min-height:420px!important;
+  margin:0!important;
+  padding:12px!important;
+  border:0!important;
+  background:#1b2856!important;
+  color:#f0e3c9!important;
+}
+
+/* ================= BOUTONS ================= */
+
+.moc-posting-page .button1,
+.moc-posting-page .button2,
+.moc-posting-page input[type="submit"],
+.moc-posting-page input[type="button"],
+.moc-jumpbox-form input[type="submit"]{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:40px;
+  padding:0 16px;
+  border:1px solid var(--line-main)!important;
+  background:rgba(194,163,104,.05)!important;
+  color:var(--title)!important;
+  font-family:"Cinzel",Georgia,serif;
+  font-size:12px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  white-space:nowrap;
+  cursor:pointer;
+  transition:.25s ease;
+}
+
+.moc-posting-page .button1:hover,
+.moc-posting-page .button2:hover,
+.moc-posting-page input[type="submit"]:hover,
+.moc-posting-page input[type="button"]:hover,
+.moc-jumpbox-form input[type="submit"]:hover{
+  border-color:var(--line-strong)!important;
+  background:rgba(194,163,104,.12)!important;
+  color:var(--title-soft)!important;
+}
+
+.moc-submit-panel .submit-buttons{
+  display:flex!important;
+  flex-wrap:wrap;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:14px!important;
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+.moc-submit-panel .submit-buttons input{
+  min-width:150px!important;
+}
+
+.moc-submit-panel .info{
+  flex-basis:100%;
+  margin-top:8px;
+  color:var(--text-soft);
+  text-align:center;
+}
+
+/* ================= OPTIONS ================= */
+
+.moc-options-list{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+.moc-options-list label{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:9px 10px;
+  border:1px solid rgba(194,163,104,.25);
+  background:rgba(0,0,0,.12);
+}
+
+.moc-options-list input[type="checkbox"],
+.moc-posting-page input[type="radio"]{
+  accent-color:#c2a368;
+}
+
+.moc-type-toggle{
+  margin-top:8px;
+  padding:10px;
+  border:1px solid rgba(194,163,104,.25);
+  background:rgba(0,0,0,.12);
+}
+
+/* ================= DÉS / PIÈCES JOINTES / AIDE ================= */
+
+.moc-dice-panel table,
+.moc-dice-panel td{
+  width:100%;
+  border:0;
+  color:var(--text-main);
+}
+
+.moc-dice-panel select,
+.moc-dice-panel input[type="text"]{
+  margin:0 6px;
+}
+
+.moc-help-text,
+.moc-posting-page .info,
+.moc-posting-page .italic{
+  color:var(--text-soft);
+  font-size:12px;
+  line-height:1.5;
+}
+
+.moc-posting-page hr.dashed{
+  margin:16px 0;
+  border:0;
+  border-top:1px dashed rgba(194,163,104,.35);
+}
+
+/* ================= JUMPBOX / POPUPS ================= */
+
+.moc-jumpbox-form{
+  max-width:1100px;
+  margin:18px auto 30px;
+  padding:12px;
+  border:1px solid var(--line-main);
+  background:var(--bg-panel);
+}
+
+.moc-jumpbox-form p{
+  margin:0;
+  color:var(--text-soft);
+}
+
+.jqmWindow{
+  border:1px solid var(--line-main)!important;
+  background:var(--bg-panel)!important;
+  color:var(--text-main)!important;
+}
+
+/* ================= NETTOYAGE FORUMACTIF ================= */
+
+.moc-posting-page .panel,
+.moc-posting-page .post,
+.moc-posting-page .row1,
+.moc-posting-page .row2,
+.moc-posting-page .row3,
+.moc-posting-page .inner,
+.moc-posting-page .corners-top,
+.moc-posting-page .corners-bottom{
+  border:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:850px){
+  .moc-posting-title{
+    font-size:34px;
+    letter-spacing:1.5px;
+  }
+
+  .moc-posting-head::before,
+  .moc-posting-head::after{
+    display:none;
+  }
+
+  .moc-fields dl,
+  .moc-recipient-field,
+  .moc-recipient-grid,
+  .moc-group-field,
+  .moc-subject-field,
+  .moc-editor-layout{
+    grid-template-columns:1fr!important;
+  }
+
+  .moc-fields dl{
+    gap:8px!important;
+  }
+
+  .moc-smiley-box{
+    order:2;
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+  }
+
+  .moc-message-box{
+    order:1;
+  }
+
+  .moc-posting-page #find_user,
+  .moc-group-field input[type="button"]{
+    width:100%!important;
+    min-width:0!important;
+  }
+
+  .moc-submit-panel .submit-buttons{
+    flex-direction:column!important;
+  }
+
+  .moc-submit-panel .submit-buttons input,
+  .moc-submit-panel input{
+    width:100%!important;
+  }
+
+  .moc-rules-inner{
+    grid-template-columns:1fr;
+  }
+
+  .moc-rules-img img{
+    margin:0 auto;
+  }
 }
