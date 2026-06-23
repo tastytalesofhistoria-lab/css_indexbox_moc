@@ -22,12 +22,12 @@
   position:relative;
   margin:0 0 22px;
   padding:34px 30px 28px;
+  overflow:hidden;
   border:1px solid var(--line-main);
   background:
     radial-gradient(circle at top,rgba(194,163,104,.12),transparent 42%),
     linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
   text-align:center;
-  overflow:hidden;
 }
 
 .moc-pm-head::before,
@@ -157,9 +157,9 @@
 
 .moc-pm-menu li .active{
   position:absolute;
-  left:0;
   right:0;
   bottom:0;
+  left:0;
   height:2px;
   background:linear-gradient(90deg,transparent,var(--line-strong),transparent);
   opacity:.55;
@@ -420,7 +420,7 @@
 .moc-pm-mark input[type="checkbox"]{
   width:18px;
   height:18px;
-  accent-color:#c2a368;
+  accent-color:var(--line-strong);
 }
 
 .moc-pm-empty{
