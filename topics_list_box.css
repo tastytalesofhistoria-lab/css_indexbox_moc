@@ -1,347 +1,373 @@
- /* =========================================================
-   TOPICS LIST - HEADER + CARTES
+/* =========================================================
+   MURDER OF CROWS — TOPICS LIST / VIEWFORUM_BODY
    ========================================================= */
 
-.topics-forumbg {
-  background: transparent !important;
-  border: 1px solid var(--line-main) !important;
-  box-shadow: none !important;
-  overflow: hidden;
+.topics-forumbg,
+.topics-forumbg *,
+.topics-forumbg *::before,
+.topics-forumbg *::after{
+  box-sizing:border-box;
 }
 
-/* header */
-.topics-section-header {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 20px;
-  padding: 16px 20px;
-  border-bottom: 1px solid rgba(74, 56, 40, 0.7);
-  background: rgba(214, 184, 132, 0.015);
+.topics-forumbg{
+  overflow:hidden;
+  border:1px solid var(--line-main)!important;
+  background:transparent!important;
+  box-shadow:none!important;
 }
 
-.topics-section-title {
-  color: var(--title) !important;
-  font-family: "Cinzel Decorative", "Cinzel", Georgia, serif;
-  font-size: 28px;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+/* ================= HEADER ================= */
+
+.topics-section-header{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  align-items:center;
+  gap:20px;
+  padding:16px 20px;
+  border-bottom:1px solid rgba(74,56,40,.7);
+  background:rgba(214,184,132,.015);
 }
 
-.topics-section-cols {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.topics-section-title{
+  color:var(--title)!important;
+  font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
+  font-size:28px;
+  font-weight:700;
+  line-height:1;
+  letter-spacing:.04em;
+  text-transform:uppercase;
 }
 
-.topics-col {
-  width: 34px;
-  height: 34px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--line-main);
-  background: rgba(0, 0, 0, 0.18);
-  color: var(--title-soft);
-  font-size: 15px;
-  box-sizing: border-box;
-  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+.topics-section-cols{
+  display:flex;
+  align-items:center;
+  gap:10px;
 }
 
-.topics-col:hover {
-  background: rgba(214, 184, 132, 0.06);
-  border-color: var(--line-soft);
-  color: var(--link);
+.topics-col{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:34px;
+  height:34px;
+  border:1px solid var(--line-main);
+  background:rgba(0,0,0,.18);
+  color:var(--title-soft);
+  font-size:15px;
+  transition:background .2s ease,border-color .2s ease,color .2s ease;
 }
 
-/* liste */
-.topics-list-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  padding: 14px 20px 20px 20px !important;
-  margin: 0 !important;
+.topics-col:hover{
+  border-color:var(--line-soft);
+  background:rgba(214,184,132,.06);
+  color:var(--link);
 }
 
-.topic-card-row {
-  list-style: none;
-  margin: 0 !important;
-  padding: 0 !important;
+/* ================= LISTE ================= */
+
+.topics-list-cards{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  margin:0!important;
+  padding:14px 20px 20px!important;
+  list-style:none!important;
 }
 
-/* carte sujet */
-.topic-card {
-  display: grid;
-  grid-template-columns: 110px minmax(0, 1fr) 110px 190px;
-  gap: 14px;
-  align-items: stretch;
-  padding: 14px;
-  border: 1px solid var(--line-main);
-  background: rgba(214, 184, 132, 0.02);
-  box-sizing: border-box;
+.topic-card-row{
+  margin:0!important;
+  padding:0!important;
+  list-style:none!important;
 }
 
-/* image gauche */
-.topic-card-icon {
-  min-height: 110px;
-  height: 110px;
-  border: 1px solid var(--line-main);
-  background-color: var(--image-bg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
+/* ================= CARTE SUJET ================= */
+
+.topic-card{
+  display:grid;
+  grid-template-columns:110px minmax(0,1fr) 110px 190px;
+  align-items:stretch;
+  gap:14px;
+  padding:14px;
+  border:1px solid var(--line-main);
+  background:rgba(214,184,132,.02);
 }
 
-.topic-card-icon-inner {
-  width: 100%;
-  height: 100%;
+.topic-card-icon{
+  height:110px;
+  min-height:110px;
+  overflow:hidden;
+  border:1px solid var(--line-main);
+  background-color:var(--image-bg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
 }
 
-/* bloc central */
-.topic-card-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 0;
-  gap: 8px;
+.topic-card-icon-inner{
+  width:100%;
+  height:100%;
 }
 
-.topic-card-titleline {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 6px;
-  min-width: 0;
+/* ================= CONTENU CENTRAL ================= */
+
+.topic-card-main{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:8px;
+  min-width:0;
 }
 
-.topic-card-titleline h2 {
-  margin: 0 !important;
-  padding: 0 !important;
-  min-width: 0;
-  font-size: inherit !important;
-  font-weight: inherit !important;
-  line-height: inherit !important;
+.topic-card-titleline{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:6px;
+  min-width:0;
 }
 
-.topic-card-titleline .topictitle {
-  color: var(--link) !important;
-  text-decoration: none !important;
-  font-size: 16px;
-  line-height: 1.15;
-  font-weight: 600;
+.topic-card-titleline h2{
+  min-width:0;
+  margin:0!important;
+  padding:0!important;
+  font-size:inherit!important;
+  font-weight:inherit!important;
+  line-height:inherit!important;
 }
 
-.topic-card-titleline .topictitle:hover {
-  text-decoration: underline !important;
+.topic-card-titleline .topictitle{
+  color:var(--link)!important;
+  font-size:16px;
+  font-weight:600;
+  line-height:1.15;
+  text-decoration:none!important;
 }
 
-.topic-card-desc {
-  color: var(--text-soft);
-  font-size: 12px;
-  line-height: 1.35;
-  max-height: 48px;
-  overflow: hidden;
+.topic-card-titleline .topictitle:hover{
+  text-decoration:underline!important;
 }
 
-.topic-card-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: center;
-  font-size: 12px;
-  line-height: 1.2;
-  color: var(--text-muted);
+.topic-card-desc{
+  max-height:48px;
+  overflow:hidden;
+  color:var(--text-soft);
+  font-size:12px;
+  line-height:1.35;
 }
 
-.topic-card-meta .topic-author {
-  color: var(--text-soft);
+.topic-card-meta{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:10px;
+  color:var(--text-muted);
+  font-size:12px;
+  line-height:1.2;
+}
+
+.topic-card-meta .topic-author{
+  color:var(--text-soft);
 }
 
 .topic-card-meta .topic-author a,
-.topic-card-meta .topic-author strong {
-  color: var(--link) !important;
+.topic-card-meta .topic-author strong{
+  color:var(--link)!important;
 }
 
 .topic-card-meta .topic-pages a,
-.topic-card-meta .topic-nav-tree a {
-  color: var(--title-soft) !important;
-  text-decoration: none !important;
+.topic-card-meta .topic-nav-tree a{
+  color:var(--title-soft)!important;
+  text-decoration:none!important;
 }
 
 .topic-card-meta .topic-pages a:hover,
-.topic-card-meta .topic-nav-tree a:hover {
-  text-decoration: underline !important;
+.topic-card-meta .topic-nav-tree a:hover{
+  text-decoration:underline!important;
 }
 
-/* stats */
-.topic-card-stats {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  min-height: 110px;
-  padding: 10px 8px;
-  border: 1px solid var(--line-main);
-  background: rgba(0, 0, 0, 0.18);
-  box-sizing: border-box;
+/* ================= STATS ================= */
+
+.topic-card-stats{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:10px;
+  min-height:110px;
+  padding:10px 8px;
+  border:1px solid var(--line-main);
+  background:rgba(0,0,0,.18);
 }
 
-.topic-stat-block {
-  text-align: center;
+.topic-stat-block{
+  text-align:center;
 }
 
-.topic-stat-value {
-  display: block;
-  color: var(--title);
-  font-size: 28px;
-  line-height: 1;
-  font-family: "Cinzel", Georgia, serif;
+.topic-stat-value{
+  display:block;
+  color:var(--title);
+  font-family:"Cinzel",Georgia,serif;
+  font-size:28px;
+  line-height:1;
 }
 
-.topic-stat-label {
-  display: block;
-  margin-top: 4px;
-  color: var(--text-soft);
-  font-size: 11px;
-  line-height: 1.1;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+.topic-stat-label{
+  display:block;
+  margin-top:4px;
+  color:var(--text-soft);
+  font-size:11px;
+  line-height:1.1;
+  letter-spacing:.04em;
+  text-transform:uppercase;
 }
 
-/* dernier message */
-.topic-card-lastpost {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 64px;
-  gap: 10px;
-  align-items: center;
-  min-height: 110px;
-  padding: 10px;
-  border: 1px solid var(--line-main);
-  background: rgba(0, 0, 0, 0.18);
-  box-sizing: border-box;
+/* ================= DERNIER MESSAGE ================= */
+
+.topic-card-lastpost{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 64px;
+  align-items:center;
+  gap:10px;
+  min-height:110px;
+  padding:10px;
+  border:1px solid var(--line-main);
+  background:rgba(0,0,0,.18);
 }
 
-.topic-card-lastpost-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 6px;
-  min-width: 0;
-  font-size: 12px;
-  line-height: 1.25;
-  color: var(--text-main);
+.topic-card-lastpost-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:6px;
+  min-width:0;
+  color:var(--text-main);
+  font-size:12px;
+  line-height:1.25;
 }
 
 .topic-lastpost-author,
 .topic-lastpost-author a,
-.topic-lastpost-author strong {
-  color: #b0002e !important;
-  font-weight: 700;
-  text-decoration: none !important;
+.topic-lastpost-author strong{
+  color:#b0002e!important;
+  font-weight:700;
+  text-decoration:none!important;
 }
 
-.topic-lastpost-link a {
-  color: var(--link) !important;
-  text-decoration: none !important;
+.topic-lastpost-link a{
+  color:var(--link)!important;
+  text-decoration:none!important;
 }
 
-.topic-lastpost-link a:hover {
-  text-decoration: underline !important;
+.topic-lastpost-link a:hover{
+  text-decoration:underline!important;
 }
 
-.topic-lastpost-time {
-  color: var(--text-soft);
+.topic-lastpost-time{
+  color:var(--text-soft);
 }
 
-.topic-card-lastpost-avatar {
-  width: 64px;
-  height: 64px;
-  border: 1px solid var(--line-main);
-  overflow: hidden;
-  background: var(--image-bg);
+.topic-card-lastpost-avatar{
+  width:64px;
+  height:64px;
+  overflow:hidden;
+  border:1px solid var(--line-main);
+  background:var(--image-bg);
 }
 
-.topic-card-lastpost-avatar img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 0 !important;
+.topic-card-lastpost-avatar img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:0!important;
 }
 
-/* état vide */
-.topic-card-empty {
-  display: block;
-  padding: 18px;
-  border: 1px solid var(--line-main);
-  background: rgba(214, 184, 132, 0.02);
-  color: var(--text-soft);
+/* ================= ÉTAT VIDE ================= */
+
+.topic-card-empty{
+  display:block;
+  padding:18px;
+  border:1px solid var(--line-main);
+  background:rgba(214,184,132,.02);
+  color:var(--text-soft);
 }
 
-/* nettoyage vieux styles */
+/* ================= NETTOYAGE FORUMACTIF ================= */
+
 .topic-card-row dl,
 .topic-card-row dt,
-.topic-card-row dd {
-  margin: 0;
-  padding: 0;
+.topic-card-row dd{
+  margin:0;
+  padding:0;
 }
 
 .topic-card-row .dterm,
-.topic-card-row dfn {
-  display: none;
+.topic-card-row dfn{
+  display:none;
 }
 
-.topiclist.topics li.row {
-  border: none !important;
-  background: none !important;
+.topics-forumbg .topiclist.topics li.row{
+  border:none!important;
+  background:none!important;
 }
 
-/* responsive */
-@media (max-width: 980px) {
-  .topic-card {
-    grid-template-columns: 90px minmax(0, 1fr) 110px;
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:980px){
+  .topic-card{
+    grid-template-columns:90px minmax(0,1fr) 110px;
     grid-template-areas:
       "icon main stats"
       "icon last last";
   }
 
-  .topic-card-icon { grid-area: icon; }
-  .topic-card-main { grid-area: main; }
-  .topic-card-stats { grid-area: stats; min-height: auto; }
-  .topic-card-lastpost { grid-area: last; min-height: auto; }
+  .topic-card-icon{
+    grid-area:icon;
+    height:90px;
+    min-height:90px;
+  }
 
-  .topic-card-icon {
-    min-height: 90px;
-    height: 90px;
+  .topic-card-main{
+    grid-area:main;
+  }
+
+  .topic-card-stats{
+    grid-area:stats;
+    min-height:auto;
+  }
+
+  .topic-card-lastpost{
+    grid-area:last;
+    min-height:auto;
   }
 }
 
-@media (max-width: 700px) {
-  .topics-section-header {
-    grid-template-columns: 1fr;
-    align-items: start;
-    gap: 10px;
+@media(max-width:700px){
+  .topics-section-header{
+    grid-template-columns:1fr;
+    align-items:start;
+    gap:10px;
   }
 
-  .topic-card {
-    grid-template-columns: 1fr;
+  .topic-card{
+    grid-template-columns:1fr;
+    grid-template-areas:
+      "icon"
+      "main"
+      "stats"
+      "last";
   }
 
   .topic-card-icon,
   .topic-card-stats,
-  .topic-card-lastpost {
-    min-height: auto;
-    height: auto;
+  .topic-card-lastpost{
+    min-height:auto;
   }
 
-  .topic-card-icon {
-    height: 140px;
+  .topic-card-icon{
+    height:140px;
   }
 
-  .topic-card-lastpost {
-    grid-template-columns: 1fr 64px;
+  .topic-card-lastpost{
+    grid-template-columns:1fr 64px;
   }
 }
