@@ -22,12 +22,12 @@
   position:relative;
   margin:0 0 22px;
   padding:34px 30px 28px;
+  overflow:hidden;
   border:1px solid var(--line-main);
   background:
     radial-gradient(circle at top,rgba(194,163,104,.12),transparent 42%),
     linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
   text-align:center;
-  overflow:hidden;
 }
 
 .moc-discover-head::before,
@@ -67,8 +67,8 @@
   font-weight:400;
   line-height:1;
   letter-spacing:3px;
-  text-transform:uppercase;
   text-shadow:0 0 12px rgba(194,163,104,.18);
+  text-transform:uppercase;
 }
 
 .moc-discover-sub{
@@ -210,7 +210,7 @@
   border:1px solid var(--line-main);
   background:
     linear-gradient(90deg,rgba(9,20,52,.98),rgba(20,27,52,.94)),
-    rgba(214,184,132,.02);
+    var(--bg-soft);
   box-shadow:inset 0 0 0 1px rgba(228,211,180,.03);
 }
 
@@ -251,8 +251,8 @@
 
 .moc-feed-text a{
   color:var(--link)!important;
-  text-decoration:none!important;
   font-weight:600;
+  text-decoration:none!important;
 }
 
 .moc-feed-text a:hover{
@@ -314,8 +314,8 @@
 .moc-discover-page .panel,
 .moc-discover-page .activity-feed,
 .moc-discover-page .feed-item{
-  background:transparent!important;
   border:0!important;
+  background:transparent!important;
   box-shadow:none!important;
 }
 
