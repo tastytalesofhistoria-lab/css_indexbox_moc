@@ -11,8 +11,8 @@
 
 .mc-memberpage{
   padding:30px;
-  background:#080d1d;
-  color:#d8d0dc;
+  background:var(--bg-dark);
+  color:var(--text-cold);
 }
 
 /* ================= HEADER ================= */
@@ -24,7 +24,7 @@
   min-height:220px;
   margin:0 0 25px;
   padding:35px 45px;
-  border:1px solid #9b6d2e;
+  border:1px solid var(--line-gold);
   background:
     linear-gradient(rgba(8,13,29,.05),rgba(8,13,29,.35)),
     url("https://urls.fr/bCZ5Di") center 7% / cover no-repeat;
@@ -34,7 +34,7 @@
 
 .mc-memberpage .mc-title{
   margin:0;
-  color:#d5a75b;
+  color:var(--title-gold);
   font-family:Georgia,serif;
   font-size:46px;
   line-height:1;
@@ -45,7 +45,7 @@
 
 .mc-memberpage .mc-memberhead p{
   margin:12px 0 0;
-  color:#f1e6d6;
+  color:var(--text-light);
   font-style:italic;
   text-shadow:0 2px 6px #000;
 }
@@ -59,14 +59,14 @@
   gap:25px;
   margin:0 0 28px;
   padding:22px;
-  border:1px solid #8a602d;
+  border:1px solid var(--line-bronze);
   background:rgba(15,18,39,.92);
 }
 
 .mc-memberpage .mc-filter-field span{
   display:block;
   margin:0 0 7px;
-  color:#d5a75b;
+  color:var(--title-gold);
   font-family:Georgia,serif;
   font-size:12px;
   text-transform:uppercase;
@@ -77,8 +77,8 @@
   width:100%;
   padding:12px;
   border:1px solid #5d4561!important;
-  background:#070a16!important;
-  color:#ded6e7!important;
+  background:var(--bg-deep)!important;
+  color:var(--text-pale)!important;
 }
 
 .mc-memberpage .mc-filter-submit{
@@ -112,7 +112,7 @@
     linear-gradient(135deg,rgba(14,25,52,.96),rgba(19,14,35,.96));
   box-shadow:
     inset 0 0 35px rgba(255,255,255,.03),
-    0 8px 18px rgba(0,0,0,.35);
+    0 8px 18px var(--shadow-soft);
 }
 
 .mc-memberpage .mc-card:nth-child(3n){
@@ -140,7 +140,7 @@
   width:36px;
   height:36px;
   transform:translateY(-50%) rotate(45deg);
-  border:1px solid #8e642e;
+  border:1px solid var(--line-bronze);
   background:rgba(6,10,24,.75);
   color:#e1b96c;
   font-family:Georgia,serif;
@@ -214,9 +214,9 @@
   width:82px;
   height:82px;
   padding:3px;
-  border:2px solid #d3a24f;
+  border:2px solid var(--title-name);
   border-radius:50%;
-  background:#070a16;
+  background:var(--bg-deep);
   object-fit:cover;
   pointer-events:none;
 }
@@ -244,7 +244,7 @@
 .mc-memberpage .mc-group,
 .mc-memberpage .mc-group a{
   margin-top:7px;
-  color:#d8d0dc!important;
+  color:var(--text-cold)!important;
   font-size:12px;
   text-decoration:none;
 }
@@ -270,7 +270,7 @@
 .mc-memberpage .mc-stats span{
   display:block;
   margin-top:4px;
-  color:#d5a75b;
+  color:var(--title-gold);
   font-size:9px;
   text-transform:uppercase;
 }
@@ -287,7 +287,7 @@
   position:relative;
   display:flex;
   flex-direction:column;
-  color:#d5a75b;
+  color:var(--title-gold);
   font-family:Georgia,serif;
   font-size:10px;
   line-height:1.2;
