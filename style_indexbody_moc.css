@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
-
 /* =========================================================
    MURDER OF CROWS — QEEL
    ========================================================= */
@@ -139,7 +137,7 @@
 /* ================= COULEURS GROUPES ================= */
 
 .qeel-moc-g-legion{
-  background:#871429;
+  background:var(--group-legion);
 }
 
 .qeel-moc-g-legion a{
@@ -147,7 +145,7 @@
 }
 
 .qeel-moc-g-wicca{
-  background:#AC00F0;
+  background:var(--group-wicca);
 }
 
 .qeel-moc-g-wicca a{
@@ -155,7 +153,7 @@
 }
 
 .qeel-moc-g-outcast{
-  background:#E09719;
+  background:var(--group-outcast);
 }
 
 .qeel-moc-g-outcast a{
@@ -163,7 +161,7 @@
 }
 
 .qeel-moc-g-normie{
-  background:#43A852;
+  background:var(--group-normie);
 }
 
 .qeel-moc-g-normie a{
@@ -171,7 +169,7 @@
 }
 
 .qeel-moc-g-errante{
-  background:#D1D1D1;
+  background:var(--group-errante);
 }
 
 .qeel-moc-g-errante a{
@@ -179,7 +177,7 @@
 }
 
 .qeel-moc-g-pnj{
-  background:#A44687;
+  background:var(--group-pnj);
 }
 
 .qeel-moc-g-pnj a{
