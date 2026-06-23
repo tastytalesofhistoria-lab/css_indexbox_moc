@@ -11,8 +11,8 @@
 
 .mc-groups-page{
   padding:30px;
-  background:#080d1d;
-  color:#d8d0dc;
+  background:var(--bg-dark);
+  color:var(--text-cold);
 }
 
 /* ================= HEADER ================= */
@@ -24,17 +24,17 @@
   min-height:220px;
   margin:0 0 28px;
   padding:35px 45px;
-  border:1px solid #9b6d2e;
+  border:1px solid var(--line-gold);
   background:
     linear-gradient(rgba(8,13,29,.08),rgba(8,13,29,.35)),
     url("https://urls.fr/bCZ5Di") center 7% / cover no-repeat;
-  box-shadow:inset 0 0 70px rgba(0,0,0,.75);
+  box-shadow:inset 0 0 70px var(--shadow-strong);
   text-align:center;
 }
 
 .mc-groups-head h1{
   margin:0;
-  color:#d5a75b;
+  color:var(--title-gold);
   font-family:Georgia,serif;
   font-size:54px;
   line-height:1;
@@ -45,7 +45,7 @@
 
 .mc-groups-head p{
   margin:12px 0 0;
-  color:#f1e6d6;
+  color:var(--text-light);
   font-style:italic;
   text-shadow:0 2px 6px #000;
 }
@@ -56,7 +56,7 @@
   display:flex;
   justify-content:space-between;
   margin:0 0 25px;
-  color:#cfc2b8;
+  color:var(--text-soft);
   font-size:12px;
 }
 
@@ -72,7 +72,7 @@
   align-items:center;
   gap:14px;
   margin:0 0 18px;
-  color:#d5a75b;
+  color:var(--title-gold);
   font-family:Georgia,serif;
   font-size:22px;
   text-transform:uppercase;
@@ -83,7 +83,7 @@
   content:"";
   flex:1;
   height:1px;
-  background:linear-gradient(90deg,#9b6d2e,transparent);
+  background:linear-gradient(90deg,var(--line-gold),transparent);
 }
 
 /* ================= APPARTENANCE ================= */
@@ -112,7 +112,7 @@
   background:linear-gradient(135deg,#11172f,#1b1630);
   box-shadow:
     inset 0 0 35px rgba(255,255,255,.04),
-    0 0 18px rgba(0,0,0,.35);
+    0 0 18px var(--shadow-soft);
   text-align:center;
   transition:transform .25s ease,box-shadow .25s ease;
 }
@@ -153,7 +153,7 @@
 }
 
 .mc-joined-card.legion .mc-joined-icon{
-  color:#ff6477;
+  color:var(--group-legion-soft);
 }
 
 .mc-joined-card.wicca{
@@ -164,7 +164,7 @@
 }
 
 .mc-joined-card.wicca .mc-joined-icon{
-  color:#d59cff;
+  color:var(--group-wicca-soft);
 }
 
 .mc-joined-card.outcast{
@@ -175,7 +175,7 @@
 }
 
 .mc-joined-card.outcast .mc-joined-icon{
-  color:#ffcf6a;
+  color:var(--group-outcast-soft);
 }
 
 .mc-joined-card.normie{
@@ -186,18 +186,18 @@
 }
 
 .mc-joined-card.normie .mc-joined-icon{
-  color:#8ff0a3;
+  color:var(--group-normie-soft);
 }
 
 .mc-joined-card.ame{
-  border-color:#d8d8d8;
+  border-color:var(--group-errante);
   background:
     radial-gradient(circle at top,rgba(255,255,255,.18),transparent 70%),
     linear-gradient(135deg,#777,#171717);
 }
 
 .mc-joined-card.ame .mc-joined-icon{
-  color:#fff;
+  color:var(--group-errante-soft);
 }
 
 .mc-joined-card.pnj{
@@ -208,18 +208,18 @@
 }
 
 .mc-joined-card.pnj .mc-joined-icon{
-  color:#ff9ad4;
+  color:var(--group-pnj-soft);
 }
 
 .mc-joined-card.custom{
-  border-color:#9b6d2e;
+  border-color:var(--group-custom);
   background:
     radial-gradient(circle at top,rgba(213,167,91,.16),transparent 70%),
     linear-gradient(135deg,#11172f,#1b1630);
 }
 
 .mc-joined-card.custom .mc-joined-icon{
-  color:#d5a75b;
+  color:var(--group-custom-soft);
 }
 
 /* ================= REJOINDRE ================= */
@@ -227,7 +227,7 @@
 .mc-join-box{
   margin:0 0 28px;
   padding:22px;
-  border:1px solid #8a602d;
+  border:1px solid var(--line-bronze);
   background:rgba(15,18,39,.92);
 }
 
@@ -244,8 +244,8 @@
   min-width:280px;
   padding:11px;
   border:1px solid #5d4561!important;
-  background:#070a16!important;
-  color:#ded6e7!important;
+  background:var(--bg-deep)!important;
+  color:var(--text-pale)!important;
 }
 
 .mc-btn{
@@ -288,7 +288,7 @@
 }
 
 .mc-all-groups span{
-  color:#b9b0c8;
+  color:var(--text-soft);
   font-size:12px;
   font-style:italic;
 }
@@ -297,12 +297,12 @@
 
 .mc-jumpbox{
   padding:20px;
-  border:1px solid #8a602d;
+  border:1px solid var(--line-bronze);
   background:rgba(15,18,39,.92);
 }
 
 .mc-jumpbox span{
-  color:#d5a75b;
+  color:var(--title-gold);
   font-family:Georgia,serif;
   text-transform:uppercase;
 }
