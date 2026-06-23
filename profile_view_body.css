@@ -140,9 +140,9 @@
   width:100%!important;
   height:auto!important;
   min-height:190px;
-  object-fit:cover;
   border:0!important;
   border-radius:0!important;
+  object-fit:cover;
 }
 
 .moc-profile-follow{
