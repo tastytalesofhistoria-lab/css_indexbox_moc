@@ -1,10 +1,11 @@
 /* =========================================================
    MURDER OF CROWS — MESSAGERIE / PRIVMSGS_BODY
-   CSS corrigé, fusionné, sans doublons
    ========================================================= */
 
 .moc-pm-page,
-.moc-pm-page *{
+.moc-pm-page *,
+.moc-pm-page *::before,
+.moc-pm-page *::after{
   box-sizing:border-box;
 }
 
@@ -15,9 +16,7 @@
   color:var(--text-main);
 }
 
-/* =========================================================
-   HEADER
-   ========================================================= */
+/* ================= HEADER ================= */
 
 .moc-pm-head{
   position:relative;
@@ -42,11 +41,16 @@
   text-shadow:0 0 10px rgba(194,163,104,.45);
 }
 
-.moc-pm-head::before{left:24px;}
-.moc-pm-head::after{right:24px;}
+.moc-pm-head::before{
+  left:24px;
+}
+
+.moc-pm-head::after{
+  right:24px;
+}
 
 .moc-pm-kicker{
-  margin-bottom:8px;
+  margin:0 0 8px;
   color:var(--text-soft);
   font-family:"Cinzel",Georgia,serif;
   font-size:11px;
@@ -67,29 +71,25 @@
 }
 
 .moc-pm-sub{
-  margin-top:10px;
+  margin:10px 0 0;
   color:var(--title-soft);
   font-size:13px;
   letter-spacing:1px;
   text-transform:uppercase;
 }
 
-/* =========================================================
-   RESET ANCIENS FLOATS FORUMACTIF
-   ========================================================= */
+/* ================= RESET FORUMACTIF ================= */
 
-#privmsgs-menu,
-#privmsgs-menu li,
-.pm-actions,
-.left-box,
-.right-box,
-.clear{
+.moc-pm-page #privmsgs-menu,
+.moc-pm-page #privmsgs-menu li,
+.moc-pm-page .pm-actions,
+.moc-pm-page .left-box,
+.moc-pm-page .right-box,
+.moc-pm-page .clear{
   float:none!important;
 }
 
-/* =========================================================
-   TOPBAR
-   ========================================================= */
+/* ================= TOPBAR ================= */
 
 .moc-pm-topbar{
   display:flex;
@@ -102,12 +102,13 @@
 .moc-pm-topline{
   display:grid;
   grid-template-columns:minmax(0,1fr) auto;
-  gap:16px;
   align-items:stretch;
+  gap:16px;
   width:100%;
 }
 
-/* menu boîtes */
+/* ================= MENU BOÎTES ================= */
+
 .moc-pm-menu{
   display:grid!important;
   grid-template-columns:repeat(4,minmax(0,1fr));
@@ -120,13 +121,14 @@
 
 .moc-pm-menu li{
   position:relative;
-  min-width:0;
-  min-height:54px;
   display:flex;
   align-items:center;
   justify-content:center;
   gap:9px;
+  min-width:0;
+  min-height:54px;
   padding:12px 14px;
+  overflow:hidden;
   border:1px solid var(--line-main);
   background:rgba(20,27,52,.86);
   color:var(--title-soft);
@@ -135,8 +137,12 @@
   letter-spacing:1px;
   text-align:center;
   text-transform:uppercase;
-  overflow:hidden;
   transition:.25s ease;
+}
+
+.moc-pm-menu li:hover{
+  border-color:var(--line-strong);
+  background:rgba(194,163,104,.08);
 }
 
 .moc-pm-menu li i{
@@ -149,11 +155,6 @@
   text-decoration:none!important;
 }
 
-.moc-pm-menu li:hover{
-  border-color:var(--line-strong);
-  background:rgba(194,163,104,.08);
-}
-
 .moc-pm-menu li .active{
   position:absolute;
   left:0;
@@ -164,11 +165,12 @@
   opacity:.55;
 }
 
-/* bouton écrire */
+/* ================= BOUTONS COMPOSER ================= */
+
 .moc-pm-compose-top{
   display:flex;
-  justify-content:flex-end;
   align-items:stretch;
+  justify-content:flex-end;
   margin:0!important;
 }
 
@@ -179,7 +181,6 @@
   justify-content:center;
   gap:8px;
   min-height:40px;
-  padding:0 16px;
   border:1px solid var(--line-main);
   background:rgba(194,163,104,.05);
   color:var(--title)!important;
@@ -193,6 +194,13 @@
 
 .moc-pm-compose{
   min-width:116px;
+  padding:0 16px;
+}
+
+.moc-pm-compose-mini{
+  width:40px;
+  min-width:40px;
+  padding:0;
 }
 
 .moc-pm-compose:hover,
@@ -207,12 +215,13 @@
   font-size:17px;
 }
 
-/* toolbar */
+/* ================= TOOLBAR ================= */
+
 .moc-pm-toolbar{
   display:grid!important;
   grid-template-columns:minmax(0,1fr) auto;
-  gap:16px;
   align-items:center;
+  gap:16px;
   width:100%;
   margin:0!important;
   padding:14px 16px;
@@ -229,9 +238,9 @@
 
 .moc-pm-filter{
   display:flex!important;
+  flex-wrap:wrap;
   align-items:center;
   justify-content:flex-end;
-  flex-wrap:wrap;
   gap:10px;
   min-width:0;
   color:var(--title-soft);
@@ -256,9 +265,7 @@
   color:var(--text-main)!important;
 }
 
-/* =========================================================
-   LISTE DES MESSAGES
-   ========================================================= */
+/* ================= LISTE DES MESSAGES ================= */
 
 .moc-pm-listbox{
   clear:both!important;
@@ -271,8 +278,8 @@
 .moc-pm-list-head{
   display:grid!important;
   grid-template-columns:minmax(0,1fr) 120px!important;
-  gap:16px!important;
   align-items:center!important;
+  gap:16px!important;
   padding:15px 18px!important;
   border-bottom:1px solid rgba(194,163,104,.45);
   background:linear-gradient(90deg,rgba(5,14,42,.92),rgba(74,64,102,.25),rgba(5,14,42,.92));
@@ -289,14 +296,14 @@
 
 .moc-pm-list-head span:last-child{
   display:block!important;
-  width:120px!important;
-  max-width:120px!important;
-  min-width:120px!important;
   justify-self:center!important;
-  text-align:center!important;
-  white-space:nowrap!important;
+  width:120px!important;
+  min-width:120px!important;
+  max-width:120px!important;
   overflow:hidden!important;
+  text-align:center!important;
   text-overflow:clip!important;
+  white-space:nowrap!important;
 }
 
 .moc-pm-list{
@@ -311,8 +318,8 @@
 .moc-pm-row{
   display:grid!important;
   grid-template-columns:58px minmax(0,1fr) 120px!important;
-  gap:14px!important;
   align-items:center!important;
+  gap:14px!important;
   min-height:76px;
   margin:0!important;
   padding:14px;
@@ -329,16 +336,16 @@
 
 .moc-pm-icon{
   position:relative;
-  width:58px;
-  height:58px;
   display:flex;
   align-items:center;
   justify-content:center;
+  width:58px;
+  height:58px;
   border:1px solid var(--line-main);
   background-color:#071233;
-  background-size:26px auto;
   background-position:center;
   background-repeat:no-repeat;
+  background-size:26px auto;
 }
 
 .moc-pm-icon span{
@@ -365,13 +372,13 @@
 .moc-pm-subject{
   display:inline-block;
   max-width:100%!important;
+  overflow:hidden!important;
   color:var(--link)!important;
   font-family:"Cinzel",Georgia,serif;
   font-size:16px;
   font-weight:600;
   line-height:1.25;
   text-decoration:none!important;
-  overflow:hidden!important;
   text-overflow:ellipsis!important;
 }
 
@@ -388,10 +395,10 @@
 .moc-pm-meta{
   max-width:100%!important;
   margin-top:6px;
+  overflow:hidden!important;
   color:var(--text-soft);
   font-size:12px;
   line-height:1.35;
-  overflow:hidden!important;
   text-overflow:ellipsis!important;
 }
 
@@ -404,10 +411,10 @@
   display:flex!important;
   align-items:center!important;
   justify-content:center!important;
-  width:120px!important;
-  max-width:120px!important;
-  min-width:120px!important;
   justify-self:center!important;
+  width:120px!important;
+  min-width:120px!important;
+  max-width:120px!important;
 }
 
 .moc-pm-mark input[type="checkbox"]{
@@ -428,9 +435,7 @@
   text-transform:uppercase;
 }
 
-/* =========================================================
-   SÉLECTION, PAGINATION, ACTIONS
-   ========================================================= */
+/* ================= SÉLECTION / PAGINATION / ACTIONS ================= */
 
 .moc-pm-selectline{
   display:flex;
@@ -503,15 +508,7 @@
   color:var(--title-soft)!important;
 }
 
-.moc-pm-compose-mini{
-  width:40px;
-  min-width:40px;
-  padding:0;
-}
-
-/* =========================================================
-   JUMPBOX + NETTOYAGE FORUMACTIF
-   ========================================================= */
+/* ================= JUMPBOX ================= */
 
 .moc-pm-jumpbox{
   margin-top:18px;
@@ -524,6 +521,8 @@
   color:var(--text-main)!important;
 }
 
+/* ================= NETTOYAGE FORUMACTIF ================= */
+
 .moc-pm-page .panel,
 .moc-pm-page .forabg,
 .moc-pm-page .inner,
@@ -532,17 +531,16 @@
 .moc-pm-page .topiclist,
 .moc-pm-page .row,
 .moc-pm-page .bg_none{
-  background:transparent!important;
   border:0!important;
+  background:transparent!important;
   box-shadow:none!important;
 }
 
-/* =========================================================
-   RESPONSIVE
-   ========================================================= */
+/* ================= RESPONSIVE ================= */
 
 @media(max-width:900px){
-  .moc-pm-topline{
+  .moc-pm-topline,
+  .moc-pm-toolbar{
     grid-template-columns:1fr;
   }
 
@@ -555,7 +553,6 @@
   }
 
   .moc-pm-toolbar{
-    grid-template-columns:1fr;
     text-align:left;
   }
 
@@ -572,10 +569,7 @@
   }
 
   .moc-pm-head::before,
-  .moc-pm-head::after{
-    display:none;
-  }
-
+  .moc-pm-head::after,
   .moc-pm-list-head{
     display:none!important;
   }
@@ -591,10 +585,10 @@
 
   .moc-pm-mark{
     grid-column:1 / -1!important;
-    width:100%!important;
-    max-width:100%!important;
-    min-width:0!important;
     justify-content:flex-end!important;
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
   }
 
   .moc-pm-actions-buttons{
