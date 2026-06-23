@@ -1,1 +1,259 @@
 
+/* =========================================================
+   MURDER OF CROWS — CSS COULEURS GLOBAL
+   À placer tout en haut du CSS général
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap');
+
+/* ================= VARIABLES GÉNÉRALES ================= */
+
+:root{
+  /* fonds */
+  --bg-main:#1A2342;
+  --bg-panel:#141b34;
+  --bg-soft:rgba(228,211,180,.04);
+  --bg-hover:rgba(194,163,104,.10);
+  --bg-dark:#080d1d;
+  --bg-deep:#070a16;
+  --bg-purple:#4A4066;
+
+  /* bordures */
+  --line-main:#7A6648;
+  --line-soft:#99A4B0;
+  --line-strong:#C2A368;
+  --line-gold:#9b6d2e;
+  --line-bronze:#8a602d;
+
+  /* titres */
+  --title:#C2A368;
+  --title-soft:#E4D3B4;
+  --title-name:#d5a24e;
+  --title-rank:#c79b4d;
+  --title-gold:#d5a75b;
+  --title-red:#b0002e;
+
+  /* liens */
+  --link:#818DB8;
+  --link-hover:#C2A368;
+
+  /* textes */
+  --text-main:#E4D3B4;
+  --text-soft:#99A4B0;
+  --text-muted:#818DB8;
+  --text-light:#f1e6d6;
+  --text-cold:#d8d0dc;
+  --text-pale:#ded6e7;
+
+  /* descriptions / derniers messages */
+  --desc-border:#7A6648;
+  --desc-text:#E4D3B4;
+  --lastpost-border:#7A6648;
+  --lastpost-text:#E4D3B4;
+
+  /* images / effets */
+  --image-bg:rgba(26,35,66,.25);
+  --image-bg-solid:#0f152b;
+  --map-star:#8b0000;
+  --map-star-glow:rgba(194,163,104,.30);
+  --shadow-soft:rgba(0,0,0,.35);
+  --shadow-strong:rgba(0,0,0,.75);
+
+  /* groupes MOC */
+  --group-legion:#871429;
+  --group-legion-soft:#ff6477;
+
+  --group-wicca:#AC00F0;
+  --group-wicca-soft:#d59cff;
+
+  --group-outcast:#E09719;
+  --group-outcast-soft:#ffcf6a;
+
+  --group-normie:#43A852;
+  --group-normie-soft:#8ff0a3;
+
+  --group-errante:#D1D1D1;
+  --group-errante-soft:#ffffff;
+
+  --group-pnj:#A44687;
+  --group-pnj-soft:#ff9ad4;
+
+  --group-custom:#9b6d2e;
+  --group-custom-soft:#d5a75b;
+
+  /* alertes / likes */
+  --like-hover:#c2185b;
+  --like-hover-border:#e91e63;
+  --like-active:#4A4066;
+  --like-active-hover:#a88cff;
+  --like-active-border:#c3adff;
+  --like-text:#ffffff;
+
+  /* dimensions profil message */
+  --profile-infos-width:340px;
+  --profile-avatar-width:270px;
+  --profile-avatar-height:390px;
+  --profile-text-width:220px;
+  --profile-arch-radius:135px;
+}
+
+/* ================= BASE GLOBALE ================= */
+
+*{
+  scrollbar-color:var(--line-soft) var(--bg-panel);
+  scrollbar-width:thin;
+}
+
+body{
+  background:var(--bg-main);
+  color:var(--text-main);
+}
+
+a{
+  color:var(--link);
+  transition:.25s ease;
+}
+
+a:hover{
+  color:var(--link-hover);
+}
+
+.label{
+  color:var(--title-soft);
+  font-weight:bolder;
+}
+
+hr,
+#first-post-br{
+  border:0;
+  border-top:1px solid var(--line-soft);
+}
+
+/* ================= SÉLECTION TEXTE ================= */
+
+::selection{
+  background:rgba(194,163,104,.28);
+  color:var(--title-soft);
+}
+
+/* ================= SCROLLBAR WEBKIT ================= */
+
+::-webkit-scrollbar{
+  width:8px;
+  height:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:var(--bg-panel);
+}
+
+::-webkit-scrollbar-thumb{
+  background:var(--line-main);
+  border:1px solid var(--bg-panel);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:var(--line-strong);
+}
+
+/* ================= FORMULAIRES DE BASE ================= */
+
+input,
+select,
+textarea{
+  border-color:var(--line-main);
+  background:var(--bg-panel);
+  color:var(--text-main);
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+  outline:1px solid var(--line-strong);
+}
+
+/* ================= BOUTONS DE BASE ================= */
+
+.button1,
+.button2,
+button,
+input[type="submit"],
+input[type="button"]{
+  border-color:var(--line-main);
+  background:var(--bg-soft);
+  color:var(--title);
+}
+
+.button1:hover,
+.button2:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover{
+  border-color:var(--line-strong);
+  background:var(--bg-hover);
+  color:var(--title-soft);
+}
+
+/* ================= BLOCS FORUMACTIF DE BASE ================= */
+
+.forabg,
+.forumbg,
+.panel,
+.post,
+.bg1,
+.bg2,
+.bg3,
+.row1,
+.row2,
+.row3,
+.tablebg,
+.table1,
+.forumline{
+  border-color:var(--line-main);
+  background:var(--bg-panel);
+  color:var(--text-main);
+}
+
+/* ================= GROUPES — COULEURS UTILITAIRES ================= */
+
+.moc-color-legion,
+.mc-joined-card.legion,
+.qeel-moc-g-legion{
+  --group-main:var(--group-legion);
+  --group-soft:var(--group-legion-soft);
+}
+
+.moc-color-wicca,
+.mc-joined-card.wicca,
+.qeel-moc-g-wicca{
+  --group-main:var(--group-wicca);
+  --group-soft:var(--group-wicca-soft);
+}
+
+.moc-color-outcast,
+.mc-joined-card.outcast,
+.qeel-moc-g-outcast{
+  --group-main:var(--group-outcast);
+  --group-soft:var(--group-outcast-soft);
+}
+
+.moc-color-normie,
+.mc-joined-card.normie,
+.qeel-moc-g-normie{
+  --group-main:var(--group-normie);
+  --group-soft:var(--group-normie-soft);
+}
+
+.moc-color-errante,
+.mc-joined-card.ame,
+.qeel-moc-g-errante{
+  --group-main:var(--group-errante);
+  --group-soft:var(--group-errante-soft);
+}
+
+.moc-color-pnj,
+.mc-joined-card.pnj,
+.qeel-moc-g-pnj{
+  --group-main:var(--group-pnj);
+  --group-soft:var(--group-pnj-soft);
+}
