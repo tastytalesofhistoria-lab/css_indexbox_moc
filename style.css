@@ -7,23 +7,29 @@
    00. VARIABLES LOCALES INDEX
    ========================================================================== */
 
-body.fa-index-page{
+:root{
   --bg-main:#1A2342;
   --bg-panel:#141b34;
   --bg-soft:#4A4066;
   --bg-hover:#2F4945;
+
   --line-main:#C2A368;
   --line-soft:#7A6648;
   --line-strong:#E4D3B4;
+
   --title:#C2A368;
   --title-soft:#E4D3B4;
   --link:#818DB8;
+
   --text-main:#E4D3B4;
   --text-muted:#818DB8;
+
   --desc-border:#7A6648;
   --desc-text:#E4D3B4;
+
   --lastpost-border:#7A6648;
   --lastpost-text:#E4D3B4;
+
   --image-bg:#0f152b;
 }
 
