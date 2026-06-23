@@ -247,7 +247,7 @@
 .topic-lastpost-author,
 .topic-lastpost-author a,
 .topic-lastpost-author strong{
-  color:#b0002e!important;
+  color:var(--title-red)!important;
   font-weight:700;
   text-decoration:none!important;
 }
