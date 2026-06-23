@@ -1,42 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
-
 /* =========================================================
    MURDER OF CROWS — VIEWTOPIC / MESSAGES
    ========================================================= */
-
-/* ================= VARIABLES ================= */
-
-:root{
-  --bg-main:#1A2342;
-  --bg-panel:#141b34;
-  --bg-soft:rgba(228,211,180,.04);
-  --bg-hover:rgba(194,163,104,.10);
-
-  --line-main:#7A6648;
-  --line-soft:#99A4B0;
-  --line-strong:#C2A368;
-
-  --title:#C2A368;
-  --title-soft:#E4D3B4;
-  --title-name:#d5a24e;
-  --title-rank:#c79b4d;
-
-  --link:#818DB8;
-  --text-main:#E4D3B4;
-  --text-soft:#99A4B0;
-
-  --desc-border:#7A6648;
-  --desc-text:#E4D3B4;
-
-  --map-star-glow:rgba(194,163,104,.30);
-  --image-bg:rgba(26,35,66,.25);
-
-  --profile-infos-width:340px;
-  --profile-avatar-width:270px;
-  --profile-avatar-height:390px;
-  --profile-text-width:220px;
-  --profile-arch-radius:135px;
-}
 
 /* ================= BASE ================= */
 
@@ -128,7 +92,7 @@ pre,
 code,
 code.inline-code{
   border:1px solid var(--line-main);
-  background:#15120f;
+  background:var(--code-bg);
   color:var(--text-main);
 }
 
@@ -185,7 +149,7 @@ code.inline-code{
 
 .page-title a{
   display:inline-block;
-  color:#d8ac63;
+  color:var(--title-warm);
   font-family:"Cinzel Decorative",serif;
   font-size:54px;
   font-weight:400;
@@ -205,7 +169,7 @@ code.inline-code{
   position:absolute;
   top:52%;
   transform:translateY(-50%);
-  color:#f2c56f;
+  color:var(--ornament-gold);
   font-size:24px;
   line-height:1;
   text-shadow:
@@ -231,7 +195,7 @@ code.inline-code{
   margin-top:0;
   padding:0;
   overflow:visible!important;
-  color:#bfc4cf;
+  color:var(--breadcrumb);
   font-size:15px;
   line-height:1.4;
   white-space:normal;
@@ -241,14 +205,14 @@ code.inline-code{
 .sub-header-path span,
 .sub-header-path .nav{
   display:inline;
-  color:#bfc4cf!important;
+  color:var(--breadcrumb)!important;
   text-decoration:none!important;
 }
 
 .sub-header-path a:hover,
 .sub-header-path .nav:hover,
 .sub-header-path .nav:hover span{
-  color:#e4d3b4!important;
+  color:var(--title-soft)!important;
 }
 
 .sub-header-path img{
@@ -439,7 +403,7 @@ code.inline-code{
 .topic-date{
   grid-area:date;
   margin:0;
-  color:#aeb7c8;
+  color:var(--topic-date);
   font-size:14px;
   line-height:1.4;
 }
@@ -555,53 +519,53 @@ code.inline-code{
 }
 
 .rep-button:hover{
-  border-color:#e91e63!important;
-  background:#c2185b!important;
-  color:#fff!important;
+  border-color:var(--like-hover-border)!important;
+  background:var(--like-hover)!important;
+  color:var(--like-text)!important;
 }
 
 .rep-button:hover i,
 .rep-button:hover span{
-  color:#fff!important;
+  color:var(--like-text)!important;
 }
 
 .rep-button.fa_liked,
 .rep-button.fa_liked:focus,
 .rep-button.fa_liked:active{
-  border-color:#9a7138!important;
-  background:#4A4066!important;
-  color:#fff!important;
+  border-color:var(--like-liked-border)!important;
+  background:var(--like-active)!important;
+  color:var(--like-text)!important;
 }
 
 .rep-button.fa_liked i,
 .rep-button.fa_liked span,
 .rep-button.fa_liked .rep-nb{
-  color:#fff!important;
+  color:var(--like-text)!important;
 }
 
 .rep-button.fa_liked:hover{
-  border-color:#c3adff!important;
-  background:#a88cff!important;
-  color:#fff!important;
+  border-color:var(--like-active-border)!important;
+  background:var(--like-active-hover)!important;
+  color:var(--like-text)!important;
 }
 
 .rep-button.fa_liked:hover i,
 .rep-button.fa_liked:hover span,
 .rep-button.fa_liked:hover .rep-nb{
-  color:#fff!important;
+  color:var(--like-text)!important;
 }
 
 .fa_like_list{
-  color:#cbb6ff!important;
+  color:var(--like-list)!important;
   font-size:13px;
 }
 
 .fa_like_list a{
-  color:#e0d4ff!important;
+  color:var(--like-list-link)!important;
 }
 
 .fa_like_list a:hover{
-  color:#fff!important;
+  color:var(--like-text)!important;
 }
 
 /* ================= STRUCTURE PROFIL MESSAGE ================= */
@@ -743,9 +707,9 @@ code.inline-code{
   width:100%;
   margin:0;
   padding:8px 10px;
-  border:1px solid #9a7138;
+  border:1px solid var(--field-border);
   border-radius:4px;
-  background:#4A4066;
+  background:var(--bg-purple);
   color:var(--text-main);
   font-size:12px;
   line-height:1.45;
@@ -954,7 +918,7 @@ code.inline-code{
   width:260px;
   height:120px;
   transform:translateX(-50%);
-  border-top:2px solid #c7a46a;
+  border-top:2px solid var(--avatar-arch);
   border-radius:50%;
   opacity:.9;
   pointer-events:none;
