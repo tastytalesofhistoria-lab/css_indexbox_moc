@@ -24,12 +24,12 @@
   position:relative;
   margin:0 0 22px;
   padding:34px 30px 28px;
+  overflow:hidden;
   border:1px solid var(--line-main);
   background:
     radial-gradient(circle at top,rgba(194,163,104,.12),transparent 42%),
     linear-gradient(90deg,rgba(5,14,42,.98),rgba(20,27,52,.96),rgba(5,14,42,.98));
   text-align:center;
-  overflow:hidden;
 }
 
 .moc-posting-head::before,
@@ -43,8 +43,13 @@
   text-shadow:0 0 10px rgba(194,163,104,.45);
 }
 
-.moc-posting-head::before{left:24px}
-.moc-posting-head::after{right:24px}
+.moc-posting-head::before{
+  left:24px;
+}
+
+.moc-posting-head::after{
+  right:24px;
+}
 
 .moc-posting-kicker{
   margin:0 0 8px;
@@ -64,8 +69,8 @@
   font-weight:400;
   line-height:1;
   letter-spacing:3px;
-  text-transform:uppercase;
   text-shadow:0 0 12px rgba(194,163,104,.18);
+  text-transform:uppercase;
 }
 
 .moc-posting-sub{
@@ -409,11 +414,11 @@
 .moc-smiley-title{
   margin:0 0 12px;
   color:var(--title);
-  text-align:center;
   font-family:"Cinzel Decorative","Cinzel",Georgia,serif;
   font-size:18px!important;
   line-height:1!important;
   letter-spacing:1px;
+  text-align:center;
   text-transform:uppercase;
 }
 
@@ -533,7 +538,7 @@
   padding:12px!important;
   border:0!important;
   background:#1b2856!important;
-  color:#f0e3c9!important;
+  color:var(--text-light)!important;
 }
 
 /* ================= BOUTONS ================= */
@@ -614,7 +619,7 @@
 
 .moc-options-list input[type="checkbox"],
 .moc-posting-page input[type="radio"]{
-  accent-color:#c2a368;
+  accent-color:var(--line-strong);
 }
 
 .moc-type-toggle{
