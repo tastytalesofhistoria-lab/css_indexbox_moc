@@ -1,7 +1,13 @@
-
 /* =========================================================
    MURDER OF CROWS — PAGE ACTIVITÉ / DISCOVER
    ========================================================= */
+
+.moc-discover-page,
+.moc-discover-page *,
+.moc-discover-page *::before,
+.moc-discover-page *::after{
+  box-sizing:border-box;
+}
 
 .moc-discover-page{
   width:100%;
@@ -9,6 +15,8 @@
   margin:0 auto 40px;
   color:var(--text-main);
 }
+
+/* ================= HEADER ================= */
 
 .moc-discover-head{
   position:relative;
@@ -33,11 +41,16 @@
   text-shadow:0 0 10px rgba(194,163,104,.45);
 }
 
-.moc-discover-head::before{left:24px;}
-.moc-discover-head::after{right:24px;}
+.moc-discover-head::before{
+  left:24px;
+}
+
+.moc-discover-head::after{
+  right:24px;
+}
 
 .moc-discover-kicker{
-  margin-bottom:8px;
+  margin:0 0 8px;
   color:var(--text-soft);
   font-family:"Cinzel",Georgia,serif;
   font-size:11px;
@@ -59,24 +72,25 @@
 }
 
 .moc-discover-sub{
-  margin-top:10px;
+  margin:10px 0 0;
   color:var(--title-soft);
   font-size:13px;
   letter-spacing:1px;
   text-transform:uppercase;
 }
 
-/* état vide */
+/* ================= ÉTAT VIDE ================= */
+
 .moc-discover-empty{
   padding:28px;
   border:1px solid var(--line-main);
   background:var(--bg-panel);
-  text-align:center;
   color:var(--text-soft);
+  text-align:center;
 }
 
 .moc-discover-empty-icon{
-  margin-bottom:10px;
+  margin:0 0 10px;
   color:var(--title);
   font-size:26px;
   text-shadow:0 0 10px rgba(194,163,104,.4);
@@ -86,14 +100,16 @@
   margin:0;
 }
 
-/* wrapper */
+/* ================= WRAPPER ================= */
+
 .moc-discover-wrap{
   display:flex;
   flex-direction:column;
   gap:26px;
 }
 
-/* groupe date */
+/* ================= GROUPE DATE ================= */
+
 .moc-activity-date-group{
   border:1px solid var(--line-main);
   background:rgba(20,27,52,.86);
@@ -128,7 +144,8 @@
   opacity:.75;
 }
 
-/* timeline */
+/* ================= TIMELINE ================= */
+
 .moc-activity-feed{
   position:relative;
   display:flex;
@@ -150,13 +167,14 @@
   opacity:.75;
 }
 
-/* item */
+/* ================= ITEM ================= */
+
 .moc-feed-item{
   position:relative;
   display:grid;
   grid-template-columns:68px minmax(0,1fr);
-  gap:16px;
   align-items:center;
+  gap:16px;
   margin:0!important;
   padding:0!important;
   list-style:none!important;
@@ -177,11 +195,11 @@
   display:block;
   width:100%;
   height:100%;
+  border:1px solid rgba(194,163,104,.32);
   background-color:var(--image-bg);
   background-image:var(--activity-image);
-  background-size:cover;
   background-position:center;
-  border:1px solid rgba(194,163,104,.32);
+  background-size:cover;
   filter:saturate(.85) contrast(1.04);
 }
 
@@ -213,7 +231,7 @@
   display:inline-flex;
   align-items:center;
   justify-content:center;
-  margin-bottom:8px;
+  margin:0 0 8px;
   padding:4px 9px;
   border:1px solid rgba(194,163,104,.45);
   background:rgba(0,0,0,.16);
@@ -247,7 +265,8 @@
   color:var(--title-soft);
 }
 
-/* variations par type, si Forumactif ajoute les classes */
+/* ================= VARIATIONS ================= */
+
 .moc-feed-item.activity-type-topic .moc-feed-card{
   border-color:rgba(194,163,104,.8);
 }
@@ -260,7 +279,8 @@
   border-color:rgba(172,0,240,.55);
 }
 
-/* fin activité */
+/* ================= FIN ACTIVITÉ ================= */
+
 .moc-activity-end{
   position:relative;
   margin:24px auto 0;
@@ -288,7 +308,8 @@
   color:var(--title);
 }
 
-/* nettoyage FA */
+/* ================= NETTOYAGE FORUMACTIF ================= */
+
 .moc-discover-page .forabg,
 .moc-discover-page .panel,
 .moc-discover-page .activity-feed,
@@ -298,7 +319,8 @@
   box-shadow:none!important;
 }
 
-/* responsive */
+/* ================= RESPONSIVE ================= */
+
 @media(max-width:700px){
   .moc-discover-head{
     padding:28px 20px 24px;
@@ -320,21 +342,19 @@
     text-align:center;
   }
 
-  .moc-date-line{
-    display:none;
+  .moc-activity-date-head h2{
+    font-size:20px;
+    white-space:normal;
   }
 
-  .moc-activity-date-head h2{
-    white-space:normal;
-    font-size:20px;
+  .moc-date-line,
+  .moc-activity-feed::before,
+  .moc-feed-card::before{
+    display:none;
   }
 
   .moc-activity-feed{
     padding:18px!important;
-  }
-
-  .moc-activity-feed::before{
-    display:none;
   }
 
   .moc-feed-item{
@@ -346,10 +366,6 @@
     width:58px;
     height:58px;
     margin:0 auto;
-  }
-
-  .moc-feed-card::before{
-    display:none;
   }
 
   .moc-feed-card{
