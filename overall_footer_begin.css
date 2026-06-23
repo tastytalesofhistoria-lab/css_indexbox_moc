@@ -12,7 +12,6 @@
 .maraudeur{
   width:100%;
   clear:both;
-  --map-star:#8b0000;
   --map-star-glow:rgba(255,70,70,.45);
 }
 
@@ -24,8 +23,8 @@
   width:100%;
   max-width:1000px;
   margin:0 auto 40px;
-  line-height:0;
   overflow:visible;
+  line-height:0;
 }
 
 .maraudeur .maraudeur-img{
@@ -123,11 +122,7 @@
   text-shadow:
     0 0 3px rgba(255,255,255,.18),
     0 0 7px var(--map-star-glow);
-  transition:
-    transform .25s ease,
-    color .25s ease,
-    text-shadow .25s ease,
-    opacity .25s ease;
+  transition:transform .25s ease,color .25s ease,text-shadow .25s ease,opacity .25s ease;
 }
 
 .maraudeur .mrd-point:hover .mrd-star,
@@ -161,10 +156,7 @@
   pointer-events:auto;
   transform:translate(-50%,-50%) scale(.12);
   transform-origin:center;
-  transition:
-    transform .32s cubic-bezier(.22,.8,.24,1),
-    opacity .22s ease,
-    visibility .22s ease;
+  transition:transform .32s cubic-bezier(.22,.8,.24,1),opacity .22s ease,visibility .22s ease;
 }
 
 .maraudeur .mrd-scroll::before,
